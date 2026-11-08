@@ -13101,7 +13101,7 @@ var w = [
       subtitle: `Ánh sáng màn hình và việc thức khuya để xem có thể làm giấc ngủ ngắn và chập chờn hơn`,
       category: `toxic`,
       icon: `📱`,
-      explanation: `Gây tê liệt giấc ngủ REM và làm phân mảnh cấu trúc bộ nhớ ban đêm.`,
+      explanation: `Dùng màn hình sát giờ ngủ thường đi cùng việc ngủ muộn và ngủ ít hơn, nên hôm sau dễ mệt và khó tập trung. Đây là mối liên hệ, chưa chắc là nguyên nhân.`,
     },
     {
       id: `item-2`,
@@ -13109,20 +13109,20 @@ var w = [
       subtitle: `Rèn luyện khả năng chú ý đơn luồng (Monotasking)`,
       category: `healthy`,
       icon: `📖`,
-      explanation: `Tái kích hoạt mạch thần kinh đọc sâu (Deep Reading Circuit) của não bộ.`,
+      explanation: `Đọc sách giấy một mình giúp bạn tập giữ chú ý lâu hơn vào một việc. Hiệu quả khác nhau theo từng người; nếu thấy dễ chịu thì cứ duy trì.`,
     },
     {
       id: `item-3`,
       title: `Mở 2 màn hình: vừa chơi game vừa xem livestream`,
-      subtitle: `Hội chứng siêu kích thích giác quan (Sensory Overload)`,
+      subtitle: `Chia sẻ chú ý cho quá nhiều nguồn cùng lúc (đa nhiệm)`,
       category: `toxic`,
       icon: `⚡`,
-      explanation: `Làm thoái hóa khả năng duy trì tiêu điểm của vỏ não trước trán.`,
+      explanation: `Làm nhiều việc cùng lúc thường khiến mỗi việc kém tập trung hơn và dễ mệt hơn. Mỗi lần chỉ một việc thường dễ hơn.`,
     },
     {
       id: `item-4`,
       title: `Thực hành hít thở sâu 4-7-8 khi cảm thấy bồn chồn`,
-      subtitle: `Kích hoạt hệ thần kinh phó giao cảm (Parasympathetic)`,
+      subtitle: `Thở chậm, đều (nhịp 4-7-8 chỉ là một cách gợi ý)`,
       category: `healthy`,
       icon: `🧘`,
       explanation: `Thở chậm giúp cơ thể thư giãn hơn, có thể giúp bớt bồn chồn trong vài phút.`,
@@ -13130,10 +13130,10 @@ var w = [
     {
       id: `item-5`,
       title: `Tranh cãi vô tận trên comment mạng xã hội với người lạ`,
-      subtitle: `Cơn nghiện sự phẫn nộ thuật toán (Rage-baiting loop)`,
+      subtitle: `Cãi nhau trực tuyến dễ kéo dài và làm mình bực`,
       category: `toxic`,
       icon: `💬`,
-      explanation: `Gia tăng cortisol căng thẳng và vắt kiệt năng lượng tư duy của học sinh.`,
+      explanation: `Tranh cãi với người lạ thường làm mình căng thẳng và tốn năng lượng mà ít khi đi đến đâu. Bạn có thể tắt thông báo hoặc rời cuộc trò chuyện.`,
     },
     {
       id: `item-6`,
@@ -13141,7 +13141,7 @@ var w = [
       subtitle: `Ánh sáng tự nhiên và vận động thể chất thường giúp tinh thần khá hơn`,
       category: `healthy`,
       icon: `🏃`,
-      explanation: `Thiết lập nhịp sinh học và giải phóng BDNF kích thích phát triển tế bào thần kinh mới.`,
+      explanation: `Ra ngoài buổi sáng và vận động nhẹ thường giúp tinh thần và giấc ngủ tốt hơn. Mỗi người một khác, chọn mức vừa sức.`,
     },
   ],
   A = {
@@ -13151,7 +13151,7 @@ var w = [
     notes: `Chưa có dữ liệu thực nghiệm thực tế. Admin vui lòng nhập số liệu bên dưới để cập nhật lên trang.`,
     metrics: [],
   },
-  j = `dreset_cms_config_v4`,
+  j = `dreset_cms_config_v5`,
   M = `dreset_dashboard_real_data_v2`;
 function N() {
   if (typeof window > `u`)
@@ -48512,7 +48512,7 @@ function Of() {
         },
         onResetToDefault: () => {
           confirm(`Bạn có chắc muốn khôi phục toàn bộ nội dung về cấu hình mặc định ban đầu?`) &&
-            (localStorage.removeItem(`dreset_cms_config_v4`),
+            (localStorage.removeItem(`dreset_cms_config_v5`),
             localStorage.removeItem(`dreset_dashboard_real_data_v2`),
             window.location.reload());
         },
