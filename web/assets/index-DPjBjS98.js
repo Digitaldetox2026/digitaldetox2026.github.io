@@ -12664,14 +12664,14 @@ var x = {
     badge: `DỰ ÁN NGHIÊN CỨU KHOA HỌC HÀNH VI HỌC ĐƯỜNG 2026`,
     titlePart1: `D-RESET – DIGITAL DETOX & `,
     titleHighlight: `TỰ CHỦ SỐ`,
-    titlePart2: `Đảo Ngược Hiện Tượng 'Brainrot' Ở Học Sinh`,
-    slogan: `Khôi phục năng lực chú ý sâu, giảm lệ thuộc video ngắn và kiến tạo ranh giới màn hình số lành mạnh cho học sinh THPT.`,
+    titlePart2: `Giúp Học Sinh Nhìn Lại Thói Quen 'Brainrot'`,
+    slogan: `Rèn thói quen chú ý sâu, giảm lệ thuộc video ngắn và đặt ranh giới màn hình lành mạnh cho học sinh THPT.`,
     concept1Title: `'Brainrot' Là Gì?`,
-    concept1Desc: `Thuật ngữ phản ánh tình trạng suy thoái chức năng chú ý điều hành và tư duy phản biện do tiêu thụ vi-nội dung độc hại, giật gân liên tục.`,
+    concept1Desc: `'Brainrot' là cách nói thường ngày (không phải thuật ngữ y học) cho cảm giác đầu óc nặng nề, khó tập trung sau khi xem nhiều nội dung ngắn. Một số nghiên cứu thấy dùng nhiều video ngắn đi cùng chú ý kém hơn, nhưng chưa chứng minh được nguyên nhân.`,
     concept2Title: `Vòng Lặp Phần Thưởng Khó Dừng`,
-    concept2Desc: `Thuật toán video ngắn củng cố gián đoạn như máy đánh bạc, khiến học sinh kiểm tra màn hình trong vô thức hàng chục đến hàng trăm lần mỗi ngày.`,
-    concept3Title: `Phác Đồ Can Thiệp Học Đường`,
-    concept3Desc: `Hệ sinh thái tự đánh giá, thiền chánh niệm 3 phút, cẩm nang thoát thuật toán và thử thách 14 ngày giúp tái lập độ dẻo não bộ (Neuroplasticity).`,
+    concept2Desc: `Nhiều ứng dụng video ngắn được thiết kế để khó dừng (cuộn vô tận, nội dung bất ngờ). Giả thuyết cho rằng điều này giống cơ chế phần thưởng thất thường và dễ tạo thói quen mở máy.`,
+    concept3Title: `Bộ Công Cụ Đồng Hành`,
+    concept3Desc: `Tự đánh giá, chánh niệm, cẩm nang và hành trình 14 ngày để thử xây thói quen dùng màn hình lành mạnh hơn. Hiệu quả sẽ được kiểm chứng ở giai đoạn thực nghiệm; công cụ này không thay thế tư vấn tâm lý.`,
   },
   S = [
     {
@@ -12744,7 +12744,7 @@ function C(e, t, n, r, i, a) {
     <p>Các ứng dụng mạng xã hội và video ngắn được thiết kế có chủ đích dựa trên cơ chế khen thưởng biến thiên (Variable Reward Schedule). Khi tiếp xúc với kích thích màn hình tần suất cao:</p>
     <ul>
       <li><strong>Hệ thống thưởng (dopamine):</strong> Bị kích thích liên tục có thể khiến bạn khó duy trì sự tập trung vào các văn bản dài hoặc bài toán phức tạp.</li>
-      <li><strong>Mạng liên kết mặc định (DMN):</strong> Bị phân mảnh, làm giảm khả năng tư duy trừu tượng và sự sáng tạo tự thân.</li>
+      <li><strong>Mạng liên kết mặc định (DMN):</strong> Một số giả thuyết cho rằng khi luôn có kích thích bên ngoài, não ít có thời gian "rảnh" để mơ mộng và nảy ý tưởng; bằng chứng còn hạn chế.</li>
       <li><strong>Ảo tưởng đa nhiệm (Multitasking):</strong> Vừa học vừa lướt điện thoại gây ra hiện tượng sót lại sự chú ý (Attention Residue), có thể làm giảm hiệu quả học tập.</li>
     </ul>
   </div>
@@ -12754,7 +12754,7 @@ function C(e, t, n, r, i, a) {
     <ul>
       <li><strong>Quy tắc khoảng cách 3 mét:</strong> Luôn đặt điện thoại ở ngăn kéo hoặc phòng khác khi ngồi vào bàn học.</li>
       <li><strong>Chuyển màn hình sang đen trắng (Grayscale):</strong> Loại bỏ màu sắc kích thích của các biểu tượng ứng dụng.</li>
-      <li><strong>Giờ giới nghiêm màn hình:</strong> Tắt thiết bị điện tử trước khi ngủ ít nhất 45 phút để bảo vệ hormone Melatonin.</li>
+      <li><strong>Giờ giới nghiêm màn hình:</strong> Tắt thiết bị điện tử trước khi ngủ một khoảng (ví dụ 30 đến 60 phút) có thể giúp bạn dễ ngủ hơn.</li>
     </ul>
     <div class="action-box">
       🎯 <strong>Thực hành ngay hôm nay:</strong> Ghi nhận thời gian đọc cuốn sách này vào Bánh xe thói quen & thực hành 1 điều nhỏ tối nay!
@@ -12822,7 +12822,7 @@ var w = [
       estimatedMinutes: 30,
       author: `Nhóm D-RESET (tóm lược theo ý tưởng trong sách Atomic Habits của James Clear)`,
       coverImage: `https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=600&q=80`,
-      description: `Phương pháp thay đổi thói quen nhỏ 1% mỗi ngày để giải độc màn hình, xây dựng kỷ luật tự thân nhẹ nhàng không cần ý chí thép.`,
+      description: `Cách thay đổi thói quen bằng những bước rất nhỏ mỗi ngày, để dùng màn hình có chủ đích hơn.`,
       badge: `Thói Quen`,
       fileUrl: C(
         `Tóm lược: Thói Quen Nguyên Tử – Atomic Habits Cho Học Sinh`,
@@ -12830,7 +12830,7 @@ var w = [
         `Tự Chủ Hành Vi`,
         45,
         30,
-        `Phương pháp thay đổi thói quen nhỏ 1% mỗi ngày để giải độc màn hình, xây dựng kỷ luật tự thân nhẹ nhàng không cần ý chí thép.`,
+        `Cách thay đổi thói quen bằng những bước rất nhỏ mỗi ngày, để dùng màn hình có chủ đích hơn.`,
       ),
       fileName: `atomic-habits-hoc-sinh.pdf`,
       fileSize: `1.8 MB`,
@@ -12861,49 +12861,49 @@ var w = [
   T = [
     {
       id: 1,
-      questionNumber: `CÂU HỎI TỰ VẤN #01`,
+      questionNumber: `Câu 1`,
       frontQuestion: `Hành vi lướt video ngắn liên tục này đang thực sự phục vụ điều gì cho bạn?`,
       frontSubtext: `Chạm hoặc hover để lật thẻ và khám phá góc nhìn khoa học hành vi`,
-      tag: `TÂM LÝ TRỐN TRÁNH`,
-      scienceTitle: `TRÌ HOÃN DO CẢM XÚC TIÊU CỰC`,
+      tag: `Né việc khó`,
+      scienceTitle: `Lướt để tạm né cảm xúc khó chịu`,
       scienceExplanation: `Một số nghiên cứu cho thấy nhiều bạn lướt mạng để xoa dịu căng thẳng hoặc né việc khó, không hẳn để tìm thông tin (kết quả chưa thống nhất, mỗi bạn một khác). Lướt có thể tạm làm dịu cảm giác lo âu, nhưng không giải quyết việc đang né.`,
       actionItem: `Hành động: Thử 'lướt qua cơn thèm': dừng lại vài nhịp thở, quan sát cơn thèm lên rồi hạ, rồi hãy quyết định có mở app mạng xã hội hay không.`,
     },
     {
       id: 2,
-      questionNumber: `CÂU HỎI TỰ VẤN #02`,
+      questionNumber: `Câu 2`,
       frontQuestion: `Lần cuối cùng bạn ngồi tĩnh lặng mà không hề cầm thiết bị điện tử là khi nào?`,
       frontSubtext: `Chạm hoặc hover để lật thẻ và giải mã mạng não bộ`,
-      tag: `THẦN KINH HỌC`,
-      scienceTitle: `MẠNG NÃO MẶC ĐỊNH (DEFAULT MODE NETWORK)`,
-      scienceExplanation: `Khi não không tiếp nhận kích thích màn hình, mạng liên kết mặc định (DMN) mới được kích hoạt để xử lý ký ức, định hình nhân sinh quan và sản sinh ý tưởng sáng tạo độc bản.`,
+      tag: `Khi nghỉ ngơi`,
+      scienceTitle: `Khi ngồi yên không màn hình`,
+      scienceExplanation: `Khi ngồi yên không có màn hình, não thường chuyển sang trạng thái "nghỉ" (gọi là mạng chế độ mặc định, DMN), liên quan đến việc nhớ lại, nghĩ về bản thân và nảy ra ý tưởng. Vài phút rảnh không màn hình cho bạn thời gian đó; lợi ích cụ thể vẫn đang được nghiên cứu.`,
       actionItem: `Hành động: Dành 10 phút mỗi chiều chỉ để nhìn bầu trời hoặc đi dạo không mang điện thoại.`,
     },
     {
       id: 3,
-      questionNumber: `CÂU HỎI TỰ VẤN #03`,
+      questionNumber: `Câu 3`,
       frontQuestion: `Liệu bạn có nhớ nổi 3 video ngắn bạn đã xem chăm chú tối qua?`,
       frontSubtext: `Chạm hoặc hover để đọc cơ chế rò rỉ trí nhớ`,
-      tag: `NHẬN THỨC SỐ`,
-      scienceTitle: `RÒ RỈ TRÍ NHỚ LÀM VIỆC (WORKING MEMORY LEAK)`,
-      scienceExplanation: `Phần lớn nội dung video ngắn nhanh chóng bị quên sau khi xem, nhưng việc liên tục chuyển chú ý giữa các video vẫn tiêu tốn sức tập trung của bạn.`,
-      actionItem: `Hành động: Tắt thông báo đẩy của toàn bộ ứng dụng giải trí và đặt màn hình sang chế độ Grayscale (Đen trắng).`,
+      tag: `Nhớ và chú ý`,
+      scienceTitle: `Chuyển video liên tục và việc nhớ lại`,
+      scienceExplanation: `Nhiều bạn thấy mình nhanh quên nội dung video ngắn sau khi xem. Việc chuyển chú ý liên tục giữa các video có thể làm ta khó tập trung hơn (mỗi người một khác).`,
+      actionItem: `Hành động: Tắt thông báo đẩy của toàn bộ ứng dụng giải trí và đặt màn hình sang chế độ đen trắng.`,
     },
     {
       id: 4,
-      questionNumber: `CÂU HỎI TỰ VẤN #04`,
+      questionNumber: `Câu 4`,
       frontQuestion: `Tốc độ ngoài đời thực có thực sự 'chậm' như bạn đang cảm thấy?`,
       frontSubtext: `Chạm hoặc hover để tìm hiểu hiện tượng quen dần với kích thích mạnh`,
-      tag: `DOPAMINE`,
-      scienceTitle: `LỆCH CHUẨN NGƯỠNG HƯNG PHẤN`,
-      scienceExplanation: `Khi tiếp xúc với hàng chục video mỗi phút kèm âm thanh kích động, hệ thống thưởng của não bị kích thích dồn dập. Theo giả thuyết hiện nay, điều này có thể khiến các hoạt động chậm như nghe giảng hoặc đọc sách trở nên kém hấp dẫn hơn.`,
-      actionItem: `Hành động: Thử 24 giờ không lướt video ngắn vào ngày Chủ Nhật để xem bạn quen lại với nhịp độ chậm hơn như thế nào.`,
+      tag: `Nhịp độ`,
+      scienceTitle: `Quen với nhịp nhanh`,
+      scienceExplanation: `Video ngắn thường đổi cảnh rất nhanh. Một giả thuyết cho rằng xem nhiều nhịp nhanh có thể làm việc chậm như nghe giảng hay đọc sách thấy kém hấp dẫn hơn. Hiện chưa đủ bằng chứng để kết luận, mỗi bạn một khác.`,
+      actionItem: `Hành động: Thử một buổi hoặc một ngày không lướt video ngắn, rồi để ý cảm giác của bạn khi làm việc chậm hơn.`,
     },
   ],
   E = [
     {
       id: `exercise`,
-      name: `Vận Động Thể Chất`,
+      name: `Vận động`,
       icon: `🏃`,
       color: `#00F0FF`,
       borderColor: `border-[#00F0FF]`,
@@ -12914,7 +12914,7 @@ var w = [
     },
     {
       id: `reading`,
-      name: `Đọc Sách Sâu`,
+      name: `Đọc sách`,
       icon: `📖`,
       color: `#FF6B00`,
       borderColor: `border-[#FF6B00]`,
@@ -12925,7 +12925,7 @@ var w = [
     },
     {
       id: `sleep`,
-      name: `Giấc Ngủ Phục Hồi`,
+      name: `Giấc ngủ`,
       icon: `💤`,
       color: `#10B981`,
       borderColor: `border-emerald-500`,
@@ -12936,7 +12936,7 @@ var w = [
     },
     {
       id: `connection`,
-      name: `Kết Nối Đời Thực`,
+      name: `Trò chuyện trực tiếp`,
       icon: `🤝`,
       color: `#A855F7`,
       borderColor: `border-purple-500`,
@@ -12950,19 +12950,21 @@ var w = [
   O = [
     {
       day: 1,
+      flow: !0,
       stage: 1,
-      title: `Ngày 1: Bật Chế Độ Màn Hình Đen Trắng`,
-      desc: `Chuyển màn hình điện thoại sang chế độ Grayscale để giảm sự hấp dẫn thị giác của video ngắn.`,
+      title: `Ngày 1: Dọn ứng dụng và bật màn hình đen trắng`,
+      desc: `Chọn 3 ứng dụng bạn mở nhiều nhất mà không để làm gì, đưa chúng ra khỏi màn hình chính (hoặc gỡ nếu bạn muốn), rồi bật màn hình đen trắng. Khoảng 10 phút.`,
       category: `Môi trường số`,
       scientificRationale: `Màu sắc rực rỡ có thể làm ứng dụng thu hút hơn. Chuyển màn hình sang đen trắng có thể làm điện thoại bớt hấp dẫn về thị giác: một vài nghiên cứu nhỏ trên sinh viên ghi nhận thời gian dùng giảm, nhưng mức giảm khác nhau và chưa chắc kéo dài (dự án sẽ kiểm chứng ở giai đoạn thực nghiệm).`,
-      metricLabel: `Thời gian duy trì Grayscale (giờ hoặc phút)`,
+      metricLabel: `Số ứng dụng đã dọn và đã bật đen trắng chưa`,
       completed: !1,
     },
     {
       day: 2,
+      flow: !0,
       stage: 1,
-      title: `Ngày 2: Tắt Toàn Bộ Thông Báo Đẩy Mạng Xã Hội`,
-      desc: `Tắt Push Notifications của TikTok, Facebook, Instagram, YouTube để cắt nguồn gây xao nhãng.`,
+      title: `Ngày 2: Tắt thông báo đẩy mạng xã hội`,
+      desc: `Giữ những gì đã làm ở Ngày 1. Hôm nay mở cài đặt thông báo và tắt thông báo đẩy của các ứng dụng mạng xã hội. Tin nhắn của người thân và việc học vẫn giữ nếu cần. Khoảng 5 phút.`,
       category: `Cắt xao nhãng`,
       scientificRationale: `Thông báo có thể kéo sự chú ý ra khỏi việc đang làm. Tắt các thông báo không cần thiết giúp bạn chủ động hơn về lúc nào mở điện thoại.`,
       metricLabel: `Số ứng dụng mạng xã hội đã tắt thông báo`,
@@ -12970,127 +12972,155 @@ var w = [
     },
     {
       day: 3,
+      flow: !0,
       stage: 1,
-      title: `Ngày 3: Dọn Dẹp Ứng Dụng Rác & Đổi Vị Trí App`,
-      desc: `Xóa app gây nghiện hoặc cất vào thư mục sâu để phá vỡ phản xạ bấm mở vô thức.`,
-      category: `Kỷ luật số`,
-      scientificRationale: `Gia tăng rào cản hành vi (Friction) khiến não bộ phải vận động tư duy nhận thức trước trán thay vì mở app theo thói quen phản xạ đốt ngón tay.`,
-      metricLabel: `Số app đã xóa hoặc cất vào thư mục sâu`,
+      title: `Ngày 3: Cắm sạc điện thoại ngoài giường`,
+      desc: `Giữ những gì đã làm ở Ngày 1 và 2. Chọn một ổ cắm ngoài giường hoặc ngoài phòng ngủ, tối nay cắm sạc ở đó. Cần báo thức thì dùng đồng hồ riêng. Khoảng 5 phút.`,
+      category: `Giấc ngủ`,
+      scientificRationale: `Dùng điện thoại sát giờ ngủ thường đi cùng việc ngủ muộn và ngủ ít hơn, một phần vì ánh sáng màn hình và một phần vì mải xem. Để máy xa tầm tay là cách đơn giản để bớt cầm máy lúc sắp ngủ và lúc vừa thức dậy.`,
+      metricLabel: `Chỗ bạn cắm sạc tối nay (ngoài giường hoặc ngoài phòng ngủ)`,
       completed: !1,
     },
     {
       day: 4,
+      flow: !0,
       stage: 1,
-      title: `Ngày 4: Thiết Lập Vùng Cấm Thiết Bị Trong Phòng Ngủ`,
-      desc: `Đặt điện thoại bên ngoài phòng ngủ hoặc cách giường tối thiểu 3m từ sau 22h00.`,
-      category: `Giấc ngủ sinh học`,
-      scientificRationale: `Ánh sáng xanh ức chế sản sinh Melatonin và giữ não ở trạng thái cảnh giác, phá vỡ cấu trúc giấc ngủ sâu REM cần thiết để củng cố trí nhớ.`,
-      metricLabel: `Khoảng cách cất máy qua đêm (mét) hoặc giờ cất máy`,
+      title: `Ngày 4: Một bữa ăn không màn hình`,
+      desc: `Giữ những gì đã làm ở Ngày 1 đến 3. Hôm nay chọn một bữa, cất điện thoại ra xa trong cả bữa ăn, để ý mùi vị và người ngồi cùng. Từ hôm nay bạn duy trì tất cả các thay đổi này đến hết hành trình. Khoảng 15 phút.`,
+      category: `Hiện diện thực`,
+      scientificRationale: `Ăn vừa xem màn hình thường làm ta ít để ý đến món ăn và người ngồi cùng. Đây chỉ là một cách thử, mỗi người một khác.`,
+      metricLabel: `Bữa ăn không màn hình hôm nay (sáng, trưa hoặc tối)`,
       completed: !1,
     },
     {
       day: 5,
+      flow: !0,
+      timer: !0,
       stage: 2,
-      title: `Ngày 5: Thực Hành Phiên Thiền Tĩnh Lặng 3 Phút`,
-      desc: `Thực hiện ít nhất 1 phiên Thiền (tối thiểu 3 phút) ở Tab 4 để làm dịu hệ thần kinh giao cảm.`,
-      category: `Chánh niệm`,
-      scientificRationale: `Hít thở sâu 4-7-8 kích hoạt thần kinh phó giao cảm, hạ nồng độ cortisol và phục hồi khả năng kiểm soát xung động của vỏ não trước trán.`,
-      metricLabel: `Số phút thực hành thiền tĩnh lặng`,
-      smartLink: { label: `Đến Bộ đếm chánh niệm (Thiền 3p)`, targetTab: `mindfulness`, activityType: `meditation` },
+      title: `Ngày 5: Chọn một hoạt động ngoài màn hình`,
+      desc: `Chặng này bạn tự chọn. Hôm nay chọn một hoạt động (xem gợi ý bên dưới), làm trong khoảng 15 phút và để ý cảm giác của bạn sau khi làm. Vẫn giữ các thay đổi của Chặng 1.`,
+      category: `Thử hoạt động mới`,
+      scientificRationale: `Thay thời gian lướt bằng một việc khác giúp bạn thử xem việc nào hợp với mình. Một số nghiên cứu cho thấy đi bộ, đọc sách hay thở chậm thường giúp tinh thần dễ chịu hơn, nhưng hiệu quả mỗi người một khác.`,
+      metricLabel: `Hoạt động bạn đã chọn và số phút đã làm`,
+      suggestions: [`🚶 Đi bộ ngoài trời`, `📖 Đọc sách giấy`, `🧘 Thiền hoặc thở chậm`, `🏃 Vận động, thể thao`, `🤝 Gặp bạn bè`, `🎨 Sở thích (vẽ, nhạc, nấu ăn...)`],
+      smartLink: { label: `Nếu chọn thiền: mở Bộ đếm chánh niệm`, targetTab: `mindfulness`, activityType: `meditation` },
       completed: !1,
     },
     {
       day: 6,
+      flow: !0,
+      timer: !0,
       stage: 2,
-      title: `Ngày 6: Bữa Ăn Không Màn Hình Cùng Gia Đình`,
-      desc: `Ăn sáng/trưa/tối trọn vẹn mà không cầm điện thoại hay bật TV trước mặt.`,
-      category: `Hiện diện thực`,
-      scientificRationale: `Vừa ăn vừa nhìn màn hình khiến bạn dễ ăn mà không để ý đến cảm giác no, và bỏ lỡ cơ hội trò chuyện với người xung quanh.`,
-      metricLabel: `Số bữa ăn trọn vẹn không màn hình`,
+      title: `Ngày 6: Chọn một hoạt động ngoài màn hình`,
+      desc: `Thử một hoạt động khác, hoặc lặp lại hoạt động bạn thích hôm qua. Làm trong khoảng 15 phút và để ý cảm giác của bạn sau khi làm.`,
+      category: `Thử hoạt động mới`,
+      scientificRationale: `Thay thời gian lướt bằng một việc khác giúp bạn thử xem việc nào hợp với mình. Một số nghiên cứu cho thấy đi bộ, đọc sách hay thở chậm thường giúp tinh thần dễ chịu hơn, nhưng hiệu quả mỗi người một khác.`,
+      metricLabel: `Hoạt động bạn đã chọn và số phút đã làm`,
+      suggestions: [`🚶 Đi bộ ngoài trời`, `📖 Đọc sách giấy`, `🧘 Thiền hoặc thở chậm`, `🏃 Vận động, thể thao`, `🤝 Gặp bạn bè`, `🎨 Sở thích (vẽ, nhạc, nấu ăn...)`],
+      smartLink: { label: `Nếu chọn thiền: mở Bộ đếm chánh niệm`, targetTab: `mindfulness`, activityType: `meditation` },
       completed: !1,
     },
     {
       day: 7,
+      flow: !0,
+      timer: !0,
       stage: 2,
-      title: `Ngày 7: 24 Giờ Nghỉ Mạng Xã Hội`,
-      desc: `Hoàn toàn không lướt feed mạng xã hội trong 1 ngày cuối tuần để tập quen lại với nhịp độ chậm hơn.`,
-      category: `Nghỉ màn hình`,
-      scientificRationale: `Tạm ngắt dòng kích thích từ video ngắn trong 24h giúp bạn nhận ra mình đang phụ thuộc vào chúng đến mức nào và tập làm quen lại với nhịp độ chậm hơn.`,
-      metricLabel: `Số giờ ngắt hoàn toàn mạng xã hội trong ngày`,
+      title: `Ngày 7: Chọn một hoạt động ngoài màn hình`,
+      desc: `Thử một hoạt động khác, hoặc lặp lại hoạt động bạn thích. Làm trong khoảng 15 phút và để ý cảm giác của bạn sau khi làm.`,
+      category: `Thử hoạt động mới`,
+      scientificRationale: `Thay thời gian lướt bằng một việc khác giúp bạn thử xem việc nào hợp với mình. Một số nghiên cứu cho thấy đi bộ, đọc sách hay thở chậm thường giúp tinh thần dễ chịu hơn, nhưng hiệu quả mỗi người một khác.`,
+      metricLabel: `Hoạt động bạn đã chọn và số phút đã làm`,
+      suggestions: [`🚶 Đi bộ ngoài trời`, `📖 Đọc sách giấy`, `🧘 Thiền hoặc thở chậm`, `🏃 Vận động, thể thao`, `🤝 Gặp bạn bè`, `🎨 Sở thích (vẽ, nhạc, nấu ăn...)`],
+      smartLink: { label: `Nếu chọn thiền: mở Bộ đếm chánh niệm`, targetTab: `mindfulness`, activityType: `meditation` },
       completed: !1,
     },
     {
       day: 8,
+      flow: !0,
+      timer: !0,
       stage: 2,
-      title: `Ngày 8: Đọc Sách Giấy Chuyên Sâu 25 Phút`,
-      desc: `Đọc sách giấy liên tục 25 phút không ngắt quãng (tham khảo các tựa sách hay ở Tab 1).`,
-      category: `Đọc sâu`,
-      scientificRationale: `Đọc sách giấy tuyến tính kích hoạt mạng lưới tư duy sâu và xây dựng lại nhịp chú ý bền vững thay vì đọc lướt chữ F trên màn hình.`,
-      metricLabel: `Số trang sách giấy hoặc số phút đọc sâu`,
-      smartLink: { label: `Đến Thư viện cẩm nang (Tab 1)`, targetTab: `handbook` },
+      title: `Ngày 8: Chọn một hoạt động ngoài màn hình`,
+      desc: `Thử một hoạt động khác, hoặc lặp lại hoạt động bạn thích. Làm trong khoảng 15 phút và để ý cảm giác của bạn sau khi làm.`,
+      category: `Thử hoạt động mới`,
+      scientificRationale: `Thay thời gian lướt bằng một việc khác giúp bạn thử xem việc nào hợp với mình. Một số nghiên cứu cho thấy đi bộ, đọc sách hay thở chậm thường giúp tinh thần dễ chịu hơn, nhưng hiệu quả mỗi người một khác.`,
+      metricLabel: `Hoạt động bạn đã chọn và số phút đã làm`,
+      suggestions: [`🚶 Đi bộ ngoài trời`, `📖 Đọc sách giấy`, `🧘 Thiền hoặc thở chậm`, `🏃 Vận động, thể thao`, `🤝 Gặp bạn bè`, `🎨 Sở thích (vẽ, nhạc, nấu ăn...)`],
+      smartLink: { label: `Nếu chọn thiền: mở Bộ đếm chánh niệm`, targetTab: `mindfulness`, activityType: `meditation` },
       completed: !1,
     },
     {
       day: 9,
+      flow: !0,
+      timer: !0,
       stage: 2,
-      title: `Ngày 9: Phiên Học Tập Sâu Pomodoro 25 Phút`,
-      desc: `Bật bộ đếm Pomodoro ở Tab 4, giải bài tập không chạm vào điện thoại dù chỉ 1 giây.`,
-      category: `Học tập sâu`,
-      scientificRationale: `Phương pháp Pomodoro duy trì trạng thái 'dòng chảy' (Flow state), bảo vệ sự chú ý trước bẫy đa nhiệm phân mảnh.`,
-      metricLabel: `Số phút học sâu Pomodoro đã hoàn thành`,
-      smartLink: { label: `Đến Bộ đếm học tập sâu (Tab 4)`, targetTab: `mindfulness`, activityType: `study` },
+      title: `Ngày 9: Chọn một hoạt động ngoài màn hình`,
+      desc: `Chọn hoạt động bạn thấy hợp nhất trong tuần này. Làm trong khoảng 15 phút và để ý cảm giác của bạn sau khi làm.`,
+      category: `Thử hoạt động mới`,
+      scientificRationale: `Thay thời gian lướt bằng một việc khác giúp bạn thử xem việc nào hợp với mình. Một số nghiên cứu cho thấy đi bộ, đọc sách hay thở chậm thường giúp tinh thần dễ chịu hơn, nhưng hiệu quả mỗi người một khác.`,
+      metricLabel: `Hoạt động bạn đã chọn và số phút đã làm`,
+      suggestions: [`🚶 Đi bộ ngoài trời`, `📖 Đọc sách giấy`, `🧘 Thiền hoặc thở chậm`, `🏃 Vận động, thể thao`, `🤝 Gặp bạn bè`, `🎨 Sở thích (vẽ, nhạc, nấu ăn...)`],
+      smartLink: { label: `Nếu chọn thiền: mở Bộ đếm chánh niệm`, targetTab: `mindfulness`, activityType: `meditation` },
       completed: !1,
     },
     {
       day: 10,
+      flow: !0,
       stage: 3,
-      title: `Ngày 10: Đi Bộ Chánh Niệm & Vận Động 30 Phút`,
-      desc: `Vận động, đi dạo ngoài trời hít thở không khí tự nhiên không đeo tai nghe hoặc bấm máy.`,
-      category: `Vận động tự nhiên`,
-      scientificRationale: `Vận động nhịp nhàng ngoài trời kích hoạt tiết BDNF (Brain-Derived Neurotrophic Factor), kích thích tái tạo neuron và thanh lọc căng thẳng.`,
-      metricLabel: `Số phút đi bộ hoặc vận động thể chất`,
-      smartLink: { label: `Đến Bộ đếm đi bộ chánh niệm (Tab 4)`, targetTab: `mindfulness`, activityType: `walking` },
+      title: `Ngày 10: Kết nối đời thực (chọn cách hợp lịch của bạn)`,
+      desc: `Nói chuyện thật với một người là một cách tạm rời màn hình. Chọn cách vừa sức và hợp với lịch hôm nay, không cần gặp mặt, làm lúc nào cũng được. Khi làm, cất điện thoại sang một bên hoặc chỉ dùng cho đúng việc đó. Khoảng 10 phút. Bạn cũng có thể đổi chỗ Ngày 10 và 11 cho nhau.`,
+      category: `Kết nối`,
+      scientificRationale: `Trò chuyện trực tiếp với người thân, bạn bè hay thầy cô là một cách nghỉ khỏi màn hình và thường làm tinh thần dễ chịu hơn. Mỗi người một khác, chọn mức vừa sức.`,
+      metricLabel: `Cách bạn đã chọn và số phút đã làm`,
+      suggestions: [`📞 Gọi điện hỏi thăm một người`, `🏠 Nói chuyện với người trong nhà`, `🏫 Gặp bạn hoặc thầy cô ở trường`, `💬 Nhắn một lời hỏi thăm rồi cất máy`, `✉️ Viết thư tay hoặc lời cảm ơn`, `🤲 Giúp ai đó một việc nhỏ`],
       completed: !1,
     },
     {
       day: 11,
+      flow: !0,
+      timer: !0,
       stage: 3,
-      title: `Ngày 11: Lướt Qua Cơn Thèm`,
-      desc: `Khi tay muốn mở điện thoại, dừng lại vài nhịp thở, quan sát cơn thèm như một con sóng (lên rồi hạ) và tự hỏi 'Mình mở làm gì?'. Chưa cần ép mình không mở.`,
-      category: `Kìm hãm xung động`,
-      scientificRationale: `Kỹ thuật 'lướt qua cơn thèm' (urge surfing) được dùng trong một số chương trình chánh niệm hỗ trợ kiểm soát thói quen. Bằng chứng còn khiêm tốn và chưa được kiểm chứng riêng cho video ngắn.`,
-      metricLabel: `Số lần bạn dừng lại quan sát cơn thèm`,
+      title: `Ngày 11: Vận động nhẹ (chọn cách hợp lịch của bạn)`,
+      desc: `Vận động nhẹ là một cách đổi không khí khỏi màn hình. Không cần ra ngoài trời: chọn cách vừa sức, hợp với chỗ ở và lịch của bạn. Thấy mệt hay đau thì dừng. Để điện thoại xa tầm tay, tắt tiếng. Khoảng 15 phút.`,
+      category: `Vận động`,
+      scientificRationale: `Vận động nhẹ thường giúp tinh thần và giấc ngủ tốt hơn, và là một cách nghỉ khỏi màn hình. Mỗi người một khác, chọn mức vừa sức.`,
+      metricLabel: `Cách vận động bạn đã chọn và số phút đã làm`,
+      suggestions: [`🚶 Đi bộ (ngoài trời hoặc quanh nhà)`, `🤸 Giãn cơ trong nhà`, `🪜 Leo cầu thang hoặc đi lại trong nhà`, `🎵 Nhảy hoặc đi lại theo nhạc`, `🧹 Dọn dẹp, làm việc nhà`, `🚴 Thể thao, đạp xe`],
+      smartLink: { label: `Nếu cần bộ đếm giờ: mở Bộ đếm đi bộ`, targetTab: `mindfulness`, activityType: `walking` },
       completed: !1,
     },
     {
       day: 12,
+      flow: !0,
       stage: 3,
-      title: `Ngày 12: Dọn Dẹp Không Gian Học Tập Tối Giản`,
-      desc: `Loại bỏ mọi vật dụng thừa và cất smartphone vào ngăn kéo khi ngồi vào bàn học.`,
-      category: `Môi trường học tập`,
-      scientificRationale: `Một số nghiên cứu cho rằng chỉ riêng sự hiện diện của smartphone trong tầm mắt (dù đã tắt nguồn) cũng có thể làm giảm khả năng tập trung (gọi là hiệu ứng Brain Drain); kết quả giữa các nghiên cứu chưa hoàn toàn thống nhất.`,
-      metricLabel: `Mức độ hài lòng góc học tập tối giản (thang điểm 1-10)`,
+      title: `Ngày 12: Lướt qua cơn thèm`,
+      desc: `Khi tay muốn mở điện thoại, hãy dừng lại một chút, gọi tên cảm giác ("Mình đang thèm lướt"), để ý nó ở đâu trong cơ thể và nó đổi thế nào, chờ nó dịu bớt rồi chọn việc tiếp theo. Chưa cần ép mình không mở. Khoảng 5 phút.`,
+      category: `Kìm hãm xung động`,
+      scientificRationale: `Kỹ thuật 'lướt qua cơn thèm' (urge surfing) được dùng trong một số chương trình chánh niệm hỗ trợ kiểm soát thói quen. Cơn thèm giống một con sóng: lên rồi hạ. Bằng chứng còn khiêm tốn và chưa được kiểm chứng riêng cho video ngắn.`,
+      metricLabel: `Số lần bạn dừng lại quan sát cơn thèm`,
       completed: !1,
     },
     {
       day: 13,
+      flow: !0,
       stage: 3,
-      title: `Ngày 13: Viết Nhật Ký 3 Điều Biết Ơn Đời Thực`,
-      desc: `Ghi chép 3 điều bạn trân trọng trong ngày hôm nay mà không xuất phát từ mạng xã hội.`,
-      category: `Tâm lý học tích cực`,
-      scientificRationale: `Một số nghiên cứu cho thấy viết ra điều biết ơn có liên quan đến cảm giác tích cực hơn, nhưng mức tác động nhỏ và khác nhau theo từng người.`,
-      metricLabel: `3 điều biết ơn bạn đã ghi chép trong ngày`,
+      title: `Ngày 13: Kế hoạch khi lỡ trượt và kế hoạch duy trì`,
+      desc: `Lỡ lướt nhiều một ngày là chuyện bình thường. Có kế hoạch trước thì dễ quay lại hơn. Viết việc nhỏ nhất bạn sẽ làm khi lỡ trượt, và những việc bạn muốn giữ sau hành trình. Khoảng 10 phút.`,
+      category: `Giữ nhịp`,
+      scientificRationale: `Viết sẵn kế hoạch dạng "Nếu... thì..." có thể giúp bạn làm đúng kế hoạch. Bằng chứng có, nhưng hiệu quả không lớn, nên chỉ là một gợi ý để bạn thử.`,
+      metricLabel: `Việc nhỏ nhất bạn sẽ làm khi lỡ trượt, và việc bạn muốn giữ`,
+      hint: `Ví dụ khi lỡ trượt: "Tối đó mình cắm sạc ngoài giường, hôm sau tiếp tục như thường." Ví dụ việc muốn giữ: "Sạc điện thoại ngoài giường, mỗi ngày một buổi đi bộ, một bữa ăn không màn hình."`,
       completed: !1,
     },
     {
       day: 14,
+      flow: !0,
       stage: 3,
-      title: `Ngày 14: Đánh Giá Lại Chỉ Số Likert & Hậu Thực Nghiệm`,
-      desc: `Thực hiện bài khảo sát Post-Test và trắc nghiệm Likert để đo lường mức độ tiến bộ vượt bậc sau 14 ngày!`,
-      category: `Tự chủ số`,
-      scientificRationale: `Đo lường định lượng sự chuyển biến nhận thức và thói quen sau 14 ngày can thiệp hành vi thực chứng, xác lập lối sống tự chủ số bền vững.`,
-      metricLabel: `Điểm Likert mới hoặc kết quả bài làm khảo sát`,
-      smartLink: { label: `Đến Khảo sát Post-Test (Hậu thực nghiệm)`, targetSection: `experimental-survey` },
+      title: `Ngày 14: Nhìn lại và làm lại bộ câu hỏi`,
+      desc: `Làm lại bộ câu hỏi để xem mình đã thay đổi gì so với lần đầu, rồi chọn việc bạn sẽ giữ tiếp. Khoảng 5 phút.`,
+      category: `Nhìn lại`,
+      scientificRationale: `Làm lại bảng câu hỏi để bạn tự so sánh cảm nhận của mình sau 14 ngày với lúc đầu. Đây là thang tự đánh giá, không phải chẩn đoán, và không đo trực tiếp thay đổi trong não.`,
+      metricLabel: `Điểm bộ câu hỏi mới hoặc việc bạn chọn giữ tiếp`,
+      smartLink: { label: `Làm lại bộ câu hỏi (đúng bản bạn đã làm lần đầu)`, targetSection: `assessment` },
       completed: !1,
     },
   ],
@@ -13151,7 +13181,7 @@ var w = [
     notes: `Chưa có dữ liệu thực nghiệm thực tế. Admin vui lòng nhập số liệu bên dưới để cập nhật lên trang.`,
     metrics: [],
   },
-  j = `dreset_cms_config_v5`,
+  j = `dreset_cms_config_v12`,
   M = `dreset_dashboard_real_data_v2`;
 function N() {
   if (typeof window > `u`)
@@ -13294,6 +13324,95 @@ function le() {
   let e = new Date();
   return `${e.getFullYear()}-${String(e.getMonth() + 1).padStart(2, `0`)}-${String(e.getDate()).padStart(2, `0`)}`;
 }
+// 2026-11-09 (W4): mục "Hướng dẫn điện thoại" trong Cẩm nang. Dữ liệu data/phone-guide.json (cùng nguồn với phòng 3D).
+function PhoneGuide() {
+  const J = G.jsx,
+    X = G.jsxs,
+    [data, setData] = (0, _.useState)(null),
+    [err, setErr] = (0, _.useState)(!1),
+    [pf, setPf] = (0, _.useState)(() => {
+      try {
+        return /Android/i.test(navigator.userAgent) ? `android` : `iphone`;
+      } catch {
+        return `iphone`;
+      }
+    });
+  (0, _.useEffect)(() => {
+    let live = !0;
+    fetch(`data/phone-guide.json`, { cache: `no-store` })
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then((d) => {
+        if (!d || !Array.isArray(d.topics) || !Array.isArray(d.platforms)) throw 0;
+        live && setData(d);
+      })
+      .catch(() => live && setErr(!0));
+    return () => {
+      live = !1;
+    };
+  }, []);
+  if (err) return J(`p`, { className: `dr-guide-note`, children: `Không tải được hướng dẫn. Bạn thử tải lại trang nhé.` });
+  if (!data) return J(`p`, { className: `dr-guide-note`, children: `Đang tải...` });
+  return X(`div`, {
+    className: `dr-guide`,
+    children: [
+      X(`div`, {
+        className: `dr-guide-head`,
+        children: [
+          J(`h3`, { children: `Hướng dẫn điện thoại` }),
+          J(`p`, {
+            children: `Các bước đặt giới hạn, tắt thông báo, bật đen trắng ngay trên điện thoại của bạn. Bạn có thể nhờ người lớn làm cùng. ${data.note || ``}`,
+          }),
+        ],
+      }),
+      J(`div`, {
+        className: `dr-guide-switch`,
+        children: data.platforms.map((p) =>
+          J(
+            `button`,
+            {
+              type: `button`,
+              onClick: () => {
+                (W.playClick(), setPf(p.id));
+              },
+              className: `dr-guide-pf` + (pf === p.id ? ` is-on` : ``),
+              children: p.name,
+            },
+            p.id,
+          ),
+        ),
+      }),
+      data.topics.map((t) => {
+        let steps = t[pf] || [],
+          note = t[pf + `Note`],
+          srcs = (t.sources || []).filter((x) => x.p === pf);
+        return X(
+          `section`,
+          {
+            className: `dr-guide-topic`,
+            children: [
+              X(`div`, { children: [J(`h4`, { children: t.name }), J(`p`, { className: `dr-guide-intro`, children: t.intro })] }),
+              X(`div`, {
+                children: [
+                  J(`ol`, { children: steps.map((st, i) => J(`li`, { children: st }, i)) }),
+                  note && J(`p`, { className: `dr-guide-note`, children: note }),
+                  srcs.length > 0 &&
+                    X(`p`, {
+                      className: `dr-guide-src`,
+                      children: [
+                        `Nguồn: `,
+                        srcs.map((x, i) => J(`a`, { href: x.url, target: `_blank`, rel: `noopener noreferrer`, children: x.label }, i)),
+                      ],
+                    }),
+                ],
+              }),
+            ],
+          },
+          t.id,
+        );
+      }),
+    ],
+  });
+}
 function ue() {
   if (typeof window > `u`) return [];
   try {
@@ -13350,7 +13469,7 @@ function L(e) {
     assessmentScore: null,
     assessmentAnswers: {},
     assessmentSubmitted: !1,
-    habitPercentages: { exercise: 30, reading: 45, sleep: 420, connection: 35 },
+    habitPercentages: { exercise: 0, reading: 0, sleep: 0, connection: 0 },
     habitLastUpdatedDate: null,
     mindfulnessLogs: [],
     challengeCompletedDays: [],
@@ -35609,7 +35728,7 @@ var Ed = class {
     currentSeconds: n,
     totalSeconds: r,
     className: i = ``,
-    initialViewMode: a = `combined`,
+    initialViewMode: a = `sphere`,
     title: o,
   }) => {
     let s = (0, _.useRef)(null),
@@ -35814,24 +35933,19 @@ var Ed = class {
               (pe.rotation.x = r * 0.01));
             let s = 1;
             if (e) {
-              let e = r % 12,
+              let e = r % 10,
                 t = `rest`,
                 n = 0;
-              if (e < 4) {
-                let r = e / 4;
+              if (e < 5) {
+                let r = e / 5;
                 ((n = Math.round(r * 100)),
                   (s = 1 + Math.sin((r * Math.PI) / 2) * 0.45),
-                  (t = `Hít vào thật sâu (Inhale)`));
-              } else if (e < 8) {
-                let r = (e - 4) / 4;
-                ((n = Math.round(r * 100)),
-                  (s = 1.45 + Math.sin(r * Math.PI * 2) * 0.03),
-                  (t = `Giữ hơi tĩnh lặng (Hold)`));
+                  (t = `Hít vào chậm (5 giây)`));
               } else {
-                let r = (e - 8) / 4;
+                let r = (e - 5) / 5;
                 ((n = Math.round(r * 100)),
                   (s = 1.45 - Math.sin((r * Math.PI) / 2) * 0.45),
-                  (t = `Thở ra nhẹ nhàng (Exhale)`));
+                  (t = `Thở ra chậm (5 giây)`));
               }
               (d(t), p(n));
             } else s = 1 + Math.sin(r * 2) * 0.06;
@@ -35920,32 +36034,6 @@ var Ed = class {
                     }),
                 ],
               }),
-              (0, G.jsxs)(`div`, {
-                className: `flex items-center gap-1.5 p-1 rounded-2xl bg-slate-900/80 border border-slate-800 backdrop-blur-md pointer-events-auto text-[11px] font-mono`,
-                children: [
-                  (0, G.jsx)(`button`, {
-                    type: `button`,
-                    onClick: () => l(`sphere`),
-                    className: `px-2.5 py-1 rounded-xl transition cursor-pointer ${c === `sphere` ? `bg-cyan-500 text-slate-950 font-bold shadow` : `text-slate-400 hover:text-white`}`,
-                    title: `Quả cầu Nhịp thở 3D`,
-                    children: `Quả Cầu Thở`,
-                  }),
-                  (0, G.jsx)(`button`, {
-                    type: `button`,
-                    onClick: () => l(`network`),
-                    className: `px-2.5 py-1 rounded-xl transition cursor-pointer ${c === `network` ? `bg-cyan-500 text-slate-950 font-bold shadow` : `text-slate-400 hover:text-white`}`,
-                    title: `Mạng lưới Tế bào Thần kinh 3D`,
-                    children: `Tế Bào Thần Kinh`,
-                  }),
-                  (0, G.jsx)(`button`, {
-                    type: `button`,
-                    onClick: () => l(`combined`),
-                    className: `px-2.5 py-1 rounded-xl transition cursor-pointer ${c === `combined` ? `bg-cyan-500 text-slate-950 font-bold shadow` : `text-slate-400 hover:text-white`}`,
-                    title: `Toàn Cảnh 3D`,
-                    children: `Toàn Cảnh`,
-                  }),
-                ],
-              }),
             ],
           }),
           (0, G.jsx)(`div`, { ref: s, className: `w-full h-[320px] sm:h-[400px] cursor-grab active:cursor-grabbing` }),
@@ -35956,12 +36044,12 @@ var Ed = class {
                 className: `bg-slate-950/70 backdrop-blur-sm px-2.5 py-1 rounded-lg border border-slate-800 flex items-center gap-1.5`,
                 children: [
                   (0, G.jsx)(gt, { className: `w-3 h-3 text-cyan-400` }),
-                  (0, G.jsx)(`span`, { children: `Kéo chuột để xoay 360° • Cuộn để phóng to/thu nhỏ` }),
+                  (0, G.jsx)(`span`, { children: `Kéo hoặc vuốt để xoay • Cuộn chuột để phóng to/thu nhỏ` }),
                 ],
               }),
               (0, G.jsx)(`span`, {
                 className: `hidden sm:inline bg-slate-950/70 backdrop-blur-sm px-2.5 py-1 rounded-lg border border-slate-800 text-slate-300`,
-                children: `Mô hình Tính dẻo Thần kinh (Neuroplasticity 3D)`,
+                children: `Hình dẫn nhịp thở (hình minh họa)`,
               }),
             ],
           }),
@@ -35977,7 +36065,7 @@ var Ed = class {
       };
     return (0, G.jsxs)(`section`, {
       id: `home`,
-      className: `space-y-12 animate-fadeIn relative`,
+      className: `dr-home animate-fadeIn relative`,
       children: [
         r &&
           (0, G.jsxs)(`div`, {
@@ -36001,478 +36089,387 @@ var Ed = class {
               }),
             ],
           }),
-        (0, G.jsxs)(`div`, {
-          className: `relative w-full aspect-[16/9] rounded-2xl sm:rounded-3xl overflow-hidden border border-[#1F2E47] shadow-[0_20px_50px_rgba(0,0,0,0.8)] flex items-center justify-center p-6 sm:p-10 lg:p-14 bg-gradient-to-r from-[#0B0F19] via-[#151D2E] to-[#0B0F19] group`,
+        // W3 (2026-11-08): Trang chủ giao diện mới (class dr-* trong theme.css)
+        (0, G.jsxs)(`header`, {
+          className: `dr-hero`,
           children: [
-            (0, G.jsx)(`img`, {
-              src: `https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1920&q=80`,
-              alt: `D-RESET Digital Detox Background`,
-              className: `absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-luminosity pointer-events-none group-hover:scale-105 transition-transform duration-1000 ease-out`,
+            (0, G.jsx)(`p`, { className: `dr-eyebrow`, children: n.badge }),
+            (0, G.jsxs)(`h1`, {
+              className: `dr-h1`,
+              children: [n.titlePart1, (0, G.jsx)(`em`, { children: n.titleHighlight })],
             }),
-            (0, G.jsx)(`div`, {
-              className: `absolute top-0 left-1/4 w-96 h-96 bg-[#00F0FF]/10 rounded-full blur-3xl pointer-events-none`,
-            }),
-            (0, G.jsx)(`div`, {
-              className: `absolute bottom-0 right-1/4 w-96 h-96 bg-[#FF6B00]/10 rounded-full blur-3xl pointer-events-none`,
-            }),
+            (0, G.jsx)(`p`, { className: `dr-sub`, children: n.titlePart2 }),
+            (0, G.jsx)(`p`, { className: `dr-lead`, children: n.slogan }),
             (0, G.jsxs)(`div`, {
-              className: `relative z-10 text-center max-w-3xl sm:max-w-4xl space-y-4 sm:space-y-6`,
+              className: `dr-actions`,
               children: [
-                (0, G.jsxs)(`div`, {
-                  className: `inline-flex items-center gap-2 py-1 px-3.5 sm:px-4 rounded-full text-xs font-mono font-semibold tracking-wider text-[#00F0FF] bg-[#00F0FF]/10 border border-[#00F0FF]/30 uppercase shadow-[0_0_15px_rgba(0,240,255,0.2)]`,
-                  children: [
-                    (0, G.jsx)(Ct, { className: `w-3.5 h-3.5 text-[#00F0FF] animate-pulse` }),
-                    (0, G.jsx)(`span`, { children: n.badge }),
-                  ],
+                (0, G.jsx)(`button`, { type: `button`, onClick: l, className: `dr-btn dr-btn-light`, children: `Bắt đầu` }),
+                (0, G.jsx)(`button`, {
+                  type: `button`,
+                  onClick: () => {
+                    (W.playClick(), e(`solutions`));
+                  },
+                  className: `dr-btn dr-btn-outline`,
+                  children: `Xem cẩm nang`,
                 }),
-                (0, G.jsxs)(`h1`, {
-                  style: { fontFamily: `system-ui` },
-                  className: `text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-tight text-white`,
-                  children: [
-                    n.titlePart1,
-                    (0, G.jsx)(`span`, {
-                      className: `text-transparent bg-clip-text bg-gradient-to-r from-[#00F0FF] via-white to-[#FF6B00] drop-shadow-[0_0_25px_rgba(0,240,255,0.4)]`,
-                      children: n.titleHighlight,
-                    }),
-                    (0, G.jsx)(`br`, {}),
-                    (0, G.jsx)(`span`, {
-                      className: `text-xl sm:text-3xl md:text-4xl font-extrabold text-slate-200 mt-2 block`,
-                      children: n.titlePart2,
-                    }),
-                  ],
-                }),
+              ],
+            }),
+          ],
+        }),
+        (0, G.jsx)(`div`, {
+          className: `dr-features dr-grid dr-grid-3`,
+          children: [
+            [Oe, n.concept1Title, n.concept1Desc],
+            [Rt, n.concept2Title, n.concept2Desc],
+            [xt, n.concept3Title, n.concept3Desc],
+          ].map(([Ic, ti, de], ix) =>
+            (0, G.jsxs)(
+              `article`,
+              {
+                className: `dr-feature`,
+                children: [
+                  (0, G.jsx)(`span`, { className: `dr-icon`, children: (0, G.jsx)(Ic, { className: `w-6 h-6` }) }),
+                  (0, G.jsx)(`h3`, { children: ti }),
+                  (0, G.jsx)(`p`, { children: de }),
+                ],
+              },
+              ix,
+            ),
+          ),
+        }),
+        (0, G.jsxs)(`section`, {
+          className: `dr-split dr-split-solo`,
+          children: [
+            (0, G.jsxs)(`div`, {
+              className: `dr-copy`,
+              children: [
+                (0, G.jsx)(`span`, { className: `dr-label`, children: `Nhận biết` }),
+                (0, G.jsx)(`h2`, { className: `dr-h2`, children: `4 dấu hiệu bạn có thể nhận ra ở mình` }),
                 (0, G.jsx)(`p`, {
-                  className: `text-slate-300 text-xs sm:text-sm md:text-base lg:text-lg max-w-2xl mx-auto leading-relaxed font-normal`,
-                  children: n.slogan,
+                  className: `dr-muted`,
+                  children: `Phát hiện sớm để chủ động giải phóng năng lượng chú ý và tự chủ số. Ai cũng có lúc như vậy; đây không phải chẩn đoán.`,
                 }),
-                (0, G.jsxs)(`div`, {
-                  className: `flex flex-wrap items-center justify-center gap-3 sm:gap-4 pt-2`,
+                (0, G.jsx)(`ul`, {
+                  className: `dr-checklist`,
                   children: [
-                    (0, G.jsxs)(`button`, {
-                      onClick: l,
-                      className: `flex items-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl font-bold text-xs sm:text-sm bg-[#00F0FF] text-[#0B0F19] hover:bg-white hover:shadow-[0_0_30px_rgba(0,240,255,0.8)] transition-all duration-300 transform active:scale-95 cursor-pointer shadow-lg`,
-                      children: [
-                        (0, G.jsx)(`span`, { children: `Bắt Đầu Hành Trình Detox (Reset về 0)` }),
-                        (0, G.jsx)(Se, { className: `w-4 h-4` }),
-                      ],
-                    }),
-                    (0, G.jsx)(`button`, {
-                      onClick: () => {
-                        (W.playClick(), e(`solutions`));
-                      },
-                      className: `flex items-center gap-2 px-5 sm:px-7 py-3.5 sm:py-4 rounded-xl font-bold text-xs sm:text-sm bg-[#151D2E] border border-[#1F2E47] text-slate-200 hover:border-[#FF6B00] hover:text-[#FF6B00] transition-all duration-300 active:scale-95 cursor-pointer`,
-                      children: (0, G.jsx)(`span`, { children: `Khám Phá Cẩm Nang & 5 Công Cụ` }),
-                    }),
-                  ],
+                    [`Vuốt Màn Hình Vô Thức`, `Mở app không có chủ đích, lướt mãi và quên cả giờ học.`],
+                    [`Đầu Óc Nặng Nề, Hay Quên`, `Học xong dễ quên, đầu óc nặng nề.`],
+                    [`Phân Mảnh Chú Ý`, `Khó ngồi đọc lâu mà không muốn mở điện thoại.`],
+                    [`Bồn Chồn Khi Xa Máy`, `Bồn chồn, sợ bỏ lỡ thông báo khi không cầm máy.`],
+                  ].map(([ti, de], ix) =>
+                    (0, G.jsxs)(`li`, { children: [(0, G.jsx)(`strong`, { children: ti }), (0, G.jsx)(`span`, { children: de })] }, ix),
+                  ),
                 }),
-                (0, G.jsx)(`div`, {
-                  className: `text-[11px] font-mono text-slate-400`,
-                  children: `* Dành cho học sinh: Truy cập hoàn toàn tự do, mọi dữ liệu bắt đầu từ 0.`,
-                }),
+                (0, G.jsx)(`button`, { type: `button`, onClick: l, className: `dr-btn`, children: `Làm bộ câu hỏi tự đánh giá` }),
               ],
             }),
           ],
         }),
-        (0, G.jsxs)(`div`, {
-          className: `grid grid-cols-1 md:grid-cols-3 gap-6`,
+        (0, G.jsxs)(`section`, {
+          className: `dr-split dr-split-rev`,
           children: [
-            (0, G.jsxs)(`div`, {
-              className: `bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 hover:border-blue-400 transition-all duration-300 space-y-4 group shadow-sm`,
-              children: [
-                (0, G.jsx)(`div`, {
-                  className: `w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-200 group-hover:scale-110 transition-transform`,
-                  children: (0, G.jsx)(Oe, { className: `w-6 h-6` }),
-                }),
-                (0, G.jsx)(`h3`, {
-                  className: `text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors`,
-                  children: n.concept1Title,
-                }),
-                (0, G.jsx)(`p`, { className: `text-slate-600 text-sm leading-relaxed`, children: n.concept1Desc }),
-              ],
+            (0, G.jsx)(`figure`, {
+              className: `dr-media`,
+              children: (0, G.jsx)(`img`, {
+                src: `./img/mach-dien-tu-thien-nhien.webp`,
+                alt: `Mô hình thu nhỏ: những người nông dân và hàng cây xanh trên một bảng mạch điện tử`,
+                loading: `lazy`,
+                width: 1100,
+                height: 733,
+              }),
             }),
             (0, G.jsxs)(`div`, {
-              className: `bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 hover:border-amber-400 transition-all duration-300 space-y-4 group shadow-sm`,
+              className: `dr-copy`,
               children: [
-                (0, G.jsx)(`div`, {
-                  className: `w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center border border-amber-200 group-hover:scale-110 transition-transform`,
-                  children: (0, G.jsx)(Rt, { className: `w-6 h-6` }),
-                }),
-                (0, G.jsx)(`h3`, {
-                  className: `text-lg font-bold text-slate-900 group-hover:text-amber-600 transition-colors`,
-                  children: n.concept2Title,
-                }),
-                (0, G.jsx)(`p`, { className: `text-slate-600 text-sm leading-relaxed`, children: n.concept2Desc }),
-              ],
-            }),
-            (0, G.jsxs)(`div`, {
-              className: `bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 hover:border-emerald-400 transition-all duration-300 space-y-4 group shadow-sm`,
-              children: [
-                (0, G.jsx)(`div`, {
-                  className: `w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center border border-emerald-200 group-hover:scale-110 transition-transform`,
-                  children: (0, G.jsx)(xt, { className: `w-6 h-6` }),
-                }),
-                (0, G.jsx)(`h3`, {
-                  className: `text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors`,
-                  children: n.concept3Title,
-                }),
-                (0, G.jsx)(`p`, { className: `text-slate-600 text-sm leading-relaxed`, children: n.concept3Desc }),
-              ],
-            }),
-          ],
-        }),
-        (0, G.jsxs)(`div`, {
-          className: `bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 space-y-6 shadow-sm`,
-          children: [
-            (0, G.jsxs)(`div`, {
-              className: `flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-4`,
-              children: [
-                (0, G.jsxs)(`div`, {
-                  children: [
-                    (0, G.jsxs)(`h2`, {
-                      className: `text-lg sm:text-xl font-bold text-slate-900 flex items-center gap-2`,
-                      children: [
-                        (0, G.jsx)(H, { className: `w-5 h-5 text-blue-600` }),
-                        (0, G.jsx)(`span`, { children: `4 Triệu Chứng Suy Giảm Nhận Thức Thường Gặp Ở Học Sinh` }),
-                      ],
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs sm:text-sm text-slate-600 mt-1`,
-                      children: `Phát hiện sớm để chủ động giải phóng năng lượng chú ý và tự chủ số.`,
-                    }),
-                  ],
+                (0, G.jsx)(`span`, { className: `dr-label`, children: `GIẢ THUYẾT CỦA DỰ ÁN (CHƯA CÓ KẾT QUẢ THỰC NGHIỆM)` }),
+                (0, G.jsx)(`h2`, { className: `dr-h2`, children: `Thói Quen Chú Ý Có Thể Được Rèn Lại Nhờ Tính Dẻo Thần Kinh` }),
+                (0, G.jsx)(`p`, {
+                  className: `dr-muted`,
+                  children: `Dự án đề xuất thử 14 ngày giảm video ngắn kết hợp chánh niệm mỗi ngày. Theo giả thuyết về tính dẻo thần kinh, thói quen chú ý có thể thay đổi khi hành vi được lặp lại; hiệu quả thực tế của chu trình này sẽ được kiểm chứng ở giai đoạn thực nghiệm.`,
                 }),
                 (0, G.jsx)(`button`, {
-                  onClick: l,
-                  className: `text-xs font-mono font-bold text-blue-700 bg-blue-50 px-3.5 py-1.5 rounded-xl border border-blue-200 hover:bg-blue-600 hover:text-white transition cursor-pointer w-fit`,
-                  children: `Làm Khảo Sát Likert →`,
-                }),
-              ],
-            }),
-            (0, G.jsxs)(`div`, {
-              className: `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4`,
-              children: [
-                (0, G.jsxs)(`div`, {
-                  className: `p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2`,
-                  children: [
-                    (0, G.jsx)(`div`, {
-                      className: `text-xs font-mono text-cyan-600 font-bold`,
-                      children: `#01 DOOMSCROLLING`,
-                    }),
-                    (0, G.jsx)(`h4`, {
-                      className: `font-semibold text-sm text-slate-900`,
-                      children: `Vuốt Màn Hình Vô Thức`,
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Mở app không chủ đích, lướt hàng trăm clip và mất hoàn toàn ý niệm về thời gian học tập.`,
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`div`, {
-                  className: `p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2`,
-                  children: [
-                    (0, G.jsx)(`div`, {
-                      className: `text-xs font-mono text-amber-600 font-bold`,
-                      children: `#02 BRAIN FOG`,
-                    }),
-                    (0, G.jsx)(`h4`, {
-                      className: `font-semibold text-sm text-slate-900`,
-                      children: `Đầu Óc Nặng Nề, Hay Quên`,
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Vừa học bài xong đã quên ngay nội dung, giảm sút khả năng ghi nhớ tạm thời (working memory).`,
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`div`, {
-                  className: `p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2`,
-                  children: [
-                    (0, G.jsx)(`div`, {
-                      className: `text-xs font-mono text-purple-600 font-bold`,
-                      children: `#03 ATTENTION LEAK`,
-                    }),
-                    (0, G.jsx)(`h4`, {
-                      className: `font-semibold text-sm text-slate-900`,
-                      children: `Phân Mảnh Chú Ý`,
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Không thể ngồi đọc văn bản dài quá 3 phút mà không có thôi thúc muốn mở điện thoại.`,
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`div`, {
-                  className: `p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2`,
-                  children: [
-                    (0, G.jsx)(`div`, {
-                      className: `text-xs font-mono text-emerald-600 font-bold`,
-                      children: `#04 FOMO ANXIETY`,
-                    }),
-                    (0, G.jsx)(`h4`, {
-                      className: `font-semibold text-sm text-slate-900`,
-                      children: `Bồn Chồn Khi Xa Máy`,
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Ảo giác rung chuông điện thoại, bất an hoặc sợ bỏ lỡ thông báo mới khi không cầm máy.`,
-                    }),
-                  ],
-                }),
-              ],
-            }),
-            (0, G.jsxs)(`div`, {
-              className: `relative rounded-2xl overflow-hidden border border-slate-200 bg-slate-50 p-4 sm:p-6 space-y-4`,
-              children: [
-                (0, G.jsxs)(`div`, {
-                  className: `flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-3`,
-                  children: [
-                    (0, G.jsxs)(`div`, {
-                      className: `flex items-center gap-2`,
-                      children: [
-                        (0, G.jsx)(`span`, { className: `text-xl`, children: `🌐` }),
-                        (0, G.jsx)(`h4`, {
-                          className: `text-base sm:text-lg font-bold text-slate-900`,
-                          children: `Mô Hình 3D Tương Tác: Mạng Lưới Tế Bào Thần Kinh Synapse & Tính Dẻo Não Bộ`,
-                        }),
-                      ],
-                    }),
-                    (0, G.jsx)(`span`, {
-                      className: `text-xs font-mono text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-200`,
-                      children: `Kéo chuột để xoay 360° • Three.js 3D`,
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`div`, {
-                  className: `grid grid-cols-1 lg:grid-cols-12 gap-6 items-center`,
-                  children: [
-                    (0, G.jsx)(`div`, {
-                      className: `lg:col-span-7 rounded-2xl overflow-hidden border border-slate-200 bg-white`,
-                      children: (0, G.jsx)(Dd, {
-                        isRunning: !1,
-                        activityType: `meditation`,
-                        currentSeconds: 0,
-                        totalSeconds: 600,
-                        initialViewMode: `network`,
-                      }),
-                    }),
-                    (0, G.jsxs)(`div`, {
-                      className: `lg:col-span-5 space-y-3`,
-                      children: [
-                        (0, G.jsx)(`span`, {
-                          className: `text-xs font-mono text-blue-600 uppercase tracking-wider font-semibold`,
-                          children: `GIẢ THUYẾT CỦA DỰ ÁN (CHƯA CÓ KẾT QUẢ THỰC NGHIỆM)`,
-                        }),
-                        (0, G.jsx)(`h4`, {
-                          className: `text-base sm:text-lg font-bold text-slate-900 leading-snug`,
-                          children: `Thói Quen Chú Ý Có Thể Được Rèn Lại Nhờ Tính Dẻo Thần Kinh`,
-                        }),
-                        (0, G.jsx)(`p`, {
-                          className: `text-xs sm:text-sm text-slate-600 leading-relaxed`,
-                          children: `Dự án đề xuất thử 14 ngày giảm video ngắn kết hợp chánh niệm mỗi ngày. Theo giả thuyết về tính dẻo thần kinh, thói quen chú ý có thể thay đổi khi hành vi được lặp lại; hiệu quả thực tế của chu trình này sẽ được kiểm chứng ở giai đoạn thực nghiệm.`,
-                        }),
-                        (0, G.jsx)(`div`, {
-                          className: `pt-2`,
-                          children: (0, G.jsx)(`button`, {
-                            type: `button`,
-                            onClick: () => e(`solutions`),
-                            className: `px-4 py-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-200 text-xs font-mono font-bold transition flex items-center gap-1.5 cursor-pointer`,
-                            children: (0, G.jsx)(`span`, {
-                              children: `Thực hành Quả cầu nhịp thở 3D ở Tab Giải Pháp →`,
-                            }),
-                          }),
-                        }),
-                      ],
-                    }),
-                  ],
+                  type: `button`,
+                  onClick: () => e(`solutions`),
+                  className: `dr-btn dr-btn-ghost`,
+                  children: `Thực hành thở chậm ở Tab Giải Pháp`,
                 }),
               ],
             }),
           ],
         }),
-        (0, G.jsxs)(`div`, {
-          className: `bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm`,
+        (0, G.jsxs)(`section`, {
+          className: `dr-section`,
           children: [
             (0, G.jsxs)(`div`, {
-              className: `flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 pb-4`,
+              className: `dr-head`,
               children: [
                 (0, G.jsxs)(`div`, {
+                  className: `dr-copy`,
                   children: [
-                    (0, G.jsxs)(`div`, {
-                      className: `inline-flex items-center gap-2 py-1 px-3 rounded-full text-[11px] font-mono font-bold text-blue-700 bg-blue-50 border border-blue-200 uppercase mb-1`,
-                      children: [
-                        (0, G.jsx)(ke, { className: `w-3.5 h-3.5` }),
-                        (0, G.jsx)(`span`, { children: `Quy Trình Nghiên Cứu Khoa Học 14 Ngày` }),
-                      ],
-                    }),
-                    (0, G.jsxs)(`h2`, {
-                      className: `text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2`,
-                      children: [
-                        (0, G.jsx)(Re, { className: `w-5 h-5 text-amber-600` }),
-                        (0, G.jsx)(`span`, { children: `Lộ Trình Chu Trình Can Thiệp Tiêu Chuẩn 14 Ngày` }),
-                      ],
-                    }),
+                    (0, G.jsx)(`span`, { className: `dr-label`, children: `Video ngắn` }),
+                    (0, G.jsx)(`h2`, { className: `dr-h2`, children: `Video ngắn quanh bạn` }),
                     (0, G.jsx)(`p`, {
-                      className: `text-xs sm:text-sm text-slate-600 mt-1`,
-                      children: `Phác đồ can thiệp 4 giai đoạn chuẩn hóa trong báo cáo nghiên cứu khoa học hành vi THPT Lê Quý Đôn 2026.`,
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`button`, {
-                  type: `button`,
-                  onClick: l,
-                  className: `px-5 py-2.5 rounded-xl bg-blue-600 text-white text-xs font-mono font-bold hover:bg-blue-700 transition cursor-pointer flex items-center gap-2 shadow-sm shrink-0 w-fit`,
-                  children: [
-                    (0, G.jsx)(`span`, { children: `Bắt Đầu Chu Trình (Ngày 1)` }),
-                    (0, G.jsx)(Se, { className: `w-3.5 h-3.5` }),
-                  ],
-                }),
-              ],
-            }),
-            (0, G.jsxs)(`div`, {
-              className: `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4`,
-              children: [
-                (0, G.jsxs)(`div`, {
-                  className: `bg-slate-50 p-5 rounded-2xl border border-blue-200 space-y-3 relative overflow-hidden group hover:border-blue-500 transition shadow-sm`,
-                  children: [
-                    (0, G.jsxs)(`div`, {
-                      className: `flex items-center justify-between`,
-                      children: [
-                        (0, G.jsx)(`span`, {
-                          className: `px-2.5 py-1 rounded-lg bg-blue-100 text-blue-800 font-mono text-xs font-black border border-blue-200`,
-                          children: `GIAI ĐOẠN 1`,
-                        }),
-                        (0, G.jsx)(`span`, {
-                          className: `text-[11px] font-mono text-slate-500`,
-                          children: `Khởi Động`,
-                        }),
-                      ],
-                    }),
-                    (0, G.jsx)(`h3`, {
-                      className: `font-bold text-base text-slate-900 group-hover:text-blue-600 transition`,
-                      children: `Ngày 1: Nhận Diện`,
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Hoàn thành bảng khảo sát Likert để tự đánh giá mức độ lệ thuộc video ngắn (không phải chẩn đoán). Bật chế độ Grayscale (đen trắng) trên điện thoại và nhận diện các điểm kích hoạt cơn thèm vuốt màn hình vô thức.`,
-                    }),
-                    (0, G.jsxs)(`div`, {
-                      className: `pt-2 border-t border-slate-200 text-[11px] font-mono text-blue-700 flex items-center gap-1.5`,
-                      children: [
-                        (0, G.jsx)(Fe, { className: `w-3.5 h-3.5 shrink-0` }),
-                        (0, G.jsx)(`span`, { children: `Bài test Likert & Grayscale` }),
-                      ],
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`div`, {
-                  className: `bg-slate-50 p-5 rounded-2xl border border-sky-200 space-y-3 relative overflow-hidden group hover:border-sky-500 transition shadow-sm`,
-                  children: [
-                    (0, G.jsxs)(`div`, {
-                      className: `flex items-center justify-between`,
-                      children: [
-                        (0, G.jsx)(`span`, {
-                          className: `px-2.5 py-1 rounded-lg bg-sky-100 text-sky-800 font-mono text-xs font-black border border-sky-200`,
-                          children: `GIAI ĐOẠN 2`,
-                        }),
-                        (0, G.jsx)(`span`, { className: `text-[11px] font-mono text-slate-500`, children: `Tuần 1` }),
-                      ],
-                    }),
-                    (0, G.jsx)(`h3`, {
-                      className: `font-bold text-base text-slate-900 group-hover:text-sky-600 transition`,
-                      children: `Ngày 2 - 7: Nhận Thức & Thực Hành`,
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Nghiên cứu Cẩm nang giải độc số, lật Thẻ phản chiếu 3D giải mã mạng não bộ, thiết lập "Vùng cấm điện thoại" trong phòng ngủ và thực hành các phiên Thực hành Chánh niệm đếm ngược mỗi ngày.`,
-                    }),
-                    (0, G.jsxs)(`div`, {
-                      className: `pt-2 border-t border-slate-200 text-[11px] font-mono text-sky-700 flex items-center gap-1.5`,
-                      children: [
-                        (0, G.jsx)(Fe, { className: `w-3.5 h-3.5 shrink-0` }),
-                        (0, G.jsx)(`span`, { children: `Cẩm nang, Thẻ 3D & Chánh niệm` }),
-                      ],
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`div`, {
-                  className: `bg-slate-50 p-5 rounded-2xl border border-amber-200 space-y-3 relative overflow-hidden group hover:border-amber-500 transition shadow-sm`,
-                  children: [
-                    (0, G.jsxs)(`div`, {
-                      className: `flex items-center justify-between`,
-                      children: [
-                        (0, G.jsx)(`span`, {
-                          className: `px-2.5 py-1 rounded-lg bg-amber-100 text-amber-800 font-mono text-xs font-black border border-amber-200`,
-                          children: `GIAI ĐOẠN 3`,
-                        }),
-                        (0, G.jsx)(`span`, { className: `text-[11px] font-mono text-slate-500`, children: `Tuần 2` }),
-                      ],
-                    }),
-                    (0, G.jsx)(`h3`, {
-                      className: `font-bold text-base text-slate-900 group-hover:text-amber-600 transition`,
-                      children: `Ngày 8 - 13: Theo Dõi Qua Bánh Xe Thói Quen`,
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Theo dõi và ghi nhận chỉ số qua Bánh xe thói quen 4 cung (Thể chất, Đọc sâu, Giấc ngủ phục hồi, Kết nối xã hội). Hoàn thành từng thử thách hành vi để kích hoạt tính dẻo thần kinh (Neuroplasticity).`,
-                    }),
-                    (0, G.jsxs)(`div`, {
-                      className: `pt-2 border-t border-slate-200 text-[11px] font-mono text-amber-700 flex items-center gap-1.5`,
-                      children: [
-                        (0, G.jsx)(Fe, { className: `w-3.5 h-3.5 shrink-0` }),
-                        (0, G.jsx)(`span`, { children: `Habit Wheel & 14-Day Challenge` }),
-                      ],
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`div`, {
-                  className: `bg-slate-50 p-5 rounded-2xl border border-emerald-200 space-y-3 relative overflow-hidden group hover:border-emerald-500 transition shadow-sm`,
-                  children: [
-                    (0, G.jsxs)(`div`, {
-                      className: `flex items-center justify-between`,
-                      children: [
-                        (0, G.jsx)(`span`, {
-                          className: `px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 font-mono text-xs font-black border border-emerald-200`,
-                          children: `GIAI ĐOẠN 4`,
-                        }),
-                        (0, G.jsx)(`span`, { className: `text-[11px] font-mono text-slate-500`, children: `Về Đích` }),
-                      ],
-                    }),
-                    (0, G.jsx)(`h3`, {
-                      className: `font-bold text-base text-slate-900 group-hover:text-emerald-600 transition`,
-                      children: `Ngày 14: Đánh Giá Sự Thay Đổi`,
-                    }),
-                    (0, G.jsx)(`p`, {
-                      className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Thực hiện lại bài kiểm tra Likert sau 14 ngày can thiệp. Đối chiếu mức độ suy giảm Brainrot, cải thiện khả năng tập trung chú ý liên tục và chúc mừng một bộ não tỉnh táo, làm chủ công nghệ.`,
-                    }),
-                    (0, G.jsxs)(`div`, {
-                      className: `pt-2 border-t border-slate-200 text-[11px] font-mono text-emerald-700 flex items-center gap-1.5`,
-                      children: [
-                        (0, G.jsx)(wt, { className: `w-3.5 h-3.5 shrink-0` }),
-                        (0, G.jsx)(`span`, { children: `Đối chiếu trước - sau & Kết luận` }),
-                      ],
+                      className: `dr-muted`,
+                      children: `Ba kiểu bạn hay gặp. Không có kiểu nào xấu tự thân; điều đáng để ý là mình đang xem có chủ đích hay chỉ vuốt theo quán tính.`,
                     }),
                   ],
                 }),
               ],
             }),
-            (0, G.jsxs)(`div`, {
-              className: `p-3.5 rounded-xl bg-[#0B0F19] border border-[#1F2E47] flex items-center justify-between flex-wrap gap-2 text-xs font-mono text-slate-400`,
+            (0, G.jsx)(`div`, {
+              className: `dr-grid dr-grid-3`,
               children: [
-                (0, G.jsxs)(`span`, {
-                  className: `text-slate-300`,
-                  children: [
-                    `📌 `,
-                    (0, G.jsx)(`strong`, { children: `Quy chuẩn nghiên cứu:` }),
-                    ` Toàn bộ dữ liệu theo dõi được lưu tự động trong chu kỳ 14 ngày trên thiết bị học sinh.`,
-                  ],
+                [`tiktok-dien-thoai`, `Điện thoại hiện logo TikTok`, `TikTok`, `Video dọc, vuốt để xem tiếp, chỉ vài giây là chuyển sang video khác.`],
+                [`facebook-reels-dien-thoai`, `Điện thoại hiện logo Facebook`, `Reels trên Facebook`, `Cũng là video dọc và ngắn, xuất hiện ngay giữa dòng tin bạn đang xem.`],
+                [`video-ai-dien-thoai`, `Thư mục ứng dụng AI trên điện thoại, nền cây xanh mờ`, `Video do AI tạo`, `Có thể trông rất thật. Hãy xem nguồn trước khi tin hoặc chia sẻ.`],
+              ].map(([fi, al, ti, de], ix) =>
+                (0, G.jsxs)(
+                  `article`,
+                  {
+                    className: `dr-vcard`,
+                    children: [
+                      (0, G.jsx)(`img`, { src: `./img/${fi}.webp`, alt: al, loading: `lazy`, width: 900, height: 600 }),
+                      (0, G.jsx)(`h3`, { children: ti }),
+                      (0, G.jsx)(`p`, { children: de }),
+                    ],
+                  },
+                  ix,
+                ),
+              ),
+            }),
+            (0, G.jsx)(`p`, { className: `dr-stats-note dr-credit`, children: `Tên và logo thuộc về chủ sở hữu, chỉ dùng để minh họa. Nguồn ảnh: xem CREDITS.md.` }),
+          ],
+        }),
+        (0, G.jsxs)(`section`, {
+          className: `dr-split dr-split-rev`,
+          children: [
+            (0, G.jsxs)(`figure`, {
+              className: `dr-media dr-duo`,
+              children: [
+                (0, G.jsx)(`img`, {
+                  src: `./img/ai-bieu-tuong-khuech-tan.webp`,
+                  alt: `Hình minh họa nghệ thuật về cách AI tạo ảnh từ chữ: các ô biểu tượng trắng xếp trên nền sáng`,
+                  loading: `lazy`,
+                  width: 1000,
+                  height: 667,
                 }),
-                (0, G.jsx)(`span`, {
-                  className: `text-[#00F0FF]`,
-                  children: `Ngày 1 (Nhận diện) → Ngày 2-7 (Nhận thức) → Ngày 8-13 (Bánh xe thói quen) → Ngày 14 (Đánh giá)`,
+                (0, G.jsx)(`img`, {
+                  src: `./img/ai-bieu-tuong-luoi.webp`,
+                  alt: `Hình minh họa nghệ thuật: lưới các biểu tượng 3D nhỏ tượng trưng cho nhiều ứng dụng của AI`,
+                  loading: `lazy`,
+                  width: 1000,
+                  height: 667,
                 }),
               ],
+            }),
+            (0, G.jsxs)(`div`, {
+              className: `dr-copy`,
+              children: [
+                (0, G.jsx)(`span`, { className: `dr-label`, children: `AI và video ngắn` }),
+                (0, G.jsx)(`h2`, { className: `dr-h2`, children: `Khi AI cũng làm ra video` }),
+                (0, G.jsx)(`p`, {
+                  className: `dr-muted`,
+                  children: `AI có thể tạo ảnh và video chỉ từ vài dòng chữ, nên ngày càng nhiều video trông rất thật dù không quay từ đời thực. Ba thói quen nhỏ: xem nguồn đăng, tìm xem có ghi "do AI tạo" không, và đừng chia sẻ khi chưa chắc.`,
+                }),
+                (0, G.jsx)(`p`, {
+                  className: `dr-stats-note dr-credit`,
+                  children: `Hai hình là tranh minh họa nghệ thuật về AI, không phải ảnh chụp thật. Nguồn: xem CREDITS.md.`,
+                }),
+              ],
+            }),
+          ],
+        }),
+        (0, G.jsxs)(`section`, {
+          className: `dr-stats`,
+          children: [
+            (0, G.jsx)(`div`, {
+              className: `dr-stats-row`,
+              children: [
+                [`14`, `ngày hành trình khởi động`],
+                [`15 / 30`, `câu tự đánh giá (bản nhanh / đầy đủ)`],
+                [`6`, `tình huống trong mini-game`],
+                [`5`, `công cụ trong cẩm nang`],
+              ].map(([nu, la], ix) =>
+                (0, G.jsxs)(`div`, { className: `dr-stat`, children: [(0, G.jsx)(`strong`, { children: nu }), (0, G.jsx)(`span`, { children: la })] }, ix),
+              ),
+            }),
+            (0, G.jsx)(`p`, { className: `dr-stats-note`, children: `Các con số này mô tả bộ công cụ, không phải kết quả nghiên cứu.` }),
+          ],
+        }),
+        // P10/P14 (2026-11-08): bằng chứng về kết quả khi dùng điện thoại ít đi (nháp: docs/KHOA_HOC_GIAM_VIDEO_NGAN.md)
+        (0, G.jsxs)(`div`, {
+          id: `evidence`,
+          className: `bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 space-y-5 shadow-sm`,
+          children: [
+            (0, G.jsxs)(`div`, {
+              className: `space-y-1 border-b border-slate-200 pb-4`,
+              children: [
+                (0, G.jsx)(`h2`, {
+                  className: `text-xl sm:text-2xl font-black text-slate-900 tracking-tight`,
+                  children: `Khoa học nói gì khi dùng điện thoại ít đi?`,
+                }),
+                (0, G.jsx)(`p`, {
+                  className: `text-xs sm:text-sm text-slate-600`,
+                  children: `Đây là kết quả của các nhà nghiên cứu khác, không phải kết quả của nhóm D-RESET. Mỗi thẻ ghi rõ mức chắc chắn và chỗ chưa chắc.`,
+                }),
+              ],
+            }),
+            (0, G.jsx)(`div`, {
+              className: `grid grid-cols-1 md:grid-cols-2 gap-4`,
+              children: [
+                  {
+                    "t": "Nghỉ internet trên điện thoại 2 tuần",
+                    "lv": "Mức chắc chắn: trung bình đến cao",
+                    "tone": "emerald",
+                    "saw": "Một thử nghiệm ngẫu nhiên thấy chú ý duy trì (đo bằng bài kiểm tra), sức khỏe tinh thần và cảm giác hạnh phúc tốt hơn. Một phần vì mọi người gặp bạn bè, vận động và ra ngoài nhiều hơn.",
+                    "nc": "Họ chặn toàn bộ internet trên điện thoại, nên không biết riêng video ngắn góp bao nhiêu. Phần mình đọc không nêu tuổi người tham gia, nên chưa chắc áp dụng cho học sinh.",
+                    "src": "Castelo và cộng sự, PNAS Nexus 2025",
+                    "href": "https://doi.org/10.1093/pnasnexus/pgaf017"
+                  },
+                  {
+                    "t": "Nghỉ mạng xã hội (tổng hợp 10 nghiên cứu)",
+                    "lv": "Mức chắc chắn: thấp đến trung bình",
+                    "tone": "amber",
+                    "saw": "Triệu chứng trầm cảm giảm nhẹ. Căng thẳng, cảm giác hạnh phúc và hài lòng với cuộc sống chưa thấy khác biệt rõ.",
+                    "nc": "Ít nghiên cứu, mỗi nghiên cứu nghỉ một kiểu và một thời gian khác nhau.",
+                    "src": "Ramadhan và cộng sự, Narra J 2024",
+                    "href": "https://doi.org/10.52225/narra.v4i2.786"
+                  },
+                  {
+                    "t": "Riêng video ngắn",
+                    "lv": "Mức chắc chắn: chưa đủ bằng chứng",
+                    "tone": "slate",
+                    "saw": "Một nghiên cứu 48 người thấy ai có xu hướng dùng video ngắn nhiều hơn thì tự kiểm soát bản thân thấp hơn, và tín hiệu não liên quan kiểm soát chú ý yếu hơn khi làm bài.",
+                    "nc": "Chỉ là mối liên hệ, không chứng minh video gây ra. Mình chưa tìm được thử nghiệm đáng tin nào cho thấy giảm riêng video ngắn thì tốt hơn. Đây chính là điều dự án muốn thử.",
+                    "src": "Frontiers in Human Neuroscience 2024",
+                    "href": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2024.1383913/text"
+                  },
+                  {
+                    "t": "Chánh niệm ở trường (học sinh 11 đến 14 tuổi)",
+                    "lv": "Mức chắc chắn: cao cho câu \"chưa tốt hơn chương trình thường\"",
+                    "tone": "amber",
+                    "saw": "Ở thử nghiệm lớn nhất (hơn 8.000 học sinh), sau 1 năm chưa thấy chương trình chánh niệm ở trường tốt hơn chương trình học thường về nguy cơ trầm cảm, hành vi và cảm giác hạnh phúc. Phân tích lại 22 thử nghiệm cũng không thấy lợi ích rõ khi gộp mọi nhóm đối chứng.",
+                    "nc": "Đó là chương trình dạy cho cả trường, không giống bài thực hành tự chọn. Nếu bạn thấy thư giãn sau một bài thở hay thiền, đó vẫn là trải nghiệm thật của bạn; chỉ là chưa có bằng chứng để nói nó giúp học sinh tập trung hay bớt lo âu về lâu dài.",
+                    "src": "Kuyken và cộng sự (MYRIAD), 2022",
+                    "href": "https://doi.org/10.1136/ebmental-2021-300396",
+                    "src2": "Galla và cộng sự, 2024",
+                    "href2": "https://doi.org/10.3389/fpsyg.2024.1384531"
+                  }
+                ].map((e) =>
+                (0, G.jsxs)(
+                  `div`,
+                  {
+                    className: `bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2`,
+                    children: [
+                      (0, G.jsx)(`h3`, { className: `font-bold text-base text-slate-900`, children: e.t }),
+                      (0, G.jsx)(`span`, {
+                        className: `inline-block px-2.5 py-1 rounded-lg font-mono text-[11px] font-bold border ${e.tone === 'emerald' ? 'bg-emerald-100 text-emerald-800 border-emerald-200' : e.tone === 'amber' ? 'bg-amber-100 text-amber-800 border-amber-200' : 'bg-slate-100 text-slate-700 border-slate-200'}`,
+                        children: e.lv,
+                      }),
+                      (0, G.jsxs)(`p`, {
+                        className: `text-xs sm:text-sm text-slate-600 leading-relaxed`,
+                        children: [(0, G.jsx)(`strong`, { children: `Thấy gì: ` }), e.saw],
+                      }),
+                      (0, G.jsxs)(`p`, {
+                        className: `text-xs sm:text-sm text-slate-600 leading-relaxed`,
+                        children: [(0, G.jsx)(`strong`, { children: `Chỗ chưa chắc: ` }), e.nc],
+                      }),
+                      (0, G.jsxs)(`p`, {
+                        className: `text-[11px] font-mono text-slate-500`,
+                        children: [
+                          `Nguồn: `,
+                          (0, G.jsx)(`a`, {
+                            href: e.href,
+                            target: `_blank`,
+                            rel: `noopener noreferrer`,
+                            className: `text-blue-700 underline`,
+                            children: e.src,
+                          }),
+                          e.href2
+                            ? [
+                                `; `,
+                                (0, G.jsx)(`a`, {
+                                  href: e.href2,
+                                  target: `_blank`,
+                                  rel: `noopener noreferrer`,
+                                  className: `text-blue-700 underline`,
+                                  children: e.src2,
+                                }),
+                              ]
+                            : null,
+                        ],
+                      }),
+                    ],
+                  },
+                  e.t,
+                ),
+              ),
+            }),
+            (0, G.jsx)(`p`, {
+              className: `text-xs text-slate-600 leading-relaxed`,
+              children: `Hành trình 14 ngày của D-RESET vẫn là giả thuyết cần thử nghiệm, chưa có kết quả riêng. Nếu bạn thấy khó tập trung, lo âu hoặc mệt kéo dài, hãy nói chuyện với thầy cô hoặc người lớn bạn tin, hoặc gọi tổng đài 111.`,
+            }),
+          ],
+        }),
+        (0, G.jsxs)(`section`, {
+          className: `dr-split`,
+          children: [
+            (0, G.jsx)(`figure`, {
+              className: `dr-media`,
+              children: (0, G.jsx)(`img`, {
+                src: `./img/ben-go-ho.webp`,
+                alt: `Cầu gỗ nhỏ nhô ra mặt hồ yên tĩnh trong sương sớm`,
+                loading: `lazy`,
+                width: 1400,
+                height: 933,
+              }),
+            }),
+            (0, G.jsxs)(`div`, {
+              className: `dr-copy`,
+              children: [
+                (0, G.jsx)(`span`, { className: `dr-label`, children: `Hành trình` }),
+                (0, G.jsx)(`h2`, { className: `dr-h2`, children: `Hành trình khởi động 14 ngày` }),
+                (0, G.jsx)(`p`, {
+                  className: `dr-muted`,
+                  children: `Lộ trình của nhóm nghiên cứu THPT Lê Quý Đôn 2026. Con số 14 ngày là quy ước khởi động của nhóm, không phải con số khoa học đã được chứng minh.`,
+                }),
+                (0, G.jsx)(`ol`, {
+                  className: `dr-steps`,
+                  children: [
+                    [`Chặng 1 · Ngày 1 - 4`, `Dọn Đường`, `Mỗi ngày thêm một thay đổi nhỏ và giữ lại (dọn app, tắt thông báo, sạc ngoài giường).`],
+                    [`Chặng 2 · Ngày 5 - 9`, `Thử Hoạt Động Mới`, `Tự chọn một hoạt động ngoài màn hình hợp với mình.`],
+                    [`Chặng 3 · Ngày 10 - 13`, `Kết Nối Và Giữ Nhịp`, `Kết nối đời thực, vận động nhẹ, lướt qua cơn thèm, viết kế hoạch khi lỡ trượt.`],
+                    [`Nhìn lại · Ngày 14`, `Nhìn Lại Sự Thay Đổi`, `Làm lại bộ câu hỏi và so với lần đầu. Đây là thang tự đánh giá, không phải chẩn đoán.`],
+                  ].map(([me, ti, de], ix) =>
+                    (0, G.jsxs)(
+                      `li`,
+                      {
+                        children: [
+                          (0, G.jsx)(`span`, { className: `dr-step-n`, children: ix + 1 }),
+                          (0, G.jsxs)(`div`, {
+                            children: [
+                              (0, G.jsx)(`small`, { children: me }),
+                              (0, G.jsx)(`strong`, { children: ti }),
+                              (0, G.jsx)(`span`, { children: de }),
+                            ],
+                          }),
+                        ],
+                      },
+                      ix,
+                    ),
+                  ),
+                }),
+                (0, G.jsx)(`button`, { type: `button`, onClick: l, className: `dr-btn`, children: `Bắt đầu Ngày 1` }),
+              ],
+            }),
+          ],
+        }),
+        (0, G.jsxs)(`section`, {
+          className: `dr-closing`,
+          children: [
+            (0, G.jsx)(`h2`, { children: `Cần nói chuyện với ai đó?` }),
+            (0, G.jsx)(`p`, {
+              children: `Nếu bạn thấy khó tập trung, lo âu hoặc mệt kéo dài, hãy nói chuyện với thầy cô hoặc người lớn bạn tin, hoặc gọi tổng đài 111. Công cụ này không thay thế tư vấn tâm lý.`,
             }),
           ],
         }),
@@ -36713,14 +36710,14 @@ var Ed = class {
                 title: `Có Dấu Hiệu Lệ Thuộc Video Ngắn (Mức Lưu Ý)`,
                 scoreBadge: `${p} / ${m} - Lưu Ý`,
                 description: `Bạn có một số dấu hiệu của việc phụ thuộc màn hình và khó giữ chú ý. Thói quen xem video ngắn có thể đang làm bạn kém kiên nhẫn hơn khi đọc văn bản dài. Đây chỉ là thang tự đánh giá, không phải chẩn đoán.`,
-                action: `Cần bắt đầu phác đồ can thiệp: Áp dụng phương pháp Pomodoro Mindfulness 3 phút và thực hành thử thách 14 ngày ngay.`,
+                action: `Bạn có thể thử: vài phút chánh niệm mỗi ngày và Hành trình khởi động 14 ngày, từng việc nhỏ một.`,
               }
             : {
                 level: `severe`,
                 title: `Mức Lệ Thuộc Cao (Nên Điều Chỉnh Sớm)`,
                 scoreBadge: `${p} / ${m} - Mức Cao`,
                 description: `Điểm của bạn thuộc mức cao trong thang đo này: có thể bạn đang dành rất nhiều thời gian cho video ngắn và khó giữ chú ý lâu. Đây chỉ là thang tự đánh giá, không phải chẩn đoán; nếu thấy mệt mỏi hoặc lo âu kéo dài, hãy trao đổi với thầy cô hoặc người lớn tin cậy.`,
-                action: `Nên bắt đầu Digital Detox sớm: Tắt thông báo toàn bộ mạng xã hội, chuyển màn hình sang đen trắng và đọc Cẩm nang giải độc não bộ.`,
+                action: `Bạn có thể bắt đầu nhẹ nhàng: tắt thông báo mạng xã hội, chuyển màn hình sang đen trắng và thử Hành trình khởi động 14 ngày. Nếu thấy nặng nề, hãy nói với thầy cô hoặc người lớn bạn tin, hoặc gọi 111.`,
               };
       })();
     return (0, G.jsxs)(`section`, {
@@ -37000,7 +36997,11 @@ var Ed = class {
                         (0, G.jsx)(`p`, { className: `text-slate-800 font-medium`, children: E.description }),
                         (0, G.jsxs)(`div`, {
                           className: `pt-1 text-slate-700 font-bold`,
-                          children: [(0, G.jsx)(`strong`, { children: `Khuyến nghị can thiệp:` }), ` `, E.action],
+                          children: [(0, G.jsx)(`strong`, { children: `Gợi ý cho bạn:` }), ` `, E.action],
+                        }),
+                        (0, G.jsx)(`p`, {
+                          className: `pt-1 text-xs text-slate-600 font-medium`,
+                          children: `Công cụ này không thay thế tư vấn tâm lý. Nếu bạn thấy nặng nề hoặc buồn kéo dài, hãy nói với thầy cô hoặc người lớn bạn tin, hoặc gọi 111.`,
                         }),
                       ],
                     }),
@@ -37135,6 +37136,724 @@ var Ed = class {
               ],
             }),
           }),
+      ],
+    });
+  },
+  LikertW2 = ({ onNavigate: nav, userId: uid }) => {
+    // W2 (2026-11-08): bộ Likert mới (dữ liệu data/likert.json, cùng nguồn với phòng 3D). Chỉ lưu trong máy (localStorage).
+    const KEY = `dreset_likert_history_v1`,
+      J = G.jsx,
+      X = G.jsxs,
+      AX = [`A`, `B`, `C`, `D`],
+      TAB = {
+        'hieu-co-che': [`gamification`, `3. Trò Chơi Mini-Game`],
+        'chanh-niem': [`solutions`, `4. Cẩm Nang & Giải Pháp`],
+        'thu-thach': [`solutions`, `4. Cẩm Nang & Giải Pháp`],
+        'thoi-quen': [`solutions`, `4. Cẩm Nang & Giải Pháp`, `phoneguide`, `Hướng dẫn điện thoại`],
+        'ngoai-man-hinh': [`solutions`, `4. Cẩm Nang & Giải Pháp`],
+      },
+      mean = (a) => {
+        let v = a.filter((x) => typeof x === `number` && Number.isFinite(x));
+        return v.length ? v.reduce((s, x) => s + x, 0) / v.length : null;
+      },
+      bandOf = (v, th) => (v == null ? null : v < th.low ? `thap` : v < th.high ? `vua` : `cao`),
+      readAll = () => {
+        try {
+          let a = JSON.parse(localStorage.getItem(KEY) || `[]`);
+          return Array.isArray(a) ? a : [];
+        } catch {
+          return [];
+        }
+      },
+      mine = () =>
+        readAll().filter(
+          (x) => x && x.uid === uid && typeof x.level === `number` && (x.version === 15 || x.version === 30),
+        ),
+      fmtDate = (s) => {
+        try {
+          return new Date(s).toLocaleDateString(`vi-VN`);
+        } catch {
+          return ``;
+        }
+      },
+      fmt = (v) => (v == null ? `-` : v.toFixed(1).replace(`.`, `,`)),
+      hist = mine(),
+      [data, setData] = (0, _.useState)(null),
+      [err, setErr] = (0, _.useState)(!1),
+      [version, setVersion] = (0, _.useState)(() => {
+        let h = mine();
+        return h.length ? h[0].version : 15;
+      }),
+      [step, setStep] = (0, _.useState)(0),
+      [answers, setAnswers] = (0, _.useState)({}),
+      [p0, setP0] = (0, _.useState)({}),
+      [res, setRes] = (0, _.useState)(null);
+    (0, _.useEffect)(() => {
+      let live = !0;
+      fetch(`data/likert.json`, { cache: `no-store` })
+        .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+        .then((d) => {
+          if (!d || !Array.isArray(d.items) || !d.levels) throw 0;
+          live && setData(d);
+        })
+        .catch(() => live && setErr(!0));
+      return () => {
+        live = !1;
+      };
+    }, []);
+    let top = () => window.scrollTo({ top: 0, behavior: `smooth` }),
+      head = X(`header`, {
+        className: `dr-pagehead dr-pagehead-likert`,
+        children: [
+          J(`p`, { className: `dr-eyebrow`, children: `Bộ Câu Hỏi Tự Đánh Giá (Thang Likert 5 Mức)` }),
+          J(`h1`, { className: `dr-h1 dr-h1-page`, children: `Bạn Lướt Video Ngắn & Mạng Xã Hội Thế Nào?` }),
+          J(`p`, {
+            className: `dr-lead`,
+            children: `Đây là thang tự đánh giá thói quen trong 2 tuần qua, không phải chẩn đoán và không có câu trả lời đúng hay sai.`,
+          }),
+        ],
+      }),
+      wrap = (kids) =>
+        X(`section`, {
+          id: `assessment`,
+          className: `space-y-8 animate-fadeIn`,
+          children: [head, J(`div`, { className: `max-w-3xl mx-auto`, children: kids })],
+        }),
+      card = `bg-white border border-slate-200 rounded-2xl p-5 sm:p-8 space-y-6 shadow-sm`;
+    if (err)
+      return wrap(
+        X(`div`, {
+          className: card,
+          children: [
+            J(`p`, {
+              className: `text-sm text-slate-800 font-semibold`,
+              children: `Chưa tải được bộ câu hỏi. Bạn thử tải lại trang giúp mình nhé.`,
+            }),
+            J(`button`, {
+              type: `button`,
+              onClick: () => window.location.reload(),
+              className: `px-5 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-sm hover:bg-blue-700 cursor-pointer`,
+              children: `Tải lại trang`,
+            }),
+          ],
+        }),
+      );
+    if (!data)
+      return wrap(
+        J(`div`, {
+          className: card,
+          children: J(`p`, { className: `text-sm text-slate-700 font-semibold`, children: `Đang tải bộ câu hỏi...` }),
+        }),
+      );
+
+    let items = data.items.filter((i) => version === 30 || i.quick),
+      groups = AX.map((k) => ({ k, list: items.filter((i) => i.axis === k) })).filter((g) => g.list.length),
+      n = groups.length,
+      doneCount = items.filter((i) => answers[i.id] !== void 0).length,
+      pick = (id, v) => {
+        W.playClick();
+        setAnswers((a) => ({ ...a, [id]: v }));
+      },
+      go = (s) => {
+        setStep(s);
+        top();
+      },
+      restart = () => {
+        setAnswers({});
+        setP0({});
+        setRes(null);
+        setStep(0);
+        top();
+      },
+      finish = () => {
+        let axis = {};
+        for (let k of AX)
+          axis[k] = mean(items.filter((i) => i.axis === k).map((i) => answers[i.id]));
+        let K = mean([axis.A, axis.B]),
+          bK = bandOf(K, data.thresholds),
+          bC = bandOf(axis.C, data.thresholds),
+          level = bK && bC ? data.levelMatrix[bK][bC] : null;
+        if (!level) {
+          W.playError();
+          return;
+        }
+        let first = hist.length ? hist[0] : null,
+          cmp = null;
+        if (first) {
+          cmp =
+            first.version === version
+              ? `So sánh: lần đầu (${fmtDate(first.at)}) bạn ở Mức ${first.level}, lần mới nhất ở Mức ${level}. Đây chỉ là mô tả thói quen của bạn, không phải chẩn đoán.`
+              : `Lần đầu bạn làm bản ${first.version} câu, lần này bản ${version} câu. Hai lần dùng bản khác nhau nên chưa so sánh được. Muốn so sánh, hãy làm lại đúng bản ${first.version} câu.`;
+        }
+        try {
+          let all = readAll();
+          all.push({ at: new Date().toISOString(), uid, version, level, A: axis.A, B: axis.B, C: axis.C, D: axis.D, p0 });
+          localStorage.setItem(KEY, JSON.stringify(all.slice(-300)));
+        } catch {}
+        W.playSuccess();
+        setRes({ level, axis, bK, bC, cmp, version });
+        go(n + 1);
+      };
+
+    // ---------- Màn hình kết quả ----------
+    if (step === n + 1 && res) {
+      let lv = data.levels[res.level - 1],
+        r = res.axis,
+        dBand = r.D == null ? null : r.D < data.thresholds.dLow ? `thap` : r.D >= data.thresholds.dHigh ? `cao` : `vua`,
+        notice = [
+          [`A`, bandOf(r.A, data.thresholds)],
+          [`B`, bandOf(r.B, data.thresholds)],
+          [`C`, bandOf(r.C, data.thresholds)],
+          [`D`, dBand],
+        ]
+          .filter(([, b]) => b)
+          .map(([k, b]) => data.axisFeedback[k][b]);
+      return wrap(
+        X(`div`, {
+          className: card,
+          children: [
+            X(`div`, {
+              className: `text-center space-y-2`,
+              children: [
+                J(`span`, {
+                  className: `text-xs font-bold tracking-wider text-slate-400 uppercase font-mono`,
+                  children: `Kết quả tự đánh giá (bản ${res.version} câu)`,
+                }),
+                X(`h3`, { className: `text-2xl font-black text-slate-900`, children: [`Mức `, lv.level, `: `, lv.name] }),
+                J(`div`, {
+                  className: `flex gap-1.5 max-w-xs mx-auto`,
+                  children: [1, 2, 3, 4].map((x) =>
+                    J(`div`, { className: `h-2 flex-1 rounded-full ${x <= lv.level ? `bg-blue-600` : `bg-slate-200`}` }, x),
+                  ),
+                }),
+                J(`p`, { className: `text-sm text-slate-800 font-medium leading-relaxed`, children: lv.summary }),
+              ],
+            }),
+            X(`div`, {
+              className: `text-left bg-blue-50/50 border border-blue-200 rounded-2xl p-4 space-y-2 text-xs sm:text-sm text-slate-800 leading-relaxed`,
+              children: [
+                J(`h4`, { className: `font-extrabold text-slate-900`, children: `Mình để ý thấy:` }),
+                J(`ul`, {
+                  className: `list-disc pl-5 space-y-1`,
+                  children: notice.map((t, i) => J(`li`, { children: t }, i)),
+                }),
+                res.bK === `cao` && res.bC === `thap` && J(`p`, { className: `font-medium`, children: data.controlNote }),
+                r.D != null && r.D < data.thresholds.dLow && J(`p`, { className: `font-medium`, children: data.dLowTip }),
+              ],
+            }),
+            res.cmp &&
+              J(`p`, {
+                className: `text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-2xl p-3.5 text-slate-800 font-medium`,
+                children: res.cmp,
+              }),
+            X(`div`, {
+              className: `space-y-3`,
+              children: [
+                J(`h4`, { className: `font-extrabold text-slate-900 text-sm`, children: `Mình gợi ý bạn dùng D-RESET như sau:` }),
+                lv.solutions.map((s, i) => {
+                  let t = s.room ? TAB[s.room] : null;
+                  return X(
+                    `div`,
+                    {
+                      className: `bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-1`,
+                      children: [
+                        X(`p`, {
+                          className: `text-sm font-bold text-slate-900`,
+                          children: [s.icon, ` `, s.title],
+                        }),
+                        s.text && J(`p`, { className: `text-xs text-slate-700`, children: s.text }),
+                        t &&
+                          J(`button`, {
+                            type: `button`,
+                            onClick: () => {
+                              W.playClick();
+                              try {
+                                t[2] && sessionStorage.setItem(`dreset_handbook_tab`, t[2]);
+                              } catch {}
+                              nav(t[0]);
+                            },
+                            className: `mt-1 px-3 py-1.5 rounded-lg bg-blue-600 text-white text-xs font-bold hover:bg-blue-700 cursor-pointer`,
+                            children: `Mở phần "${t[3] || t[1]}"`,
+                          }),
+                      ],
+                    },
+                    i,
+                  );
+                }),
+              ],
+            }),
+            X(`details`, {
+              className: `text-xs text-slate-700`,
+              children: [
+                J(`summary`, { className: `font-bold cursor-pointer text-slate-900`, children: `Xem điểm chi tiết` }),
+                J(`ul`, {
+                  className: `mt-2 space-y-1`,
+                  children: AX.map((k) =>
+                    X(
+                      `li`,
+                      { className: `flex justify-between gap-3`, children: [J(`span`, { children: data.axes[k] }), X(`b`, { children: [fmt(r[k]), ` / 5`] })] },
+                      k,
+                    ),
+                  ),
+                }),
+                J(`p`, {
+                  className: `mt-2`,
+                  children: `Điểm cao ở ba mục đầu nghĩa là việc lướt đang ảnh hưởng nhiều hơn. Điểm cao ở "Yếu tố bảo vệ" là điều tốt.`,
+                }),
+              ],
+            }),
+            X(`div`, {
+              className: `text-left bg-amber-50 border border-amber-200 rounded-2xl p-4 space-y-1.5 text-xs text-slate-800 leading-relaxed`,
+              children: [
+                J(`p`, { className: `font-bold`, children: data.safety }),
+                J(`p`, { children: `${data.disclaimer} ${data.draftNote}` }),
+                J(`p`, {
+                  children: `Các mốc điểm để chia mức hiện là TẠM THỜI, chưa được thẩm định. Công cụ này không thay thế tư vấn tâm lý.`,
+                }),
+              ],
+            }),
+            X(`div`, {
+              className: `flex flex-col sm:flex-row gap-2.5`,
+              children: [
+                J(`button`, {
+                  type: `button`,
+                  onClick: () => {
+                    W.playClick();
+                    nav(`gamification`);
+                  },
+                  className: `flex-1 py-3 px-4 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-sm cursor-pointer`,
+                  children: `🎮 Tiếp tục: Chơi Mini-Game Nhận Diện`,
+                }),
+                J(`button`, {
+                  type: `button`,
+                  onClick: () => {
+                    W.playClick();
+                    nav(`home`);
+                  },
+                  className: `flex-1 py-3 px-4 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm cursor-pointer`,
+                  children: `🏠 Quay trở lại Trang chủ`,
+                }),
+                J(`button`, {
+                  type: `button`,
+                  onClick: restart,
+                  className: `py-3 px-4 rounded-2xl border border-slate-300 text-slate-700 font-semibold text-sm hover:bg-slate-100 cursor-pointer`,
+                  children: `Làm lại`,
+                }),
+              ],
+            }),
+          ],
+        }),
+      );
+    }
+
+    // ---------- Màn hình mở đầu ----------
+    if (step === 0) {
+      let first = hist.length ? hist[0] : null,
+        vbtn = (v, title, sub) =>
+          X(`button`, {
+            type: `button`,
+            onClick: () => {
+              W.playClick();
+              setVersion(v);
+              setAnswers({});
+            },
+            className: `text-left p-3.5 rounded-xl border transition cursor-pointer ${version === v ? `bg-blue-600 text-white border-blue-600 shadow-sm` : `bg-white text-slate-800 border-slate-300 hover:border-blue-400`}`,
+            children: [J(`span`, { className: `block font-bold text-sm`, children: title }), J(`span`, { className: `block text-xs opacity-90`, children: sub })],
+          });
+      return wrap(
+        X(`div`, {
+          className: card,
+          children: [
+            X(`div`, {
+              className: `space-y-2 text-sm text-slate-800 leading-relaxed`,
+              children: [
+                J(`p`, { children: data.intro.definition }),
+                J(`ul`, { className: `list-disc pl-5 space-y-1`, children: data.intro.points.map((t, i) => J(`li`, { children: version === 30 && t.startsWith(`Mất khoảng 3 phút`) ? `Bản đầy đủ lâu hơn bản nhanh. Bạn có thể quay lại câu trước.` : t }, i)) }),
+                J(`p`, { className: `text-xs text-slate-600`, children: data.draftNote }),
+              ],
+            }),
+            first &&
+              X(`div`, {
+                className: `bg-blue-50 border border-blue-200 rounded-xl p-3.5 text-xs text-slate-800 leading-relaxed`,
+                children: [
+                  `Lần đầu bạn làm trên máy này là ngày ${fmtDate(first.at)}, bản ${first.version} câu (Mức ${first.level}). `,
+                  version === first.version
+                    ? `Mình đã chọn sẵn đúng bản đó để lần này so sánh được với lần đầu. Bạn vẫn có thể đổi bản nếu muốn.`
+                    : `Bạn đang chọn bản khác, nên lần này sẽ chưa so sánh được với lần đầu. Muốn so sánh, hãy chọn bản ${first.version} câu.`,
+                ],
+              }),
+            X(`div`, {
+              className: `space-y-2`,
+              children: [
+                J(`p`, { className: `text-xs font-bold text-slate-900`, children: `Chọn bản câu hỏi:` }),
+                X(`div`, {
+                  className: `grid grid-cols-1 sm:grid-cols-2 gap-2.5`,
+                  children: [
+                    vbtn(15, `Bản nhanh: 15 câu`, `Khoảng 3 phút. Hợp để thử và làm lại.`),
+                    vbtn(30, `Bản đầy đủ: 30 câu`, `Lâu hơn, dành cho ai muốn làm kỹ.`),
+                  ],
+                }),
+                J(`p`, {
+                  className: `text-xs text-slate-600`,
+                  children: `Hai bản chưa được kiểm chứng là tương đương nhau, nên chỉ so sánh các lần làm cùng một bản. Nếu sau này bạn làm lại (ví dụ Ngày 14 của hành trình), hãy chọn lại đúng bản này.`,
+                }),
+              ],
+            }),
+            X(`div`, {
+              className: `space-y-3`,
+              children: [
+                X(`p`, {
+                  className: `text-xs font-bold text-slate-900`,
+                  children: [`Làm quen `, J(`span`, { className: `font-normal text-slate-600`, children: `(${data.part0Note}, có thể bỏ qua)` })],
+                }),
+                data.part0.map((q) =>
+                  X(
+                    `div`,
+                    {
+                      className: `space-y-1.5`,
+                      children: [
+                        J(`p`, { className: `text-sm text-slate-800`, children: q.text }),
+                        J(`div`, {
+                          className: `flex flex-wrap gap-1.5`,
+                          children: q.options.map((o) =>
+                            J(
+                              `button`,
+                              {
+                                type: `button`,
+                                onClick: () => {
+                                  W.playClick();
+                                  setP0((p) => ({ ...p, [q.id]: o }));
+                                },
+                                className: `px-3 py-1.5 rounded-lg border text-xs font-semibold cursor-pointer ${p0[q.id] === o ? `bg-blue-600 text-white border-blue-600` : `bg-white text-slate-700 border-slate-300 hover:border-blue-400`}`,
+                                children: o,
+                              },
+                              o,
+                            ),
+                          ),
+                        }),
+                      ],
+                    },
+                    q.id,
+                  ),
+                ),
+              ],
+            }),
+            J(`button`, {
+              type: `button`,
+              onClick: () => {
+                W.playClick();
+                go(1);
+              },
+              className: `w-full sm:w-auto px-8 py-3.5 bg-blue-600 text-white font-bold text-sm rounded-xl hover:bg-blue-700 cursor-pointer`,
+              children: `Bắt đầu thôi`,
+            }),
+          ],
+        }),
+      );
+    }
+
+    // ---------- Các nhóm câu hỏi ----------
+    let g = groups[Math.min(Math.max(step, 1), n) - 1],
+      groupDone = g.list.every((i) => answers[i.id] !== void 0),
+      left = g.list.filter((i) => answers[i.id] === void 0).length,
+      pct = Math.round((doneCount / items.length) * 100);
+    return wrap(
+      X(`div`, {
+        className: card,
+        children: [
+          X(`div`, {
+            className: `space-y-1.5`,
+            children: [
+              X(`div`, {
+                className: `flex justify-between items-center text-xs font-mono text-slate-600`,
+                children: [
+                  X(`span`, { children: [`Phần `, step, `/`, n, `: `, data.axes[g.k]] }),
+                  X(`span`, { className: `text-blue-600 font-bold`, children: [doneCount, `/`, items.length, ` câu`] }),
+                ],
+              }),
+              J(`div`, {
+                className: `w-full h-2 bg-slate-200 rounded-full overflow-hidden`,
+                children: J(`div`, { className: `h-full bg-blue-600 transition-all duration-300 rounded-full`, style: { width: `${pct}%` } }),
+              }),
+            ],
+          }),
+          J(`p`, { className: `text-sm font-bold text-slate-900`, children: data.scaleQuestion }),
+          J(`div`, {
+            className: `space-y-4`,
+            children: g.list.map((it) => {
+              let a = answers[it.id];
+              return X(
+                `div`,
+                {
+                  className: `p-4 sm:p-5 rounded-xl border transition-all duration-200 ${a !== void 0 ? `bg-blue-50/50 border-blue-300` : `bg-slate-50 border-slate-200`}`,
+                  children: [
+                    J(`p`, { className: `text-sm sm:text-base font-bold text-slate-900 leading-snug`, children: it.text }),
+                    J(`div`, {
+                      className: `grid grid-cols-5 gap-1.5 sm:gap-2 pt-3`,
+                      children: data.scale.map((s) =>
+                        X(
+                          `button`,
+                          {
+                            type: `button`,
+                            onClick: () => pick(it.id, s.v),
+                            className: `py-2 px-0.5 rounded-lg border font-mono text-xs sm:text-sm font-bold transition-all duration-150 flex flex-col items-center justify-start gap-1 cursor-pointer ${a === s.v ? `bg-blue-600 text-white border-blue-600 shadow-sm` : `bg-white text-slate-700 border-slate-300 hover:border-blue-400 hover:bg-blue-50/50`}`,
+                            children: [J(`span`, { children: s.v }), J(`span`, { className: `text-[9px] font-normal leading-tight text-center opacity-80`, children: s.label })],
+                          },
+                          s.v,
+                        ),
+                      ),
+                    }),
+                    it.never &&
+                      J(`button`, {
+                        type: `button`,
+                        onClick: () => pick(it.id, `never`),
+                        className: `mt-2 w-full py-2 rounded-lg border text-xs font-semibold cursor-pointer ${a === `never` ? `bg-blue-600 text-white border-blue-600` : `bg-white text-slate-700 border-slate-300 hover:border-blue-400`}`,
+                        children: data.neverLabel,
+                      }),
+                  ],
+                },
+                it.id,
+              );
+            }),
+          }),
+          X(`div`, {
+            className: `pt-4 border-t border-slate-200 flex items-center justify-between gap-3`,
+            children: [
+              J(`button`, {
+                type: `button`,
+                onClick: () => go(step - 1),
+                className: `px-4 py-3 rounded-xl border border-slate-300 text-slate-700 text-sm font-semibold hover:bg-slate-100 cursor-pointer`,
+                children: `← Quay lại`,
+              }),
+              X(`div`, {
+                className: `flex items-center gap-3`,
+                children: [
+                  !groupDone && X(`span`, { className: `text-xs text-slate-600`, children: [`Còn `, left, ` câu`] }),
+                  J(`button`, {
+                    type: `button`,
+                    disabled: !groupDone,
+                    onClick: () => {
+                      W.playClick();
+                      step === n ? finish() : go(step + 1);
+                    },
+                    className: `px-6 py-3 bg-blue-600 text-white font-bold text-sm rounded-xl hover:bg-blue-700 cursor-pointer ${groupDone ? `` : `opacity-50 cursor-not-allowed`}`,
+                    children: step === n ? `Xem kết quả` : `Tiếp →`,
+                  }),
+                ],
+              }),
+            ],
+          }),
+        ],
+      }),
+    );
+  },
+  QuestFlow = ({ day: d, done, saved, onFinish, onClose, onSmart }) => {
+    // P13 (2026-11-08): luồng liền trong một khung. Chỉ chạy cho ngày có cờ `flow` (mẫu: Ngày 1). Ngày có cờ `timer` thì có đồng hồ.
+    const J = G.jsx,
+      X = G.jsxs,
+      timer = !!d.timer,
+      [phase, setPhase] = (0, _.useState)(done ? `done` : `start`),
+      [secs, setSecs] = (0, _.useState)(0),
+      [metric, setMetric] = (0, _.useState)(``),
+      [feeling, setFeeling] = (0, _.useState)(`moderate`),
+      [text, setText] = (0, _.useState)(``),
+      [justDone, setJustDone] = (0, _.useState)(!1),
+      t0 = (0, _.useRef)(0),
+      mins = Math.max(1, Math.round(secs / 60)),
+      clock = `${String(Math.floor(secs / 60)).padStart(2, `0`)}:${String(secs % 60).padStart(2, `0`)}`,
+      FEEL = { easy: `😊 Dễ dàng`, moderate: `😐 Vừa sức`, challenging: `😓 Thử thách` },
+      btn = `px-5 py-2.5 rounded-xl font-extrabold text-xs shadow-md transition cursor-pointer`;
+    (0, _.useEffect)(() => {
+      if (phase !== `doing`) return;
+      let id = setInterval(() => setSecs(Math.floor((Date.now() - t0.current) / 1000)), 1000);
+      return () => clearInterval(id);
+    }, [phase]);
+    let sugg =
+        d.suggestions &&
+        J(`div`, {
+          className: `flex flex-wrap gap-1.5`,
+          children: d.suggestions.map((e) =>
+            J(`span`, { className: `px-2.5 py-1 rounded-full bg-white border border-amber-300 text-[11px] font-semibold text-amber-900`, children: e }, e),
+          ),
+        }),
+      why =
+        d.scientificRationale &&
+        X(`details`, {
+          className: `bg-blue-50/70 border border-blue-200 rounded-2xl p-3.5 text-blue-950`,
+          children: [
+            J(`summary`, { className: `font-extrabold text-xs text-blue-900 cursor-pointer`, children: `Vì sao nên thử việc này?` }),
+            J(`p`, { className: `text-xs leading-relaxed text-blue-900 mt-2`, children: d.scientificRationale }),
+          ],
+        }),
+      smart =
+        d.smartLink &&
+        J(`button`, {
+          type: `button`,
+          onClick: () => onSmart(d.smartLink),
+          className: `px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-xs shadow-sm transition cursor-pointer`,
+          children: d.smartLink.label,
+        }),
+      actions = (kids) =>
+        X(`div`, { className: `flex items-center justify-end gap-3 pt-3 border-t border-slate-200`, children: kids }),
+      later = J(`button`, {
+        type: `button`,
+        onClick: onClose,
+        className: `px-4 py-2.5 rounded-xl border border-slate-300 hover:bg-slate-100 text-slate-700 font-bold transition cursor-pointer`,
+        children: `Để sau`,
+      });
+    if (phase === `start`)
+      return X(`div`, {
+        className: `space-y-4`,
+        children: [
+          why,
+          sugg &&
+            X(`div`, {
+              className: `bg-amber-50 border border-amber-200 rounded-2xl p-3.5 space-y-2 text-amber-950`,
+              children: [J(`span`, { className: `font-extrabold text-xs text-amber-900`, children: `✨ Gợi ý (chọn một việc, hoặc cách riêng của bạn):` }), sugg],
+            }),
+          smart,
+          J(`p`, {
+            className: `text-xs text-slate-600`,
+            children: timer
+              ? `Bấm "Bắt đầu" khi bạn sẵn sàng, mình sẽ tính giờ giúp. Không cần làm hoàn hảo.`
+              : `Làm khi bạn sẵn sàng. Xong thì bấm "Mình làm xong rồi", không cần viết dài.`,
+          }),
+          actions([
+            later,
+            J(`button`, {
+              type: `button`,
+              onClick: () => {
+                W.playClick();
+                if (timer) {
+                  t0.current = Date.now();
+                  setSecs(0);
+                  setPhase(`doing`);
+                } else setPhase(`feel`);
+              },
+              className: `${btn} bg-blue-600 hover:bg-blue-700 text-white`,
+              children: timer ? `▶ Bắt đầu` : `Mình làm xong rồi ✔`,
+            }),
+          ]),
+        ],
+      });
+    if (phase === `doing`)
+      return X(`div`, {
+        className: `space-y-4 text-center`,
+        children: [
+          J(`div`, { className: `text-5xl font-black font-mono text-blue-700`, children: clock }),
+          J(`p`, { className: `text-xs text-slate-600`, children: `Bạn cứ làm thong thả. Đóng khung lại cũng không sao, chỉ là đồng hồ sẽ tính lại từ đầu.` }),
+          sugg,
+          actions([
+            later,
+            J(`button`, {
+              type: `button`,
+              onClick: () => {
+                W.playClick();
+                setMetric(`${mins} phút`);
+                setPhase(`feel`);
+              },
+              className: `${btn} bg-emerald-600 hover:bg-emerald-700 text-white`,
+              children: `Xong rồi ✔`,
+            }),
+          ]),
+        ],
+      });
+    if (phase === `feel`)
+      return X(`div`, {
+        className: `space-y-4`,
+        children: [
+          X(`div`, {
+            className: `space-y-1.5`,
+            children: [
+              J(`label`, { className: `block text-xs font-extrabold text-slate-900`, children: `${d.metricLabel || `Bạn đã làm gì`} (không bắt buộc):` }),
+              J(`input`, {
+                type: `text`,
+                value: metric,
+                onChange: (e) => setMetric(e.target.value),
+                placeholder: `Ví dụ: 15 phút, 3 ứng dụng đã dọn...`,
+                className: `w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-xs`,
+              }),
+            ],
+          }),
+          X(`div`, {
+            className: `space-y-1.5`,
+            children: [
+              J(`label`, { className: `block text-xs font-extrabold text-slate-900`, children: `Bạn thấy việc này thế nào?` }),
+              J(`div`, {
+                className: `grid grid-cols-3 gap-2`,
+                children: Object.keys(FEEL).map((k) =>
+                  J(
+                    `button`,
+                    {
+                      type: `button`,
+                      onClick: () => {
+                        W.playClick();
+                        setFeeling(k);
+                      },
+                      className: `py-2 px-2 rounded-xl text-xs font-bold border transition cursor-pointer ${feeling === k ? `bg-blue-600 text-white border-blue-600` : `bg-white text-slate-700 border-slate-300 hover:border-blue-400`}`,
+                      children: FEEL[k],
+                    },
+                    k,
+                  ),
+                ),
+              }),
+            ],
+          }),
+          X(`div`, {
+            className: `space-y-1.5`,
+            children: [
+              J(`label`, { className: `block text-xs font-extrabold text-slate-900`, children: `Muốn ghi lại điều gì không? (không bắt buộc)` }),
+              d.hint && J(`p`, { className: `text-[11px] text-slate-500`, children: d.hint }),
+              J(`textarea`, {
+                rows: 3,
+                value: text,
+                onChange: (e) => setText(e.target.value),
+                placeholder: `Một hai câu là đủ, hoặc để trống.`,
+                className: `w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-xs`,
+              }),
+            ],
+          }),
+          actions([
+            later,
+            J(`button`, {
+              type: `button`,
+              onClick: () => {
+                W.playSuccess();
+                onFinish({
+                  day: d.day,
+                  metricValue: metric.trim() || (timer ? `${mins} phút` : `Đã hoàn thành`),
+                  reflection: text.trim(),
+                  feeling,
+                  completedAt: new Date().toISOString(),
+                });
+                setJustDone(!0);
+                setPhase(`done`);
+              },
+              className: `${btn} bg-emerald-600 hover:bg-emerald-700 text-white`,
+              children: `✔ Hoàn tất`,
+            }),
+          ]),
+        ],
+      });
+    let sv = saved || {};
+    return X(`div`, {
+      className: `space-y-4`,
+      children: [
+        X(`div`, {
+          className: `bg-emerald-50 border border-emerald-200 rounded-2xl p-4 space-y-1.5 text-emerald-950`,
+          children: [
+            J(`p`, { className: `font-extrabold text-sm`, children: `✅ Đã ghi nhận Ngày ${d.day}` }),
+            justDone
+              ? J(`p`, { className: `text-xs`, children: `Cảm ơn bạn. Ngày kế tiếp sẽ mở vào 00h00. Dữ liệu chỉ lưu ngay trong máy này.` })
+              : J(`p`, { className: `text-xs`, children: `Nhiệm vụ này đã được ghi vào hồ sơ trong máy của bạn.` }),
+            (justDone ? metric.trim() : sv.metricValue) && J(`p`, { className: `text-xs`, children: `Ghi nhận: ${justDone ? metric.trim() : sv.metricValue}` }),
+            (justDone ? feeling : sv.feeling) && FEEL[justDone ? feeling : sv.feeling] && J(`p`, { className: `text-xs`, children: `Cảm giác: ${FEEL[justDone ? feeling : sv.feeling]}` }),
+            (justDone ? text.trim() : sv.reflection) && J(`p`, { className: `text-xs`, children: `Ghi chú: ${justDone ? text.trim() : sv.reflection}` }),
+          ],
+        }),
+        actions([
+          J(`button`, { type: `button`, onClick: onClose, className: `${btn} bg-blue-600 hover:bg-blue-700 text-white`, children: `Đóng` }),
+        ]),
       ],
     });
   },
@@ -37513,7 +38232,7 @@ Thế giới này tràn ngập những kẻ ích kỷ và trục lợi. Vì vậ
 "Những ai có thể đặt mình vào vị trí của người khác, thấu hiểu suy nghĩ và cảm xúc của họ, sẽ không bao giờ phải lo lắng về tương lai của chính mình."
 
 Ứng dụng trong việc thuyết phục học đường:
-Khi bạn muốn bạn bè cùng tham gia dự án cai nghiện số D-RESET, đừng nói về việc "Tôi cần bạn tham gia để hoàn thành nghiên cứu". Hãy nói về lợi ích trực tiếp của họ: "Bạn có muốn lấy lại 2 tiếng mỗi ngày để ngủ ngon hơn và cải thiện điểm số không?"`,
+Khi bạn muốn bạn bè cùng tham gia dự án D-RESET, đừng nói về việc "Tôi cần bạn tham gia để hoàn thành nghiên cứu". Hãy nói về lợi ích trực tiếp của họ: "Bạn có muốn lấy lại 2 tiếng mỗi ngày để ngủ ngon hơn và cải thiện điểm số không?"`,
         `CHƯƠNG 4: THÀNH THẬT QUAN TÂM ĐẾN NGƯỜI KHÁC
 Quy Tắc Đầu Tiên Để Khiến Mọi Người Yêu Quý Bạn
 
@@ -37548,7 +38267,7 @@ Tác phẩm: "${e}" • Biên soạn: ${t || `Nhóm Nghiên Cứu THPT`}
 Trong kỷ nguyên bùng nổ của trí tuệ nhân tạo và các thuật toán phân phối nội dung vô hạn, năng lực chú ý của con người đang bị phân mảnh ở mức độ chưa từng có tiền lệ. Khảo sát thực nghiệm trên hàng ngàn học sinh cho thấy thời gian duy trì sự chú ý liên tục đã giảm từ 12 phút xuống dưới 47 giây.
 
 2. Luận Điểm Cốt Lõi
-Tác phẩm "${e}" khẳng định: Sự tự chủ không phải là một món quà di truyền, mà là một cơ chế thích ứng thần kinh học cần được rèn luyện có chủ đích. Để bớt bị cuốn vào video ngắn và thông báo, chúng ta cần tái lập quyền kiểm soát đối với môi trường sống và thói quen thường nhật.
+Tác phẩm "${e}" khẳng định: Sự tự chủ không phải là món quà bẩm sinh, mà là kỹ năng có thể rèn luyện dần có chủ đích. Để bớt bị cuốn vào video ngắn và thông báo, chúng ta cần tái lập quyền kiểm soát đối với môi trường sống và thói quen thường nhật.
 
 3. Khung Khái Niệm Quan Trọng
 - Độ trơ nhận thức (Cognitive Fatigue): Trạng thái mệt mỏi giả của não bộ sau khi tiếp nhận lượng kích thích thị giác vượt ngưỡng.
@@ -37560,7 +38279,7 @@ Giải Mã Các Yếu Tố Kích Hoạt Thói Quen Tiêu Cực
 Phần thưởng đến bất ngờ (lúc có video hay, lúc không) có thể khiến việc lướt khó dừng hơn, vì ta luôn *chờ đợi* video tiếp theo. Một số nhà nghiên cứu so sánh với cơ chế phần thưởng biến thiên của máy đánh bạc; đây là giả thuyết, chưa phải kết luận chắc chắn cho từng người.
 
 2. Vỏ Não Trước Trán (Prefrontal Cortex - PFC)
-Vùng não chịu trách nhiệm lập kế hoạch, tư duy phản biện và kiểm soát sự bốc đồng. Ở lứa tuổi thanh thiếu niên, PFC đang trong quá trình tái cấu trúc các liên kết sinap. Việc tiếp xúc quá mức với màn hình số làm suy giảm mật độ chất xám tại vùng não này, dẫn đến hội chứng "sương mù não" (Brainrot) và sự suy giảm trí nhớ làm việc.
+Vùng não chịu trách nhiệm lập kế hoạch, tư duy phản biện và kiểm soát sự bốc đồng. Ở lứa tuổi thanh thiếu niên, PFC đang trong quá trình tái cấu trúc các liên kết sinap. Một số nghiên cứu thấy dùng màn hình nhiều đi cùng chú ý và trí nhớ làm việc kém hơn, nhưng chưa chứng minh được quan hệ nguyên nhân, và "sương mù não" (Brainrot) chỉ là cách nói thường ngày, không phải chẩn đoán.
 
 3. Sự Trốn Tránh Cảm Xúc Tiêu Cực
 Hành vi lướt màn hình vô độ thực chất là cơ chế đối phó kém thích nghi khi đối diện với bài tập khó, sự lo âu xã hội hoặc áp lực thi cử. Lướt có thể tạm làm dịu cảm giác bất an, nhưng không giải quyết việc đang né.`,
@@ -38213,7 +38932,13 @@ var Jd = ({
     onRefreshBooks: T,
     onSyncAllBooks: E,
   }) => {
-    let [D, O] = (0, _.useState)(`handbook`),
+    let [D, O] = (0, _.useState)(() => {
+        try {
+          let v = sessionStorage.getItem(`dreset_handbook_tab`);
+          if (v) return (sessionStorage.removeItem(`dreset_handbook_tab`), v);
+        } catch {}
+        return `handbook`;
+      }),
       [k, A] = (0, _.useState)(``),
       [j, M] = (0, _.useState)(null),
       [N, P] = (0, _.useState)(!1),
@@ -38304,12 +39029,12 @@ var Jd = ({
               o.includes(`chuyến tàu`) || o.includes(`công nghệ`)
                 ? `Tìm hiểu vì sao video ngắn dễ cuốn, và các cách để bạn chủ động hơn trước màn hình.`
                 : o.includes(`deep work`)
-                  ? `Hướng dẫn phương pháp rèn luyện chú ý sâu 45 phút không gián đoạn, ngăn chặn sự phân mảnh nhận thức khi học tập.`
+                  ? `Gợi ý cách dành một khoảng thời gian chỉ làm một việc, tắt thông báo, để học cho trọn.`
                   : o.includes(`thói quen`) || o.includes(`atomic`)
-                    ? `Cung cấp kỹ thuật ghép đôi thói quen và quy tắc 2 phút để đánh bại sự trì hoãn mà không cần gồng ép ý chí.`
+                    ? `Gợi ý cách bắt đầu bằng việc rất nhỏ (ví dụ chỉ 2 phút) và gắn thói quen mới vào việc bạn đã làm hằng ngày.`
                     : o.includes(`minimalism`) || o.includes(`tối giản`)
-                      ? `Thiết lập không gian số tinh giản, giờ giới nghiêm thiết bị trước khi ngủ để phục hồi nhịp sinh học và tái sinh não bộ.`
-                      : `Cuốn sách này chứa đựng các giải pháp khoa học thực chứng giúp bạn làm chủ nhận thức và giải quyết đúng vướng mắc bạn mô tả.`),
+                      ? `Gợi ý cách dọn bớt ứng dụng, thông báo và đặt giờ cất điện thoại trước khi ngủ.`
+                      : `Cuốn này có thể hợp với điều bạn vừa viết. Bạn xem phần giới thiệu rồi tự quyết nhé.`),
               M({ book: r, reason: a }),
               W.playSuccess());
           }, 300));
@@ -38692,7 +39417,7 @@ var Jd = ({
               sleep: o.habitPercentages.sleep ?? 420,
               social: o.habitPercentages.social ?? o.habitPercentages.connection ?? 35,
             }
-          : { exercise: 30, reading: 45, sleep: 420, social: 35 },
+          : { exercise: 0, reading: 0, sleep: 0, social: 0 },
       );
     (0, _.useEffect)(() => {
       o?.habitPercentages &&
@@ -38782,8 +39507,8 @@ var Jd = ({
           text: `text-sky-700`,
           accent: `#0284C7`,
           defaultMinutes: 10,
-          desc: `Nhắm mắt thả lỏng, quan sát hơi thở tái tạo vỏ não trước trán.`,
-          label: `PHIÊN THIỀN ĐỊNH TĨNH LẶNG`,
+          desc: `Nhắm mắt thả lỏng, chú ý vào hơi thở.`,
+          label: `Phiên của bạn`,
         },
       },
       Sn = xn[yn],
@@ -38931,26 +39656,18 @@ var Jd = ({
       id: `solutions`,
       className: `space-y-8 animate-fadeIn`,
       children: [
-        (0, G.jsxs)(`div`, {
-          className: `text-center max-w-3xl mx-auto space-y-2 px-2`,
+        (0, G.jsxs)(`header`, {
+          className: `dr-pagehead dr-pagehead-handbook`,
           children: [
-            (0, G.jsx)(`span`, {
-              className: `px-3.5 py-1 rounded-full text-xs font-mono font-bold text-black bg-[#F1F5F9] border border-[#CBD5E1] inline-block`,
-              children: `Bộ Công Cụ Phục Hồi Nhận Thức Học Đường`,
-            }),
-            (0, G.jsx)(`h2`, {
-              className: `text-2xl sm:text-3xl md:text-4xl font-extrabold text-black tracking-tight leading-snug text-center px-2`,
-              style: { color: `#000000` },
-              children: `4. CẨM NANG VÀ GIẢI PHÁP TỰ CHỦ SỐ`,
-            }),
+            (0, G.jsx)(`h1`, { className: `dr-h1 dr-h1-page`, children: `Cẩm nang và giải pháp` }),
             (0, G.jsx)(`p`, {
-              className: `text-black font-semibold text-xs sm:text-sm text-center max-w-2xl mx-auto leading-relaxed`,
-              children: `5 công cụ can thiệp hành vi: Thư viện cẩm nang chia nhỏ task, Thẻ tự vấn 3D, Bánh xe thói quen, Thực hành chánh niệm và Thử thách 14 ngày.`,
+              className: `dr-lead`,
+              children: `Sáu mục nhỏ để bạn thử: thư viện sách, thẻ tự hỏi, bánh xe thói quen, chánh niệm, hành trình 14 ngày và hướng dẫn cài đặt trên điện thoại.`,
             }),
           ],
         }),
         (0, G.jsx)(`div`, {
-          className: `max-w-5xl mx-auto bg-white p-3 rounded-2xl border border-slate-200 shadow-sm`,
+          className: `dr-subtabs`,
           children: (0, G.jsxs)(`div`, {
             className: `grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 text-xs font-bold`,
             children: [
@@ -38963,7 +39680,7 @@ var Jd = ({
                   (0, G.jsx)(`span`, { className: `text-lg`, children: `📚` }),
                   (0, G.jsx)(`span`, {
                     className: D === `handbook` ? `text-white font-extrabold` : `text-slate-800 font-bold`,
-                    children: `1. Thư Viện Sách & AI`,
+                    children: `Thư viện sách`,
                   }),
                 ],
               }),
@@ -38976,7 +39693,7 @@ var Jd = ({
                   (0, G.jsx)(`span`, { className: `text-lg`, children: `🔄` }),
                   (0, G.jsx)(`span`, {
                     className: D === `reflection` ? `text-white font-extrabold` : `text-slate-800 font-bold`,
-                    children: `2. Thẻ Lật 3D`,
+                    children: `Thẻ tự hỏi`,
                   }),
                 ],
               }),
@@ -38989,7 +39706,7 @@ var Jd = ({
                   (0, G.jsx)(`span`, { className: `text-lg`, children: `🎡` }),
                   (0, G.jsx)(`span`, {
                     className: D === `wheel` ? `text-white font-extrabold` : `text-slate-800 font-bold`,
-                    children: `3. Bánh Xe Thói Quen`,
+                    children: `Bánh xe thói quen`,
                   }),
                 ],
               }),
@@ -39002,7 +39719,7 @@ var Jd = ({
                   (0, G.jsx)(`span`, { className: `text-lg`, children: `🧘` }),
                   (0, G.jsx)(`span`, {
                     className: D === `mindfulness` ? `text-white font-extrabold` : `text-slate-800 font-bold`,
-                    children: `4. Chánh Niệm & Học Sâu`,
+                    children: `Chánh niệm và tập trung`,
                   }),
                 ],
               }),
@@ -39015,13 +39732,27 @@ var Jd = ({
                   (0, G.jsx)(`span`, { className: `text-lg`, children: `⚡` }),
                   (0, G.jsx)(`span`, {
                     className: D === `challenge14` ? `text-white font-extrabold` : `text-slate-800 font-bold`,
-                    children: `5. Lộ Trình 14 Ngày`,
+                    children: `Hành trình 14 ngày`,
+                  }),
+                ],
+              }),
+              (0, G.jsxs)(`button`, {
+                onClick: () => {
+                  (W.playClick(), O(`phoneguide`));
+                },
+                className: `min-h-[76px] p-2.5 rounded-xl transition cursor-pointer flex flex-col items-center justify-center text-center gap-1.5 ${D === `phoneguide` ? `bg-blue-600 text-white shadow-sm` : `bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700`}`,
+                children: [
+                  (0, G.jsx)(`span`, { className: `text-lg`, children: `📱` }),
+                  (0, G.jsx)(`span`, {
+                    className: D === `phoneguide` ? `text-white font-extrabold` : `text-slate-800 font-bold`,
+                    children: `Hướng dẫn điện thoại`,
                   }),
                 ],
               }),
             ],
           }),
         }),
+        D === `phoneguide` && (0, G.jsx)(PhoneGuide, {}),
         D === `handbook` &&
           (0, G.jsxs)(`div`, {
             className: `space-y-6 animate-fadeIn`,
@@ -39035,12 +39766,12 @@ var Jd = ({
                         className: `text-xl sm:text-2xl font-extrabold text-slate-900 flex items-center gap-2`,
                         children: [
                           (0, G.jsx)(Te, { className: `w-6 h-6 text-blue-600` }),
-                          (0, G.jsx)(`span`, { children: `Thư Viện Cẩm Nang & Sổ Tay Digital Detox Học Đường` }),
+                          (0, G.jsx)(`span`, { children: `Thư viện sách` }),
                         ],
                       }),
                       (0, G.jsx)(`p`, {
                         className: `text-xs sm:text-sm text-slate-700 font-medium mt-1`,
-                        children: `Tài liệu nghiên cứu và thực hành nhận thức số được biên soạn chuẩn khoa học thần kinh dành cho học sinh.`,
+                        children: `Các cuốn tóm lược do nhóm D-RESET viết lại theo ý chính của sách hay về thói quen, tập trung và dùng điện thoại. Không thay cho sách gốc.`,
                       }),
                     ],
                   }),
@@ -39081,10 +39812,10 @@ var Jd = ({
                           (0, G.jsx)(`span`, {
                             children:
                               jt === `synced`
-                                ? `🟢 Dữ liệu lưu ngay trong máy bạn, không gửi đi đâu`
+                                ? `Dữ liệu lưu ngay trong máy bạn, không gửi đi đâu`
                                 : jt === `syncing`
-                                  ? `🟡 Đang đồng bộ với máy chủ...`
-                                  : `🔴 Đang kết nối lại máy chủ...`,
+                                  ? `Đang tải danh sách...`
+                                  : `Đang kết nối lại...`,
                           }),
                         ],
                       }),
@@ -39132,16 +39863,12 @@ var Jd = ({
                           (0, G.jsxs)(`h4`, {
                             className: `text-base sm:text-lg font-extrabold text-slate-900 dark:text-white flex items-center gap-2`,
                             children: [
-                              (0, G.jsx)(`span`, { children: `AI Gợi Ý Sách Phù Hợp` }),
-                              (0, G.jsx)(`span`, {
-                                className: `text-[10px] uppercase font-bold px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-950/80 text-blue-900 dark:text-blue-300 border border-blue-300 dark:border-blue-700/80`,
-                                children: `Đối Chiếu Tự Động`,
-                              }),
+                              (0, G.jsx)(`span`, { children: `Tìm sách hợp với bạn` }),
                             ],
                           }),
                           (0, G.jsx)(`p`, {
                             className: `text-xs text-slate-700 dark:text-slate-300 font-medium`,
-                            children: `AI sẽ đối chiếu trực tiếp mô tả của bạn với danh mục sách hiện có trong thư viện để đề xuất cuốn sách tối ưu nhất.`,
+                            children: `Gõ vài chữ về điều bạn đang gặp, web sẽ gợi ý một cuốn trong thư viện (gợi ý theo từ khóa).`,
                           }),
                         ],
                       }),
@@ -39160,7 +39887,7 @@ var Jd = ({
                             onKeyDown: (e) => {
                               e.key === `Enter` && te();
                             },
-                            placeholder: `Nhập mô tả tình trạng hoặc nhu cầu của bạn (VD: Mình hay lướt video ngắn mất kiểm soát, khó tập trung học, muốn hiểu về Brainrot...)`,
+                            placeholder: `Bạn muốn đọc về điều gì? (ví dụ: mình hay lướt video ngắn lâu hơn dự định)`,
                             className: `w-full bg-white dark:bg-slate-950 text-slate-900 dark:text-white font-medium placeholder-slate-400 dark:placeholder-slate-500 border-2 border-slate-300 dark:border-slate-700 focus:border-blue-600 rounded-2xl py-3.5 pl-4 pr-14 text-xs sm:text-sm outline-none transition shadow-sm`,
                           }),
                           (0, G.jsx)(`div`, {
@@ -39180,7 +39907,7 @@ var Jd = ({
                         className: `bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-bold px-6 py-3.5 rounded-2xl shadow-sm text-xs sm:text-sm flex items-center justify-center gap-2 transition cursor-pointer shrink-0 active:scale-98`,
                         children: [
                           (0, G.jsx)(`span`, { children: `🔍` }),
-                          (0, G.jsx)(`span`, { children: N ? `Đang Đối Chiếu...` : `AI Tìm Sách Phù Hợp` }),
+                          (0, G.jsx)(`span`, { children: N ? `Đang tìm...` : `Gợi ý sách` }),
                         ],
                       }),
                     ],
@@ -39193,11 +39920,11 @@ var Jd = ({
                         children: `Gợi ý nhanh:`,
                       }),
                       [
-                        `Lướt video ngắn mất kiểm soát`,
-                        `Khó tập trung đọc văn bản dài & học sâu`,
-                        `Trì hoãn việc học, thiếu kỷ luật`,
-                        `Lướt điện thoại ban đêm, mất ngủ`,
-                        `Cơ chế não bộ & Brainrot`,
+                        `Mình hay lướt video ngắn lâu hơn dự định`,
+                        `Khó tập trung khi đọc và học`,
+                        `Hay trì hoãn việc học`,
+                        `Hay dùng điện thoại đến tận đêm khuya`,
+                        `Muốn hiểu vì sao video ngắn dễ cuốn`,
                       ].map((e) =>
                         (0, G.jsx)(
                           `button`,
@@ -39228,7 +39955,7 @@ var Jd = ({
                                   children: [
                                     (0, G.jsx)(`span`, {
                                       className: `text-[10px] font-extrabold uppercase tracking-wider text-blue-900 bg-blue-100 border border-blue-300 px-2.5 py-0.5 rounded-full`,
-                                      children: `Gợi Ý Đọc Phù Hợp Nhất`,
+                                      children: `Gợi ý cho bạn`,
                                     }),
                                     (0, G.jsx)(`h5`, {
                                       className: `text-base sm:text-lg font-extrabold text-slate-900 mt-1`,
@@ -39249,7 +39976,7 @@ var Jd = ({
                           children: [
                             (0, G.jsx)(`strong`, {
                               className: `text-blue-900 block font-bold mb-1`,
-                              children: `🎯 Lý do nên đọc cuốn này:`,
+                              children: `Vì sao gợi ý cuốn này:`,
                             }),
                             j.reason,
                           ],
@@ -39260,12 +39987,12 @@ var Jd = ({
                             (0, G.jsx)(`button`, {
                               onClick: () => ne(j.book.id),
                               className: `py-2.5 px-5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm shadow-sm flex items-center justify-center gap-2 transition cursor-pointer active:scale-98`,
-                              children: (0, G.jsx)(`span`, { children: `👉 Đi tới sách này` }),
+                              children: (0, G.jsx)(`span`, { children: `Xem sách` }),
                             }),
                             (0, G.jsx)(`button`, {
                               onClick: () => je(j.book),
                               className: `py-2.5 px-5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm shadow-sm flex items-center justify-center gap-2 transition cursor-pointer active:scale-98`,
-                              children: (0, G.jsx)(`span`, { children: `📖 Mở đọc ngay` }),
+                              children: (0, G.jsx)(`span`, { children: `Đọc ngay` }),
                             }),
                           ],
                         }),
@@ -39304,7 +40031,7 @@ var Jd = ({
                                 i &&
                                   (0, G.jsx)(`div`, {
                                     className: `absolute top-3 right-3 px-2.5 py-1 rounded-full bg-emerald-600 text-white text-[10px] font-extrabold shadow-md flex items-center gap-1 border border-emerald-300`,
-                                    children: (0, G.jsx)(`span`, { children: `✅ Đã đọc xong 100%` }),
+                                    children: (0, G.jsx)(`span`, { children: `Đã đọc xong` }),
                                   }),
                                 a &&
                                   (0, G.jsxs)(`div`, {
@@ -39341,7 +40068,7 @@ var Jd = ({
                                       className: `text-blue-900 bg-blue-100 border border-blue-300 px-2 py-0.5 rounded-md`,
                                       children: e.category,
                                     }),
-                                    (0, G.jsxs)(`span`, { className: `text-slate-700`, children: [`⏱️ `, e.pages] }),
+                                    (0, G.jsxs)(`span`, { className: `text-slate-700`, children: [e.pages] }),
                                   ],
                                 }),
                                 (0, G.jsx)(`h4`, {
@@ -39369,7 +40096,7 @@ var Jd = ({
                                             : n > 0
                                               ? `text-blue-700 font-extrabold`
                                               : `text-slate-500`,
-                                          children: i ? `Đã đọc: 100% 🎉` : n > 0 ? `Đã đọc: ${n}%` : `Chưa đọc (0%)`,
+                                          children: i ? `Đã đọc: 100%` : n > 0 ? `Đã đọc: ${n}%` : `Chưa đọc`,
                                         }),
                                       ],
                                     }),
@@ -39383,7 +40110,7 @@ var Jd = ({
                                     (0, G.jsxs)(`div`, {
                                       className: `flex items-center justify-between text-[11px] font-semibold text-slate-700 pt-0.5`,
                                       children: [
-                                        (0, G.jsx)(`span`, { children: `⏱️ Thời gian đọc:` }),
+                                        (0, G.jsx)(`span`, { children: `Thời gian đọc:` }),
                                         (0, G.jsxs)(`span`, {
                                           className: `font-bold text-slate-900`,
                                           children: [r, ` phút`],
@@ -39405,10 +40132,10 @@ var Jd = ({
                               (0, G.jsx)(Te, { className: `w-4 h-4` }),
                               (0, G.jsx)(`span`, {
                                 children: i
-                                  ? `🔄 Đọc Lại (100% In-App)`
+                                  ? `Đọc lại`
                                   : n > 0
-                                    ? `📖 Tiếp Tục Đọc (${n}%)`
-                                    : `📖 Đọc Sách Trực Tiếp`,
+                                    ? `Tiếp tục đọc (${n}%)`
+                                    : `Đọc sách`,
                               }),
                             ],
                           }),
@@ -39697,7 +40424,7 @@ var Jd = ({
                           className: `text-blue-900 font-extrabold`,
                           children: `Tư Duy Sâu (Deep Reading)`,
                         }),
-                        ` và chiến thắng sự xao nhãng của hiệu ứng Brainrot. Mỗi trang sách bạn hoàn thành hôm nay là một viên gạch vững chắc xây dựng lại sự tự chủ số của chính bạn!`,
+                        ` và bớt xao nhãng hơn. Mỗi trang sách bạn hoàn thành hôm nay là một viên gạch vững chắc xây dựng lại sự tự chủ số của chính bạn!`,
                       ],
                     }),
                   ],
@@ -40324,11 +41051,11 @@ var Jd = ({
                 children: [
                   (0, G.jsx)(`h3`, {
                     className: `text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white`,
-                    children: `Thẻ Tự Vấn Nhận Thức 3D`,
+                    children: `Thẻ tự hỏi`,
                   }),
                   (0, G.jsx)(`p`, {
                     className: `text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium`,
-                    children: `Chạm hoặc hover vào thẻ để lật mặt sau và đọc giải mã khoa học thần kinh.`,
+                    children: `Chạm vào thẻ để lật và xem gợi ý.`,
                   }),
                 ],
               }),
@@ -40363,7 +41090,7 @@ var Jd = ({
                               (0, G.jsxs)(`div`, {
                                 className: `pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs text-slate-700 dark:text-slate-300 font-medium`,
                                 children: [
-                                  (0, G.jsx)(`span`, { children: `Chạm để lật góc nhìn khoa học` }),
+                                  (0, G.jsx)(`span`, { children: `Chạm để lật thẻ` }),
                                   (0, G.jsx)(mt, { className: `w-4 h-4 text-blue-600 dark:text-blue-400` }),
                                 ],
                               }),
@@ -40414,13 +41141,13 @@ var Jd = ({
                         (0, G.jsxs)(`h2`, {
                           className: `text-xl md:text-2xl font-extrabold flex items-center gap-2.5 text-slate-900`,
                           children: [
-                            (0, G.jsx)(`span`, { children: `🎡` }),
-                            ` Bánh Xe Thói Quen (Habit Wheel) & Thời Gian Hoạt Động`,
+                            
+                            ` Bánh xe thói quen`,
                           ],
                         }),
                         (0, G.jsx)(`p`, {
                           className: `text-sm text-slate-600 mt-1`,
-                          children: `Kéo thanh trượt hoặc nhập số phút hoạt động thực tế trong ngày cho 4 góc phần tư để ghi nhận mức độ cân bằng lối sống vào hồ sơ 14 ngày.`,
+                          children: `Ghi lại hôm nay bạn đã vận động, đọc sách, ngủ và trò chuyện với người thân bao nhiêu phút. Số liệu chỉ lưu trong máy bạn. Mức gợi ý chỉ để bạn tự so, mỗi người một khác, không phải chuẩn y tế.`,
                         }),
                       ],
                     }),
@@ -40428,7 +41155,7 @@ var Jd = ({
                       children: (0, G.jsxs)(`span`, {
                         id: `hw-balance-badge`,
                         className: `inline-block px-4 py-1.5 rounded-full text-sm font-bold bg-cyan-50 text-cyan-800 border border-cyan-200`,
-                        children: [`Chỉ Số Cân Bằng: `, gn, `%`],
+                        children: [`Đạt khoảng `, gn, `% mục tiêu gợi ý`],
                       }),
                     }),
                   ],
@@ -40533,7 +41260,7 @@ var Jd = ({
                               children: [
                                 (0, G.jsxs)(`span`, {
                                   className: `text-sm font-bold text-cyan-700 flex items-center gap-2`,
-                                  children: [(0, G.jsx)(`span`, { children: `🏃` }), ` Vận Động Thể Chất`],
+                                  children: [(0, G.jsx)(`span`, { children: `🏃` }), ` Vận động`],
                                 }),
                                 (0, G.jsxs)(`div`, {
                                   className: `flex items-center gap-1.5`,
@@ -40568,7 +41295,7 @@ var Jd = ({
                               className: `flex justify-between items-center text-[11px] text-slate-500 font-medium mt-1`,
                               children: [
                                 (0, G.jsx)(`span`, { children: `0 phút` }),
-                                (0, G.jsx)(`span`, { children: `Mục tiêu: 60 phút/ngày` }),
+                                (0, G.jsx)(`span`, { children: `Gợi ý: 60 phút` }),
                               ],
                             }),
                           ],
@@ -40581,7 +41308,7 @@ var Jd = ({
                               children: [
                                 (0, G.jsxs)(`span`, {
                                   className: `text-sm font-bold text-amber-700 flex items-center gap-2`,
-                                  children: [(0, G.jsx)(`span`, { children: `📖` }), ` Đọc Sách Sâu`],
+                                  children: [(0, G.jsx)(`span`, { children: `📖` }), ` Đọc sách`],
                                 }),
                                 (0, G.jsxs)(`div`, {
                                   className: `flex items-center gap-1.5`,
@@ -40616,7 +41343,7 @@ var Jd = ({
                               className: `flex justify-between items-center text-[11px] text-slate-500 font-medium mt-1`,
                               children: [
                                 (0, G.jsx)(`span`, { children: `0 phút` }),
-                                (0, G.jsx)(`span`, { children: `Mục tiêu: 60 phút/ngày` }),
+                                (0, G.jsx)(`span`, { children: `Gợi ý: 60 phút` }),
                               ],
                             }),
                           ],
@@ -40629,7 +41356,7 @@ var Jd = ({
                               children: [
                                 (0, G.jsxs)(`span`, {
                                   className: `text-sm font-bold text-emerald-700 flex items-center gap-2`,
-                                  children: [(0, G.jsx)(`span`, { children: `💤` }), ` Giấc Ngủ Phục Hồi`],
+                                  children: [(0, G.jsx)(`span`, { children: `💤` }), ` Giấc ngủ`],
                                 }),
                                 (0, G.jsxs)(`div`, {
                                   className: `flex items-center gap-1.5`,
@@ -40664,7 +41391,7 @@ var Jd = ({
                               className: `flex justify-between items-center text-[11px] text-slate-500 font-medium mt-1`,
                               children: [
                                 (0, G.jsx)(`span`, { children: `0 phút` }),
-                                (0, G.jsx)(`span`, { children: `Mục tiêu: 480 phút/ngày` }),
+                                (0, G.jsx)(`span`, { children: `Gợi ý: 480 phút (8 giờ)` }),
                               ],
                             }),
                           ],
@@ -40677,7 +41404,7 @@ var Jd = ({
                               children: [
                                 (0, G.jsxs)(`span`, {
                                   className: `text-sm font-bold text-purple-700 flex items-center gap-2`,
-                                  children: [(0, G.jsx)(`span`, { children: `🤝` }), ` Kết Nối Đời Thực`],
+                                  children: [(0, G.jsx)(`span`, { children: `🤝` }), ` Trò chuyện trực tiếp`],
                                 }),
                                 (0, G.jsxs)(`div`, {
                                   className: `flex items-center gap-1.5`,
@@ -40712,7 +41439,7 @@ var Jd = ({
                               className: `flex justify-between items-center text-[11px] text-slate-500 font-medium mt-1`,
                               children: [
                                 (0, G.jsx)(`span`, { children: `0 phút` }),
-                                (0, G.jsx)(`span`, { children: `Mục tiêu: 60 phút/ngày` }),
+                                (0, G.jsx)(`span`, { children: `Gợi ý: 60 phút` }),
                               ],
                             }),
                           ],
@@ -40723,7 +41450,7 @@ var Jd = ({
                           className: `w-full py-3.5 px-6 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-sm transition-all cursor-pointer active:scale-98`,
                           children: [
                             (0, G.jsx)(`span`, { children: `✔` }),
-                            ` Cập Nhật Chỉ Số Bánh Xe Thói Quen (Lưu Hồ Sơ Hôm Nay)`,
+                            ` Lưu hôm nay`,
                           ],
                         }),
                       ],
@@ -40751,12 +41478,16 @@ var Jd = ({
                             className: `text-xl md:text-2xl font-extrabold flex items-center gap-2.5 text-slate-900`,
                             children: [
                               (0, G.jsx)(`span`, { children: `🧘` }),
-                              ` Bộ Đếm Thời Gian Chánh Niệm & Học Sâu`,
+                              ` Chánh niệm và tập trung`,
                             ],
                           }),
                           (0, G.jsx)(`p`, {
                             className: `text-sm text-slate-600 mt-1`,
-                            children: `Thực hành đơn nhiệm (Single-tasking) và tĩnh lặng tâm trí để rèn lại năng lực chú ý sâu.`,
+                            children: `Thực hành đơn nhiệm (Single-tasking) và tĩnh lặng để làm quen với việc tập trung vào một việc.`,
+                          }),
+                          (0, G.jsx)(`p`, {
+                            className: `text-xs text-slate-500 mt-1`,
+                            children: `Công cụ này không thay thế tư vấn tâm lý. Nếu bạn thấy nặng nề hoặc buồn kéo dài, hãy nói với thầy cô hoặc người lớn bạn tin, hoặc gọi 111.`,
                           }),
                         ],
                       }),
@@ -40808,7 +41539,7 @@ var Jd = ({
                     }),
                   }),
                   (0, G.jsxs)(`div`, {
-                    className: `pt-2`,
+                    className: yn === `meditation` ? `pt-2` : `pt-2 hidden`,
                     children: [
                       (0, G.jsxs)(`div`, {
                         className: `flex items-center justify-between pb-3`,
@@ -40818,17 +41549,21 @@ var Jd = ({
                             children: [
                               (0, G.jsx)(`span`, { className: `text-sky-600 text-base`, children: `🌐` }),
                               (0, G.jsx)(`span`, {
-                                children: `CẢNH 3D TƯƠNG TÁC THREE.JS: QUẢ CẦU NHỊP THỞ CHÁNH NIỆM & TẾ BÀO THẦN KINH`,
+                                children: `QUẢ CẦU NHỊP THỞ: HÍT VÀO 5 GIÂY, THỞ RA 5 GIÂY`,
                               }),
                             ],
                           }),
                           (0, G.jsx)(`span`, {
                             className: `text-[11px] font-mono text-slate-500 hidden sm:inline`,
-                            children: `Xoay 360° • Tự chuyển màu theo 4 chế độ`,
+                            children: `Xoay 360° • Đổi màu theo từng hoạt động`,
                           }),
                         ],
                       }),
                       (0, G.jsx)(Dd, { isRunning: jn, activityType: yn, currentSeconds: Dn - kn, totalSeconds: Dn }),
+                      (0, G.jsx)(`p`, {
+                        className: `text-xs text-slate-600 leading-relaxed pt-3`,
+                        children: `Quả cầu to ra khi bạn hít vào, nhỏ lại khi bạn thở ra, để bạn thở theo. Nhịp mẫu là hít 5 giây, thở ra 5 giây (khoảng 6 nhịp mỗi phút). Nhiều nghiên cứu thấy thở chậm ở mức này làm nhịp tim dao động đều hơn, thường được xem là dấu hiệu cơ thể thư giãn hơn. Mỗi người hợp một nhịp hơi khác nhau; nếu thấy chóng mặt hoặc khó chịu, hãy thở lại bình thường. Đây là bài tập thư giãn, không phải điều trị.`,
+                      }),
                     ],
                   }),
                   (0, G.jsxs)(`div`, {
@@ -40919,7 +41654,7 @@ var Jd = ({
                             children: [
                               (0, G.jsx)(`span`, {
                                 className: `text-xs font-bold text-slate-700 block`,
-                                children: `⏱️ Tự chỉnh thời gian trực tiếp (Phút & Giây):`,
+                                children: `Chỉnh thời gian:`,
                               }),
                               (0, G.jsxs)(`div`, {
                                 className: `flex items-center justify-center gap-2`,
@@ -41004,7 +41739,7 @@ var Jd = ({
                                 children: [
                                   (0, G.jsx)(`span`, {
                                     className: `text-slate-700`,
-                                    children: `🎚️ Kéo thanh trượt thời lượng:`,
+                                    children: `Thời lượng:`,
                                   }),
                                   (0, G.jsxs)(`span`, {
                                     style: { color: Sn.color },
@@ -41039,7 +41774,7 @@ var Jd = ({
                             children: [
                               (0, G.jsx)(`span`, {
                                 className: `text-xs font-bold text-slate-600 block`,
-                                children: `⚡ Mốc chọn nhanh thông dụng:`,
+                                children: `Chọn nhanh:`,
                               }),
                               (0, G.jsx)(`div`, {
                                 className: `flex flex-wrap gap-2`,
@@ -41220,12 +41955,13 @@ var Jd = ({
                             children: e.desc,
                           }),
                           e.scientificRationale &&
+                            !(e.day >= 6 && e.day <= 9) &&
                             (0, G.jsxs)(`div`, {
                               className: `p-2.5 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-700 text-[11px] text-slate-600 dark:text-slate-300 space-y-1`,
                               children: [
                                 (0, G.jsxs)(`span`, {
                                   className: `font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1`,
-                                  children: [(0, G.jsx)(`span`, { children: `🧠` }), ` Cơ chế não bộ:`],
+                                  children: [` Vì sao nên thử:`],
                                 }),
                                 (0, G.jsx)(`p`, {
                                   className: `italic leading-normal text-slate-600 dark:text-slate-300`,
@@ -41330,21 +42066,33 @@ var Jd = ({
                               children: [
                                 (0, G.jsx)(`span`, {
                                   className: `px-3 py-1 rounded-full text-xs font-black bg-blue-100 text-blue-900 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-300 dark:border-blue-700`,
-                                  children: `LỘ TRÌNH 14 NGÀY`,
+                                  children: `Hành trình 14 ngày`,
                                 }),
                                 (0, G.jsx)(`span`, {
                                   className: `text-xs text-slate-500 dark:text-slate-400 font-medium`,
-                                  children: `(Quản Lý Nghiêm Ngặt • Khóa Tự Động Đến 00h00 Mỗi Ngày)`,
+                                  children: `(Mỗi ngày mở lúc 00h00)`,
                                 }),
                               ],
                             }),
                             (0, G.jsx)(`h3`, {
                               className: `text-2xl font-black text-slate-900 dark:text-white tracking-tight mt-1.5`,
-                              children: `Hành Trình Tự Chủ Số & Khôi Phục Tập Trung Sâu`,
+                              children: `Hành trình khởi động`,
                             }),
                             (0, G.jsx)(`p`, {
                               className: `text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium mt-1`,
-                              children: `Mỗi ngày hoàn thành 1 nhiệm vụ thực tế và nộp báo cáo xác thực. Sau 00h00 đêm, hệ thống sẽ mở khóa ngày tiếp theo.`,
+                              children: `Mỗi ngày chỉ một việc nhỏ. Làm xong thì ghi lại cảm nhận; sau 00h00 ngày tiếp theo sẽ mở. Lỡ một ngày cũng không sao.`,
+                            }),
+                            (0, G.jsxs)(`div`, {
+                              className: `mt-3 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 leading-relaxed space-y-1.5`,
+                              children: [
+                                (0, G.jsx)(`div`, { className: `font-extrabold text-slate-900 dark:text-white`, children: `Vì sao là 14 ngày?` }),
+                                (0, G.jsx)(`p`, {
+                                  children: `Con số 14 ngày là quy ước khởi động của nhóm, không phải con số khoa học. Nhóm chưa thấy nghiên cứu nào cho biết 14 ngày tốt hơn 21 hay 30 ngày; chọn 14 ngày vì đủ ngắn để thử mà không nản.`,
+                                }),
+                                (0, G.jsx)(`p`, {
+                                  children: `Thói quen mới thường cần lâu hơn (nhiều tuần đến vài tháng, mỗi người một khác), nên 14 ngày chỉ là bước khởi động; sau đó bạn nên duy trì nhẹ nhàng những việc hợp với mình. Công cụ này không thay thế tư vấn tâm lý; nếu bạn thấy nặng nề hoặc buồn kéo dài, hãy nói với thầy cô hoặc người lớn bạn tin, hoặc gọi 111.`,
+                                }),
+                              ],
                             }),
                           ],
                         }),
@@ -41352,7 +42100,7 @@ var Jd = ({
                           className: `flex flex-col sm:flex-row items-start sm:items-center gap-3`,
                           children: [
                             (0, G.jsxs)(`div`, {
-                              className: `bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 px-4 py-2.5 rounded-2xl`,
+                              className: `hidden`,
                               children: [
                                 (0, G.jsx)(`span`, {
                                   className: `text-[10px] text-slate-500 dark:text-slate-400 uppercase font-bold block`,
@@ -41384,7 +42132,7 @@ var Jd = ({
                           children: [
                             (0, G.jsxs)(`span`, {
                               className: `flex items-center gap-1.5`,
-                              children: [(0, G.jsx)(`span`, { children: `🏁` }), ` Tiến độ hoàn thành 14 ngày:`],
+                              children: [`Đã làm `, e, ` / 14 ngày`],
                             }),
                             (0, G.jsxs)(`span`, {
                               className: `font-mono text-blue-700 dark:text-blue-400 font-black`,
@@ -41426,7 +42174,7 @@ var Jd = ({
                             (0, G.jsxs)(`div`, {
                               className: `flex items-center gap-3`,
                               children: [
-                                (0, G.jsx)(`span`, { className: `text-2xl`, children: `⏳` }),
+                                
                                 (0, G.jsxs)(`div`, {
                                   children: [
                                     (0, G.jsx)(`div`, {
@@ -41458,16 +42206,16 @@ var Jd = ({
                               (0, G.jsxs)(`div`, {
                                 className: `flex items-center gap-3`,
                                 children: [
-                                  (0, G.jsx)(`span`, { className: `text-2xl`, children: `🎯` }),
+                                  
                                   (0, G.jsxs)(`div`, {
                                     children: [
                                       (0, G.jsxs)(`div`, {
                                         className: `font-extrabold text-sm text-blue-950 dark:text-blue-200`,
-                                        children: [`Nhiệm vụ Ngày `, qn, ` đang chờ bạn thực hiện!`],
+                                        children: [`Hôm nay: Ngày `, qn],
                                       }),
                                       (0, G.jsx)(`div`, {
                                         className: `text-xs text-blue-800 dark:text-blue-300`,
-                                        children: `Thực hiện nhiệm vụ thực tế và bấm nút "Làm nhiệm vụ hôm nay" để ghi nhận vào hồ sơ 14 ngày.`,
+                                        children: `Làm xong thì bấm "Làm nhiệm vụ hôm nay" để ghi lại.`,
                                       }),
                                     ],
                                   }),
@@ -41479,7 +42227,7 @@ var Jd = ({
                                   e && lr(e);
                                 },
                                 className: `px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-xs shadow-sm transition whitespace-nowrap cursor-pointer active:scale-98`,
-                                children: `Báo Cáo Ngay`,
+                                children: `Xem việc hôm nay`,
                               }),
                             ],
                           })
@@ -41517,13 +42265,13 @@ var Jd = ({
                                 (0, G.jsx)(`span`, { className: `w-3 h-3 rounded-full bg-blue-600` }),
                                 (0, G.jsx)(`h3`, {
                                   className: `text-lg font-black text-slate-900 dark:text-white`,
-                                  children: `CHẶNG 1: THIẾT LẬP RÀO CẢN SỐ`,
+                                  children: `CHẶNG 1: DỌN ĐƯỜNG`,
                                 }),
                               ],
                             }),
                             (0, G.jsx)(`p`, {
                               className: `text-xs text-slate-600 dark:text-slate-300 font-medium mt-0.5`,
-                              children: `Giảm kích thích thị giác & Cắt phản xạ vô thức (Ngày 1 - Ngày 4)`,
+                              children: `Mỗi ngày thêm một thay đổi nhỏ và giữ lại các thay đổi trước. Từ Ngày 4 bạn duy trì tất cả đến hết hành trình (Ngày 1 - Ngày 4)`,
                             }),
                           ],
                         }),
@@ -41563,13 +42311,13 @@ var Jd = ({
                                 (0, G.jsx)(`span`, { className: `w-3 h-3 rounded-full bg-amber-500` }),
                                 (0, G.jsx)(`h3`, {
                                   className: `text-lg font-black text-slate-900 dark:text-white`,
-                                  children: `CHẶNG 2: THAY THẾ THÓI QUEN & TÁI TẠO TẬP TRUNG`,
+                                  children: `CHẶNG 2: THỬ HOẠT ĐỘNG MỚI`,
                                 }),
                               ],
                             }),
                             (0, G.jsx)(`p`, {
                               className: `text-xs text-slate-600 dark:text-slate-300 font-medium mt-0.5`,
-                              children: `Xây dựng các khoảng nghỉ chánh niệm, rèn lại chú ý & học sâu (Ngày 5 - Ngày 9)`,
+                              children: `Mỗi ngày bạn tự chọn một hoạt động hợp với mình; danh sách chỉ là gợi ý (Ngày 5 - Ngày 9)`,
                             }),
                           ],
                         }),
@@ -41609,13 +42357,13 @@ var Jd = ({
                                 (0, G.jsx)(`span`, { className: `w-3 h-3 rounded-full bg-emerald-600` }),
                                 (0, G.jsx)(`h3`, {
                                   className: `text-lg font-black text-slate-900 dark:text-white`,
-                                  children: `CHẶNG 3: KẾT NỐI ĐỜI THỰC & TỰ CHỦ CÔNG NGHỆ`,
+                                  children: `CHẶNG 3: KẾT NỐI VÀ GIỮ NHỊP`,
                                 }),
                               ],
                             }),
                             (0, G.jsx)(`p`, {
                               className: `text-xs text-slate-600 dark:text-slate-300 font-medium mt-0.5`,
-                              children: `Gắn kết mối quan hệ đời thực, tối giản không gian sống & đánh giá hậu thực nghiệm (Ngày 10 - Ngày 14)`,
+                              children: `Kết nối đời thực, vận động nhẹ, lướt qua cơn thèm, kế hoạch khi lỡ trượt và duy trì, nhìn lại (Ngày 10 - Ngày 14)`,
                             }),
                           ],
                         }),
@@ -41660,13 +42408,14 @@ var Jd = ({
                   children: [
                     (0, G.jsxs)(`span`, {
                       className: `px-3 py-1 rounded-full text-xs font-black bg-blue-100 text-blue-900 border border-blue-300`,
-                      children: [`XÁC THỰC NHIỆM VỤ NGÀY `, Zn.day],
+                      children: [Zn.flow ? `NHIỆM VỤ NGÀY ` : `XÁC THỰC NHIỆM VỤ NGÀY `, Zn.day],
                     }),
                     (0, G.jsx)(`h3`, { className: `text-lg font-black text-slate-900 mt-2`, children: Zn.title }),
                     (0, G.jsx)(`p`, { className: `text-xs text-slate-600 font-medium mt-1`, children: Zn.desc }),
                   ],
                 }),
-                Zn.scientificRationale &&
+                !Zn.flow &&
+                  Zn.scientificRationale &&
                   (0, G.jsxs)(`div`, {
                     className: `bg-blue-50/70 border border-blue-200 rounded-2xl p-4 space-y-1.5 text-blue-950`,
                     children: [
@@ -41674,7 +42423,7 @@ var Jd = ({
                         className: `font-extrabold flex items-center gap-1.5 text-xs text-blue-900`,
                         children: [
                           (0, G.jsx)(Oe, { className: `w-4 h-4 text-blue-600` }),
-                          (0, G.jsx)(`span`, { children: `Ý Nghĩa Khoa Học & Cơ Chế Não Bộ:` }),
+                          (0, G.jsx)(`span`, { children: `Vì sao nên thử việc này:` }),
                         ],
                       }),
                       (0, G.jsx)(`p`, {
@@ -41683,24 +42432,50 @@ var Jd = ({
                       }),
                     ],
                   }),
-                Zn.day === 13 &&
+                !Zn.flow &&
+                  Zn.suggestions &&
+                  (0, G.jsxs)(`div`, {
+                    className: `bg-amber-50 border border-amber-200 rounded-2xl p-3.5 space-y-2 text-amber-950 animate-fadeIn`,
+                    children: [
+                      (0, G.jsxs)(`span`, {
+                        className: `font-extrabold flex items-center gap-1.5 text-xs text-amber-900`,
+                        children: [
+                          (0, G.jsx)(`span`, { children: `✨` }),
+                          (0, G.jsx)(`span`, { children: `Gợi ý (bạn chọn một việc, hoặc cách riêng của bạn):` }),
+                        ],
+                      }),
+                      (0, G.jsx)(`div`, {
+                        className: `flex flex-wrap gap-1.5`,
+                        children: Zn.suggestions.map((e) =>
+                          (0, G.jsx)(
+                            `span`,
+                            {
+                              className: `px-2.5 py-1 rounded-full bg-white border border-amber-300 text-[11px] font-semibold text-amber-900`,
+                              children: e,
+                            },
+                            e,
+                          ),
+                        ),
+                      }),
+                    ],
+                  }),
+                !Zn.flow &&
+                  Zn.hint &&
                   (0, G.jsxs)(`div`, {
                     className: `bg-purple-50 border border-purple-200 rounded-2xl p-3.5 space-y-1.5 text-purple-950 animate-fadeIn`,
                     children: [
                       (0, G.jsxs)(`span`, {
                         className: `font-extrabold flex items-center gap-1.5 text-xs text-purple-900`,
-                        children: [
-                          (0, G.jsx)(`span`, { children: `✨` }),
-                          (0, G.jsx)(`span`, { children: `Gợi ý thực hành Nhật ký 3 điều biết ơn:` }),
-                        ],
+                        children: [(0, G.jsx)(`span`, { children: `✨` }), (0, G.jsx)(`span`, { children: `Gợi ý viết:` })],
                       }),
                       (0, G.jsx)(`p`, {
                         className: `text-xs text-purple-900 leading-relaxed`,
-                        children: `Bạn có thể bấm vào biểu tượng micro 🎙️ ở ô bên dưới để nói trực tiếp 3 điều bạn trân trọng hôm nay (ví dụ: một bữa cơm gia đình ngon miệng, một buổi chiều vận động, sự giúp đỡ từ bạn bè/thầy cô...).`,
+                        children: Zn.hint,
                       }),
                     ],
                   }),
-                Zn.smartLink &&
+                !Zn.flow &&
+                  Zn.smartLink &&
                   (0, G.jsxs)(`div`, {
                     className: `bg-gradient-to-r from-cyan-50 to-blue-50 border border-cyan-200 rounded-2xl p-3.5 flex items-center justify-between gap-3`,
                     children: [
@@ -41727,7 +42502,17 @@ var Jd = ({
                       }),
                     ],
                   }),
-                (0, G.jsxs)(`form`, {
+                Zn.flow
+                  ? (0, G.jsx)(QuestFlow, {
+                      key: Zn.day,
+                      day: Zn,
+                      done: Kn.includes(Zn.day),
+                      saved: o?.challengeVerifications?.[Zn.day],
+                      onFinish: (e) => (x ? x(Zn.day, e) : y(Zn.day)),
+                      onClose: () => Qn(null),
+                      onSmart: ur,
+                    })
+                  : (0, G.jsxs)(`form`, {
                   onSubmit: (e) => {
                     if ((e.preventDefault(), !Zn)) return;
                     if (!o) {
@@ -42138,23 +42923,16 @@ var Jd = ({
       id: `gamification`,
       className: `space-y-8 animate-fadeIn`,
       children: [
-        (0, G.jsxs)(`div`, {
-          className: `text-center max-w-2xl mx-auto space-y-3`,
+        (0, G.jsxs)(`header`, {
+          className: `dr-pagehead dr-pagehead-game`,
           children: [
-            (0, G.jsxs)(`div`, {
-              className: `inline-flex items-center gap-2 py-1 px-3.5 rounded-full text-xs font-mono font-bold text-black bg-[#F1F5F9] border border-[#CBD5E1]`,
-              children: [
-                (0, G.jsx)(Ct, { className: `w-3.5 h-3.5 text-black` }),
-                (0, G.jsx)(`span`, { children: `Mini-Game Nhận Diện Thói Quen Học Đường` }),
-              ],
-            }),
-            (0, G.jsx)(`h2`, {
-              className: `text-2xl sm:text-3xl md:text-4xl font-extrabold text-black tracking-tight`,
-              style: { color: `#000000` },
+            (0, G.jsx)(`p`, { className: `dr-eyebrow`, children: `Mini-Game Nhận Diện Thói Quen Học Đường` }),
+            (0, G.jsx)(`h1`, {
+              className: `dr-h1 dr-h1-page`,
               children: `Vũ Trụ BrainRot: Thử Thách "Thanh Lọc Não Bộ"`,
             }),
             (0, G.jsx)(`p`, {
-              className: `text-black font-semibold text-xs sm:text-sm leading-relaxed`,
+              className: `dr-lead`,
               children: `Kéo thả hoặc bấm nút phân loại các thói quen hàng ngày vào đúng khu vực: Điểm số bắt đầu từ 0. Hãy phân loại đúng toàn bộ các thẻ!`,
             }),
           ],
@@ -42609,7 +43387,7 @@ var Jd = ({
                           type: `text`,
                           value: D,
                           onChange: (e) => O(e.target.value),
-                          placeholder: `Ví dụ: Giúp hạ cortisol và thư giãn mắt...`,
+                          placeholder: `Ví dụ: Giúp mắt nghỉ ngơi và thư giãn...`,
                           className: `w-full p-2.5 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 outline-none focus:border-blue-600`,
                         }),
                       ],
@@ -44638,30 +45416,14 @@ var Jd = ({
     return (0, G.jsxs)(`div`, {
       className: `max-w-5xl mx-auto py-8 sm:py-12 px-4 space-y-8 animate-fadeIn`,
       children: [
-        (0, G.jsxs)(`div`, {
-          className: `text-center space-y-4`,
+        (0, G.jsxs)(`header`, {
+          className: `dr-pagehead dr-pagehead-survey`,
           children: [
-            (0, G.jsxs)(`div`, {
-              className: `inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F1F5F9] border border-[#CBD5E1] text-black text-xs font-mono font-bold uppercase tracking-wider`,
-              children: [
-                (0, G.jsx)(Ie, { className: `w-4 h-4 text-black` }),
-                (0, G.jsx)(`span`, { children: `Nghiên Cứu Khoa Học Hành Vi • THPT Lê Quý Đôn` }),
-              ],
-            }),
-            (0, G.jsx)(`h1`, {
-              className: `text-3xl sm:text-4xl md:text-5xl font-black text-black tracking-tight`,
-              style: { color: `#000000` },
-              children: `KHẢO SÁT THỰC NGHIỆM SỐ`,
-            }),
-            (0, G.jsxs)(`p`, {
-              className: `text-sm sm:text-base text-black font-semibold max-w-3xl mx-auto leading-relaxed`,
-              children: [
-                `Đo lường tác động của nội dung `,
-                (0, G.jsx)(`span`, { className: `text-blue-700 font-bold`, children: `Brainrot` }),
-                ` và hiệu quả của bộ giải pháp can thiệp `,
-                (0, G.jsx)(`span`, { className: `text-amber-700 font-bold`, children: `D-RESET` }),
-                ` đối với học sinh.`,
-              ],
+            (0, G.jsx)(`p`, { className: `dr-eyebrow`, children: `Nghiên Cứu Khoa Học Hành Vi • THPT Lê Quý Đôn` }),
+            (0, G.jsx)(`h1`, { className: `dr-h1 dr-h1-page`, children: `Khảo sát thực nghiệm số` }),
+            (0, G.jsx)(`p`, {
+              className: `dr-lead`,
+              children: `Phiếu của nhóm nghiên cứu: tìm hiểu thói quen xem nội dung ngắn và cảm nhận của học sinh, trước và sau khi thử hành trình D-RESET.`,
             }),
           ],
         }),
@@ -44679,7 +45441,7 @@ var Jd = ({
                   children: [
                     (0, G.jsx)(`div`, {
                       className: `text-xs font-mono text-slate-500 uppercase`,
-                      children: `Đối tượng thực nghiệm`,
+                      children: `Bạn đang làm phiếu với tư cách`,
                     }),
                     (0, G.jsx)(`div`, {
                       className: `text-sm font-bold text-slate-900 flex items-center gap-2`,
@@ -44695,7 +45457,7 @@ var Jd = ({
                           })
                         : (0, G.jsx)(`span`, {
                             className: `text-amber-600`,
-                            children: `Khách vãng lai (Chưa đăng nhập)`,
+                            children: `Khách (chưa đăng nhập)`,
                           }),
                     }),
                   ],
@@ -44707,7 +45469,7 @@ var Jd = ({
                   className: `flex items-center gap-1.5 text-xs font-mono text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200`,
                   children: [
                     (0, G.jsx)(Fe, { className: `w-4 h-4` }),
-                    (0, G.jsx)(`span`, { children: `Đã xác thực hồ sơ học sinh` }),
+                    (0, G.jsx)(`span`, { children: `Đã đăng nhập` }),
                   ],
                 })
               : (0, G.jsxs)(`button`, {
@@ -44730,7 +45492,7 @@ var Jd = ({
               className: `py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 font-bold transition-all cursor-pointer ${r === `pre` ? `bg-blue-600 text-white shadow-sm` : `text-slate-600 hover:text-slate-900 hover:bg-slate-200/60`}`,
               children: [
                 (0, G.jsx)(We, { className: `w-4 h-4` }),
-                (0, G.jsx)(`span`, { children: `Tab 1: Phiếu Trước Thực Nghiệm (Pre-Test)` }),
+                (0, G.jsx)(`span`, { children: `Phiếu trước (Pre-Test)` }),
               ],
             }),
             (0, G.jsxs)(`button`, {
@@ -44740,7 +45502,7 @@ var Jd = ({
               className: `py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 font-bold transition-all cursor-pointer ${r === `post` ? `bg-amber-600 text-white shadow-sm` : `text-slate-600 hover:text-slate-900 hover:bg-slate-200/60`}`,
               children: [
                 (0, G.jsx)(we, { className: `w-4 h-4` }),
-                (0, G.jsx)(`span`, { children: `Tab 2: Phiếu Sau Thực Nghiệm (Post-Test)` }),
+                (0, G.jsx)(`span`, { children: `Phiếu sau (Post-Test)` }),
               ],
             }),
           ],
@@ -44755,7 +45517,7 @@ var Jd = ({
                   className: `flex items-center gap-2 text-xs font-mono font-bold uppercase text-blue-600`,
                   children: [
                     (0, G.jsx)(Ct, { className: `w-4 h-4` }),
-                    (0, G.jsx)(`span`, { children: `Thư Ngỏ & Lời Dẫn Khảo Sát` }),
+                    (0, G.jsx)(`span`, { children: `Lời mời` }),
                   ],
                 }),
                 (0, G.jsx)(`p`, {
@@ -44763,10 +45525,10 @@ var Jd = ({
                   children:
                     r === `pre`
                       ? (0, G.jsx)(G.Fragment, {
-                          children: `“Chào các bạn! Chúng mình là học sinh đang thực hiện một nghiên cứu nhỏ về tình trạng tiêu thụ nội dung “brainrot” (thối não số) - tức là những nội dung ngắn, lặp lại, gây nghiện nhưng thiếu chiều sâu - trên mạng xã hội. Phiếu khảo sát này nhằm tìm hiểu mức độ các bạn tiếp xúc với các nội dung brainrot, cũng như ảnh hưởng của chúng đến cảm xúc, hành vi và tư duy trong học tập và cuộc sống. Đồng thời, mình cũng muốn biết các bạn nhìn nhận vấn đề này ra sao và có giải pháp tự kiểm soát như thế nào. Thông tin các bạn cung cấp sẽ được sử dụng hoàn toàn cho mục đích nghiên cứu học đường và hoàn toàn bảo mật. Rất mong nhận được sự hợp tác chân thành từ các bạn!”`,
+                          children: `“Chào các bạn! Chúng mình là học sinh đang thực hiện một nghiên cứu nhỏ về tình trạng tiêu thụ nội dung “brainrot” - tức là những nội dung ngắn, lặp lại, dễ cuốn người xem - trên mạng xã hội. Phiếu khảo sát này nhằm tìm hiểu mức độ các bạn tiếp xúc với các nội dung brainrot, cũng như ảnh hưởng của chúng đến cảm xúc, hành vi và tư duy trong học tập và cuộc sống. Đồng thời, mình cũng muốn biết các bạn nhìn nhận vấn đề này ra sao và có giải pháp tự kiểm soát như thế nào. Câu trả lời của bạn được lưu ngay trong máy này, không gửi đi đâu; bạn có thể bỏ qua nếu không muốn trả lời. Rất mong nhận được sự hợp tác chân thành từ các bạn!”`,
                         })
                       : (0, G.jsx)(G.Fragment, {
-                          children: `“Chào các bạn! Sau một thời gian thực hiện hoạt động can thiệp, áp dụng các giải pháp Digital Detox và kế hoạch 14 ngày của D-RESET – THPT Lê Quý Đôn, phiếu khảo sát này nhằm đánh giá lại sự thay đổi về thói quen, cảm xúc, khả năng tập trung và nhận thức số của các bạn. Rất mong các bạn trả lời chân thực để giúp hoàn thiện số liệu nghiên cứu khoa học hành vi học đường!”`,
+                          children: `“Chào các bạn! Sau khi thử hành trình 14 ngày của D-RESET – THPT Lê Quý Đôn, phiếu khảo sát này nhằm đánh giá lại sự thay đổi về thói quen, cảm xúc, khả năng tập trung và nhận thức số của các bạn. Rất mong các bạn trả lời chân thực để giúp hoàn thiện số liệu nghiên cứu khoa học hành vi học đường!”`,
                         }),
                 }),
               ],
@@ -44776,7 +45538,7 @@ var Jd = ({
               children: [
                 (0, G.jsx)(`div`, {
                   className: `text-xs font-mono font-bold text-slate-600 uppercase tracking-wide`,
-                  children: `Hướng dẫn thang đo Likert 5 mức độ:`,
+                  children: `Cách chọn (từ 1 đến 5):`,
                 }),
                 (0, G.jsx)(`div`, {
                   className: `grid grid-cols-2 sm:grid-cols-5 gap-2 sm:gap-2.5`,
@@ -44827,7 +45589,7 @@ var Jd = ({
           onSubmit: (n) => {
             if ((n.preventDefault(), !e)) {
               (m(
-                `Vui lòng Đăng nhập tài khoản Học sinh (chọn Khối & Lớp) trước khi nộp phiếu khảo sát để hệ thống ghi nhận kết quả nghiên cứu chính xác.`,
+                `Hãy đăng nhập (chọn Khối và Lớp) trước khi gửi phiếu để lưu lại phiếu của bạn.`,
               ),
                 t());
               return;
@@ -44953,6 +45715,10 @@ var Jd = ({
                   (0, G.jsx)(`span`, { children: p }),
                 ],
               }),
+            (0, G.jsx)(`p`, {
+              className: `dr-muted`,
+              children: `Phiếu này là tự đánh giá, không phải chẩn đoán. Nếu bạn thấy mệt, lo âu kéo dài, hãy nói chuyện với thầy cô hoặc người lớn bạn tin, hoặc gọi 111.`,
+            }),
             (0, G.jsxs)(`div`, {
               className: `flex flex-wrap items-center justify-between gap-4 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm`,
               children: [
@@ -44984,7 +45750,7 @@ var Jd = ({
                       children: [
                         (0, G.jsx)(yt, { className: `w-4 h-4` }),
                         (0, G.jsxs)(`span`, {
-                          children: [`Gửi Phiếu Khảo Sát (`, r === `pre` ? `Pre-Test` : `Post-Test`, `)`],
+                          children: `Gửi phiếu`,
                         }),
                       ],
                     }),
@@ -45009,35 +45775,22 @@ var Jd = ({
                   children: [
                     (0, G.jsx)(`h3`, {
                       className: `text-2xl font-black text-slate-900`,
-                      children: `GỬI PHIẾU KHẢO SÁT THÀNH CÔNG!`,
+                      children: `Đã lưu phiếu!`,
                     }),
                     (0, G.jsxs)(`p`, {
                       className: `text-sm text-slate-600 leading-relaxed`,
                       children: [
-                        `Hệ thống nghiên cứu D-RESET đã lưu bản ghi`,
-                        ` `,
+                        `Phiếu `,
                         (0, G.jsx)(`span`, {
                           className: `font-bold text-blue-600`,
-                          children:
-                            d === `pre` ? `Phiếu Trước Thực Nghiệm (Pre-Test)` : `Phiếu Sau Thực Nghiệm (Post-Test)`,
+                          children: d === `pre` ? `trước (Pre-Test)` : `sau (Post-Test)`,
                         }),
-                        ` `,
-                        `của bạn (`,
+                        ` của bạn (`,
                         e?.fullName,
                         ` - `,
                         e?.className ? `Lớp ${e?.className}` : e?.grade,
-                        `) vào cơ sở dữ liệu NCKH của nhà trường.`,
+                        `) đã được lưu ngay trong máy này.`,
                       ],
-                    }),
-                  ],
-                }),
-                (0, G.jsxs)(`div`, {
-                  className: `p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs font-mono text-slate-600 space-y-1`,
-                  children: [
-                    (0, G.jsx)(`div`, { children: `Đã đồng bộ trực tiếp lên hệ thống quản trị Admin` }),
-                    (0, G.jsx)(`div`, {
-                      className: `text-emerald-700 font-bold`,
-                      children: `Mã lưu trữ: localStorage['dreset_experimental_surveys']`,
                     }),
                   ],
                 }),
@@ -45051,7 +45804,7 @@ var Jd = ({
                       className: `w-full py-3 px-4 rounded-xl bg-blue-600 text-white font-black hover:bg-blue-700 transition flex items-center justify-center gap-2 cursor-pointer shadow-sm`,
                       children: [
                         (0, G.jsx)(Re, { className: `w-4 h-4` }),
-                        (0, G.jsx)(`span`, { children: `1. Chuyển Sang Giải Pháp & Thực Hành` }),
+                        (0, G.jsx)(`span`, { children: `Sang cẩm nang` }),
                       ],
                     }),
                     (0, G.jsxs)(`button`, {
@@ -45061,7 +45814,7 @@ var Jd = ({
                       className: `w-full py-3 px-4 rounded-xl bg-slate-100 text-slate-800 border border-slate-300 hover:bg-slate-200 font-bold transition flex items-center justify-center gap-2 cursor-pointer`,
                       children: [
                         (0, G.jsx)(Ye, { className: `w-4 h-4` }),
-                        (0, G.jsx)(`span`, { children: `2. Tham Gia Trò Chơi Nhận Diện` }),
+                        (0, G.jsx)(`span`, { children: `Chơi mini-game` }),
                       ],
                     }),
                     (0, G.jsxs)(`button`, {
@@ -45071,7 +45824,7 @@ var Jd = ({
                       className: `w-full py-2.5 px-4 rounded-xl bg-slate-800 text-slate-300 hover:text-white border border-slate-700 transition flex items-center justify-center gap-2 cursor-pointer`,
                       children: [
                         (0, G.jsx)(Ze, { className: `w-4 h-4` }),
-                        (0, G.jsx)(`span`, { children: `3. Quay Lại Trang Chủ` }),
+                        (0, G.jsx)(`span`, { children: `Về trang chủ` }),
                       ],
                     }),
                   ],
@@ -47022,9 +47775,9 @@ var Jd = ({
   gf = () =>
     (0, G.jsxs)(`footer`, {
       style: {
-        background: `linear-gradient(135deg, #F0F9FF 0%, #FFF7ED 50%, #F0FDF4 100%)`,
-        borderTop: `3px solid transparent`,
-        borderImage: `linear-gradient(to right, #2563EB, #10B981, #F97316) 1`,
+        background: `#ECE8DF`,
+        borderTop: `1px solid #DDD8CC`,
+
       },
       className: `py-10 px-4 sm:px-8 text-slate-600 font-sans mt-16 transition-colors shadow-sm`,
       children: [
@@ -47038,35 +47791,35 @@ var Jd = ({
                   className: `flex items-center justify-center md:justify-start gap-3`,
                   children: [
                     (0, G.jsx)(`div`, {
-                      style: { background: `linear-gradient(135deg, #2563EB, #7C3AED)` },
+                      style: { background: `#B85C5C` },
                       className: `w-9 h-9 rounded-xl flex items-center justify-center font-black text-white text-base shadow-md shadow-blue-500/30`,
                       children: `D²`,
                     }),
                     (0, G.jsxs)(`span`, {
-                      className: `text-lg sm:text-xl font-black tracking-wide text-[#0F172A]`,
+                      className: `text-lg sm:text-xl font-black tracking-wide text-[#1C1C1A]`,
                       children: [
                         `D-RESET – `,
-                        (0, G.jsx)(`span`, { className: `text-[#2563EB]`, children: `DIGITAL DETOX` }),
+                        (0, G.jsx)(`span`, { className: `text-[#B85C5C]`, children: `DIGITAL DETOX` }),
                         ` & `,
-                        (0, G.jsx)(`span`, { className: `text-[#EA580C]`, children: `TỰ CHỦ SỐ` }),
+                        (0, G.jsx)(`span`, { className: `text-[#8A6F27]`, children: `TỰ CHỦ SỐ` }),
                       ],
                     }),
                   ],
                 }),
                 (0, G.jsx)(`div`, {
                   children: (0, G.jsx)(`span`, {
-                    className: `inline-block px-3 py-1 rounded-full bg-[#DBEAFE] text-[#1D4ED8] text-xs font-mono font-bold tracking-wider uppercase border border-blue-200 shadow-xs`,
+                    className: `inline-block px-3 py-1 rounded-full bg-[#E4EBE3] text-[#B85C5C] text-xs font-mono font-bold tracking-wider uppercase border border-blue-200 shadow-xs`,
                     children: `DỰ ÁN NGHIÊN CỨU KHOA HỌC HÀNH VI HỌC ĐƯỜNG 2026`,
                   }),
                 }),
                 (0, G.jsx)(`p`, {
                   className: `text-xs text-slate-600 leading-relaxed`,
-                  children: `Hệ sinh thái tự can thiệp hành vi nhằm nhận diện và đảo ngược hiện tượng Brainrot, nâng cao năng lực tự chủ số cho học sinh THPT.`,
+                  children: `Hệ sinh thái tự theo dõi hành vi giúp học sinh THPT nhận diện thói quen lệ thuộc video ngắn ("Brainrot") và nâng cao năng lực tự chủ số.`,
                 }),
               ],
             }),
             (0, G.jsxs)(`div`, {
-              className: `bg-white border-[1.5px] border-[#BFDBFE] p-5 sm:p-6 rounded-2xl space-y-3 text-xs font-mono shadow-md w-full md:w-auto`,
+              className: `bg-white border-[1.5px] border-[#DDD8CC] p-5 sm:p-6 rounded-2xl space-y-3 text-xs font-mono shadow-md w-full md:w-auto`,
               children: [
                 (0, G.jsxs)(`div`, {
                   className: `flex items-start gap-2.5`,
@@ -47074,10 +47827,10 @@ var Jd = ({
                     (0, G.jsx)(`span`, { className: `text-base leading-none`, children: `🏫` }),
                     (0, G.jsxs)(`span`, {
                       children: [
-                        (0, G.jsx)(`strong`, { className: `text-[#0F172A]`, children: `Trường học:` }),
+                        (0, G.jsx)(`strong`, { className: `text-[#1C1C1A]`, children: `Trường học:` }),
                         ` `,
                         (0, G.jsx)(`span`, {
-                          className: `text-[#1E40AF] font-bold`,
+                          className: `text-[#B85C5C] font-bold`,
                           children: `Trường THPT Lê Quý Đôn`,
                         }),
                       ],
@@ -47090,10 +47843,10 @@ var Jd = ({
                     (0, G.jsx)(`span`, { className: `text-base leading-none`, children: `🌏` }),
                     (0, G.jsxs)(`span`, {
                       children: [
-                        (0, G.jsx)(`strong`, { className: `text-[#0F172A]`, children: `Địa chỉ:` }),
+                        (0, G.jsx)(`strong`, { className: `text-[#1C1C1A]`, children: `Địa chỉ:` }),
                         ` `,
                         (0, G.jsx)(`span`, {
-                          className: `text-[#334155] font-medium`,
+                          className: `text-[#46463F] font-medium`,
                           children: `79/393A Phạm Văn Thuận, KP16, P. Tam Hiệp, Thành phố Đồng Nai`,
                         }),
                       ],
@@ -47106,11 +47859,11 @@ var Jd = ({
                     (0, G.jsx)(`span`, { className: `text-base leading-none`, children: `👥` }),
                     (0, G.jsxs)(`span`, {
                       children: [
-                        (0, G.jsx)(`strong`, { className: `text-[#0F172A]`, children: `Tác giả:` }),
+                        (0, G.jsx)(`strong`, { className: `text-[#1C1C1A]`, children: `Tác giả:` }),
                         ` `,
-                        (0, G.jsx)(`span`, { className: `text-[#2563EB] font-bold`, children: `Nguyễn Trí Tâm` }),
+                        (0, G.jsx)(`span`, { className: `text-[#B85C5C] font-bold`, children: `Nguyễn Trí Tâm` }),
                         ` • `,
-                        (0, G.jsx)(`span`, { className: `text-[#EA580C] font-bold`, children: `Võ Nguyễn Tường Vy` }),
+                        (0, G.jsx)(`span`, { className: `text-[#8A6F27] font-bold`, children: `Võ Nguyễn Tường Vy` }),
                       ],
                     }),
                   ],
@@ -47121,11 +47874,11 @@ var Jd = ({
                     (0, G.jsx)(`span`, { className: `text-base leading-none`, children: `📞` }),
                     (0, G.jsxs)(`span`, {
                       children: [
-                        (0, G.jsx)(`strong`, { className: `text-[#0F172A]`, children: `Hotline:` }),
+                        (0, G.jsx)(`strong`, { className: `text-[#1C1C1A]`, children: `Hotline:` }),
                         ` `,
                         (0, G.jsx)(`a`, {
                           href: `tel:0703393471`,
-                          className: `text-[#059669] font-extrabold hover:underline`,
+                          className: `text-[#B85C5C] font-extrabold hover:underline`,
                           children: `0703393471`,
                         }),
                       ],
@@ -47143,7 +47896,7 @@ var Jd = ({
       ],
     }),
   _f = [
-    `🧠 Brainrot ảnh hưởng não bộ thế nào?`,
+    `🧠 Xem nhiều video ngắn ảnh hưởng tập trung thế nào?`,
     `⚡ Mẹo cắt cơn thèm lướt TikTok`,
     `💤 Cách ngủ ngon không điện thoại`,
     `🎯 Phương pháp học sâu Pomodoro`,
@@ -48512,7 +49265,7 @@ function Of() {
         },
         onResetToDefault: () => {
           confirm(`Bạn có chắc muốn khôi phục toàn bộ nội dung về cấu hình mặc định ban đầu?`) &&
-            (localStorage.removeItem(`dreset_cms_config_v5`),
+            (localStorage.removeItem(`dreset_cms_config_v12`),
             localStorage.removeItem(`dreset_dashboard_real_data_v2`),
             window.location.reload());
         },
@@ -48527,7 +49280,7 @@ function Of() {
         children: [
           !i &&
             (0, G.jsxs)(`div`, {
-              className: `p-4 sm:py-3 sm:px-6 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs mb-6 shadow-sm border bg-white border-slate-200 text-slate-700`,
+              className: `dr-progress`,
               children: [
                 (0, G.jsxs)(`div`, {
                   className: `flex items-center gap-2.5`,
@@ -48554,7 +49307,7 @@ function Of() {
                   ],
                 }),
                 (0, G.jsxs)(`div`, {
-                  className: `grid grid-cols-2 gap-2.5 w-full sm:flex sm:w-auto items-center text-xs`,
+                  className: `dr-progress-actions`,
                   children: [
                     !u &&
                       (0, G.jsx)(`button`, {
@@ -48575,6 +49328,13 @@ function Of() {
                     }),
                   ],
                 }),
+                (0, G.jsx)(`div`, {
+                  className: `dr-progressbar`,
+                  'aria-hidden': `true`,
+                  children: (0, G.jsx)(`span`, {
+                    style: { width: `${(Math.max(0, Math.min(14, Number(se) - 1)) / 14) * 100}%` },
+                  }),
+                }),
               ],
             }),
           c === `home` &&
@@ -48588,29 +49348,7 @@ function Of() {
               },
             }),
           c === `assessment` &&
-            (0, G.jsx)(kd, {
-              onNavigate: ce,
-              questions: e.questions,
-              answers: u?.assessmentAnswers || m.assessmentAnswers,
-              onSelectAnswer: T,
-              onResetAssessment: D,
-              submitted: u ? u.assessmentSubmitted : m.assessmentSubmitted,
-              setSubmitted: E,
-              isAdminAuthenticated: i,
-              onAddQuestion: (n) => {
-                let r = e.questions.length > 0 ? Math.max(...e.questions.map((e) => e.id)) + 1 : 1,
-                  i = { ...n, id: r };
-                (t((e) => ({ ...e, questions: [...e.questions, i] })), y(`Đã thêm câu hỏi khảo sát mới!`));
-              },
-              onEditQuestion: (e, n) => {
-                (t((t) => ({ ...t, questions: t.questions.map((t) => (t.id === e ? { ...t, text: n } : t)) })),
-                  y(`Đã chỉnh sửa câu hỏi!`));
-              },
-              onDeleteQuestion: (e) => {
-                (t((t) => ({ ...t, questions: t.questions.filter((t) => t.id !== e) })),
-                  y(`Đã xóa câu hỏi khỏi ngân hàng đề!`));
-              },
-            }),
+            (0, G.jsx)(LikertW2, { onNavigate: ce, userId: u ? u.id : `guest` }, u ? u.id : `guest`),
           c === `solutions` &&
             (0, G.jsx)(Yd, {
               handbooks: e.handbooks,
@@ -48729,7 +49467,6 @@ function Of() {
       (0, G.jsx)(mf, { isOpen: o, onClose: () => s(!1), onSuccess: ue }),
       (0, G.jsx)(hf, { isOpen: f, onClose: () => p(!1), onAuthSuccess: x }),
       (0, G.jsx)(gf, {}),
-      
       (0, G.jsx)(Df, { isAdminAuthenticated: i, onShowToast: y }),
     ],
   });

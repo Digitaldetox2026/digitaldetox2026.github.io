@@ -1,0 +1,126 @@
+{
+  "title": "Điện thoại thật",
+  "note": "Tên menu có thể khác tùy máy và phiên bản hệ điều hành. Nếu không thấy đúng tên, hãy dùng ô tìm kiếm trong Cài đặt.",
+  "platforms": [
+    {
+      "id": "iphone",
+      "name": "iPhone"
+    },
+    {
+      "id": "android",
+      "name": "Android"
+    }
+  ],
+  "topics": [
+    {
+      "id": "gioi-han",
+      "name": "Giới hạn ứng dụng",
+      "icon": "hourglass",
+      "intro": "Đặt thời gian tối đa mỗi ngày cho một ứng dụng hoặc nhóm ứng dụng.",
+      "iphone": [
+        "Mở Cài đặt, chọn Thời gian sử dụng (Screen Time).",
+        "Chọn Giới hạn ứng dụng (App Limits), rồi Thêm giới hạn (Add Limit).",
+        "Chọn nhóm ứng dụng, ví dụ Mạng xã hội, hoặc bấm vào tên nhóm để chọn từng ứng dụng.",
+        "Bấm Tiếp (Next), đặt thời gian cho mỗi ngày, rồi bấm Thêm (Add)."
+      ],
+      "iphoneNote": "Mặc định bạn vẫn có thể bỏ qua giới hạn khi hết giờ. Một số bản iOS mới đổi tên mục này (ví dụ \"Time Allowances\").",
+      "android": [
+        "Mở Cài đặt, chọn Sức khỏe kỹ thuật số (Digital Wellbeing).",
+        "Chọn Hẹn giờ cho ứng dụng (App timers).",
+        "Bên cạnh ứng dụng muốn giới hạn, bấm biểu tượng đặt hẹn giờ (Set timer).",
+        "Chọn số phút mỗi ngày rồi bấm OK. Hẹn giờ đặt lại vào nửa đêm."
+      ],
+      "androidNote": "Trên một số máy mục này nằm trong \"Digital Wellbeing & kiểm soát của cha mẹ\".",
+      "sources": [
+        {
+          "label": "Apple: Thiết lập Thời gian sử dụng",
+          "url": "https://support.apple.com/guide/iphone/set-up-screen-time-for-yourself-iphbfa595995/ios",
+          "p": "iphone"
+        },
+        {
+          "label": "Google: Digital Wellbeing",
+          "url": "https://support.google.com/android/answer/9346420?hl=en",
+          "p": "android"
+        }
+      ]
+    },
+    {
+      "id": "thong-bao",
+      "name": "Tắt thông báo mạng xã hội",
+      "icon": "bell",
+      "intro": "Không có thông báo đẩy thì máy ít kéo bạn quay lại hơn.",
+      "iphone": [
+        "Mở Cài đặt, chọn Thông báo (Notifications).",
+        "Chọn ứng dụng mạng xã hội trong danh sách.",
+        "Tắt Cho phép thông báo (Allow Notifications)."
+      ],
+      "iphoneNote": "Trên một số bản iOS mới, đường đi là Cài đặt > Ứng dụng > chọn ứng dụng > Thông báo.",
+      "android": [
+        "Mở Cài đặt, chọn Thông báo, rồi Thông báo của ứng dụng (App notifications).",
+        "Tìm ứng dụng trong mục gần đây; nếu không thấy, mở danh sách và chọn Tất cả ứng dụng.",
+        "Bấm vào ứng dụng rồi tắt thông báo (tắt hết hoặc chỉ tắt vài loại)."
+      ],
+      "androidNote": "Cách nhanh: nhấn giữ một thông báo rồi chọn Cài đặt (Settings) để tắt cho ứng dụng đó.",
+      "sources": [
+        {
+          "label": "Apple: Thay đổi cài đặt thông báo",
+          "url": "https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios",
+          "p": "iphone"
+        },
+        {
+          "label": "Google: Điều khiển thông báo",
+          "url": "https://support.google.com/android/answer/9079661?hl=en",
+          "p": "android"
+        }
+      ]
+    },
+    {
+      "id": "den-trang",
+      "name": "Màn hình đen trắng",
+      "icon": "gray",
+      "intro": "Màn hình ít màu sắc thì nhìn bớt hấp dẫn hơn.",
+      "iphone": [
+        "Mở Cài đặt, chọn Trợ năng (Accessibility).",
+        "Chọn Màn hình & Cỡ chữ (Display & Text Size).",
+        "Chọn Bộ lọc màu (Color Filters), bật lên, rồi chọn Thang độ xám (Grayscale)."
+      ],
+      "iphoneNote": "Bộ lọc này có thể làm ảnh và video trông khác đi. Tắt đi bằng cách vào lại đúng mục đó.",
+      "android": [
+        "Mở Cài đặt, chọn Sức khỏe kỹ thuật số (Digital Wellbeing).",
+        "Chọn Chế độ giờ đi ngủ (Bedtime mode), rồi Lịch trình đi ngủ (Bedtime routine).",
+        "Chọn lịch bật (theo lịch hoặc khi đang sạc).",
+        "Ở mục Tùy chọn màn hình khi đi ngủ, chọn Thang độ xám (Grayscale)."
+      ],
+      "androidNote": "Cách này chỉ đen trắng trong giờ đi ngủ đã đặt. Muốn đen trắng cả ngày, nhiều máy có mục tương tự trong Trợ năng hoặc Hiển thị; tên khác nhau theo hãng.",
+      "sources": [
+        {
+          "label": "Apple: Đổi màu hiển thị trên iPhone",
+          "url": "https://support.apple.com/guide/iphone/change-display-colors-iph3e2e1fb0/ios",
+          "p": "iphone"
+        },
+        {
+          "label": "Google: Digital Wellbeing",
+          "url": "https://support.google.com/android/answer/9346420?hl=en",
+          "p": "android"
+        }
+      ]
+    },
+    {
+      "id": "sac-ngoai",
+      "name": "Cắm sạc ngoài giường",
+      "icon": "plug",
+      "intro": "Không cần cài đặt gì, chỉ cần đổi chỗ cắm sạc.",
+      "iphone": [
+        "Chọn một ổ cắm ở ngoài giường (bàn học, phòng khách hoặc cạnh cửa phòng).",
+        "Cắm sạc ở đó vào buổi tối và đặt điện thoại lại đó.",
+        "Nếu cần báo thức, dùng đồng hồ báo thức riêng hoặc nhờ người nhà gọi."
+      ],
+      "android": [
+        "Chọn một ổ cắm ở ngoài giường (bàn học, phòng khách hoặc cạnh cửa phòng).",
+        "Cắm sạc ở đó vào buổi tối và đặt điện thoại lại đó.",
+        "Nếu cần báo thức, dùng đồng hồ báo thức riêng hoặc nhờ người nhà gọi."
+      ],
+      "sources": []
+    }
+  ]
+}
