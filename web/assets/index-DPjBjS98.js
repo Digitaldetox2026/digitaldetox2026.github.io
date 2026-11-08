@@ -12668,7 +12668,7 @@ var x = {
     slogan: `Khôi phục năng lực chú ý sâu, giảm lệ thuộc video ngắn và kiến tạo ranh giới màn hình số lành mạnh cho học sinh THPT.`,
     concept1Title: `'Brainrot' Là Gì?`,
     concept1Desc: `Thuật ngữ phản ánh tình trạng suy thoái chức năng chú ý điều hành và tư duy phản biện do tiêu thụ vi-nội dung độc hại, giật gân liên tục.`,
-    concept2Title: `Vòng Lặp Dopamine Cưỡng Chế`,
+    concept2Title: `Vòng Lặp Phần Thưởng Khó Dừng`,
     concept2Desc: `Thuật toán video ngắn củng cố gián đoạn như máy đánh bạc, khiến học sinh kiểm tra màn hình trong vô thức hàng chục đến hàng trăm lần mỗi ngày.`,
     concept3Title: `Phác Đồ Can Thiệp Học Đường`,
     concept3Desc: `Hệ sinh thái tự đánh giá, thiền chánh niệm 3 phút, cẩm nang thoát thuật toán và thử thách 14 ngày giúp tái lập độ dẻo não bộ (Neuroplasticity).`,
@@ -12740,7 +12740,7 @@ function C(e, t, n, r, i, a) {
   </div>
 
   <div class="section-card">
-    <h2>2. Bản Chất Thần Kinh Học: Cơ Chế Bẫy Dopamine</h2>
+    <h2>2. Góc Nhìn Thần Kinh Học: Giả Thuyết Về Hệ Thống Thưởng</h2>
     <p>Các ứng dụng mạng xã hội và video ngắn được thiết kế có chủ đích dựa trên cơ chế khen thưởng biến thiên (Variable Reward Schedule). Khi tiếp xúc với kích thích màn hình tần suất cao:</p>
     <ul>
       <li><strong>Hệ thống thưởng (dopamine):</strong> Bị kích thích liên tục có thể khiến bạn khó duy trì sự tập trung vào các văn bản dài hoặc bài toán phức tạp.</li>
@@ -12866,8 +12866,8 @@ var w = [
       frontSubtext: `Chạm hoặc hover để lật thẻ và khám phá góc nhìn khoa học hành vi`,
       tag: `TÂM LÝ TRỐN TRÁNH`,
       scienceTitle: `TRÌ HOÃN DO CẢM XÚC TIÊU CỰC`,
-      scienceExplanation: `Nghiên cứu chỉ ra học sinh lướt mạng không phải vì cần thông tin, mà để trốn tránh áp lực bài tập khó hoặc nỗi sợ thất bại. Não tìm dopamine nhanh để che đậy cảm xúc lo âu.`,
-      actionItem: `Hành động: Áp dụng quy tắc 'Tạm dừng 90 giây' - đếm nhịp thở trước khi bấm mở bất kỳ app mạng xã hội nào.`,
+      scienceExplanation: `Một số nghiên cứu cho thấy nhiều bạn lướt mạng để xoa dịu căng thẳng hoặc né việc khó, không hẳn để tìm thông tin (kết quả chưa thống nhất, mỗi bạn một khác). Lướt có thể tạm làm dịu cảm giác lo âu, nhưng không giải quyết việc đang né.`,
+      actionItem: `Hành động: Thử 'lướt qua cơn thèm': dừng lại vài nhịp thở, quan sát cơn thèm lên rồi hạ, rồi hãy quyết định có mở app mạng xã hội hay không.`,
     },
     {
       id: 2,
@@ -12954,7 +12954,7 @@ var w = [
       title: `Ngày 1: Bật Chế Độ Màn Hình Đen Trắng`,
       desc: `Chuyển màn hình điện thoại sang chế độ Grayscale để giảm sự hấp dẫn thị giác của video ngắn.`,
       category: `Môi trường số`,
-      scientificRationale: `Màu sắc rực rỡ kích hoạt hệ thống tưởng thưởng dopamine vô thức. Chuyển màn hình sang đen trắng có thể làm điện thoại bớt hấp dẫn về thị giác, từ đó giúp bạn bớt dán mắt vào màn hình (dự án sẽ kiểm chứng ở giai đoạn thực nghiệm).`,
+      scientificRationale: `Màu sắc rực rỡ có thể làm ứng dụng thu hút hơn. Chuyển màn hình sang đen trắng có thể làm điện thoại bớt hấp dẫn về thị giác: một vài nghiên cứu nhỏ trên sinh viên ghi nhận thời gian dùng giảm, nhưng mức giảm khác nhau và chưa chắc kéo dài (dự án sẽ kiểm chứng ở giai đoạn thực nghiệm).`,
       metricLabel: `Thời gian duy trì Grayscale (giờ hoặc phút)`,
       completed: !1,
     },
@@ -12964,7 +12964,7 @@ var w = [
       title: `Ngày 2: Tắt Toàn Bộ Thông Báo Đẩy Mạng Xã Hội`,
       desc: `Tắt Push Notifications của TikTok, Facebook, Instagram, YouTube để cắt nguồn gây xao nhãng.`,
       category: `Cắt xao nhãng`,
-      scientificRationale: `Thông báo đẩy tạo ra phản xạ có điều kiện Pavlov, ép não bộ tiết dopamine ngắt quãng làm đứt gãy luồng tập trung sâu.`,
+      scientificRationale: `Thông báo có thể kéo sự chú ý ra khỏi việc đang làm. Tắt các thông báo không cần thiết giúp bạn chủ động hơn về lúc nào mở điện thoại.`,
       metricLabel: `Số ứng dụng mạng xã hội đã tắt thông báo`,
       completed: !1,
     },
@@ -13012,9 +13012,9 @@ var w = [
     {
       day: 7,
       stage: 2,
-      title: `Ngày 7: 24 Giờ Cai Nghiện Mạng Xã Hội (Dopamine Fast)`,
+      title: `Ngày 7: 24 Giờ Nghỉ Mạng Xã Hội`,
       desc: `Hoàn toàn không lướt feed mạng xã hội trong 1 ngày cuối tuần để tập quen lại với nhịp độ chậm hơn.`,
-      category: `Dopamine Detox`,
+      category: `Nghỉ màn hình`,
       scientificRationale: `Tạm ngắt dòng kích thích từ video ngắn trong 24h giúp bạn nhận ra mình đang phụ thuộc vào chúng đến mức nào và tập làm quen lại với nhịp độ chậm hơn.`,
       metricLabel: `Số giờ ngắt hoàn toàn mạng xã hội trong ngày`,
       completed: !1,
@@ -13055,11 +13055,11 @@ var w = [
     {
       day: 11,
       stage: 3,
-      title: `Ngày 11: Quy Tắc 90 Giây Tạm Dừng Nhận Thức`,
-      desc: `Mỗi khi tay muốn mở điện thoại, dừng lại 90 giây quan sát hơi thở và đặt câu hỏi 'Mình mở làm gì?'.`,
+      title: `Ngày 11: Lướt Qua Cơn Thèm`,
+      desc: `Khi tay muốn mở điện thoại, dừng lại vài nhịp thở, quan sát cơn thèm như một con sóng (lên rồi hạ) và tự hỏi 'Mình mở làm gì?'. Chưa cần ép mình không mở.`,
       category: `Kìm hãm xung động`,
-      scientificRationale: `Cơn thèm dopamine kéo dài đỉnh điểm trong 90 giây. Tạm dừng có ý thức giúp vỏ não trước trán can thiệp kịp thời vào phản xạ hạch hạnh nhân.`,
-      metricLabel: `Số lần áp dụng thành công quy tắc 90 giây`,
+      scientificRationale: `Kỹ thuật 'lướt qua cơn thèm' (urge surfing) được dùng trong một số chương trình chánh niệm hỗ trợ kiểm soát thói quen. Bằng chứng còn khiêm tốn và chưa được kiểm chứng riêng cho video ngắn.`,
+      metricLabel: `Số lần bạn dừng lại quan sát cơn thèm`,
       completed: !1,
     },
     {
@@ -13078,7 +13078,7 @@ var w = [
       title: `Ngày 13: Viết Nhật Ký 3 Điều Biết Ơn Đời Thực`,
       desc: `Ghi chép 3 điều bạn trân trọng trong ngày hôm nay mà không xuất phát từ mạng xã hội.`,
       category: `Tâm lý học tích cực`,
-      scientificRationale: `Thực hành lòng biết ơn kích thích tiết serotonin và dopamine nội sinh tự nhiên, tăng cường cảm giác hạnh phúc và tự tôn đời thực.`,
+      scientificRationale: `Một số nghiên cứu cho thấy viết ra điều biết ơn có liên quan đến cảm giác tích cực hơn, nhưng mức tác động nhỏ và khác nhau theo từng người.`,
       metricLabel: `3 điều biết ơn bạn đã ghi chép trong ngày`,
       completed: !1,
     },
@@ -13098,7 +13098,7 @@ var w = [
     {
       id: `item-1`,
       title: `Lướt TikTok/Reels vô thức 3 tiếng trước khi ngủ`,
-      subtitle: `Ánh sáng xanh + dopamine gián đoạn ức chế tiết Melatonin`,
+      subtitle: `Ánh sáng màn hình và việc thức khuya để xem có thể làm giấc ngủ ngắn và chập chờn hơn`,
       category: `toxic`,
       icon: `📱`,
       explanation: `Gây tê liệt giấc ngủ REM và làm phân mảnh cấu trúc bộ nhớ ban đêm.`,
@@ -13125,7 +13125,7 @@ var w = [
       subtitle: `Kích hoạt hệ thần kinh phó giao cảm (Parasympathetic)`,
       category: `healthy`,
       icon: `🧘`,
-      explanation: `Hạ nhịp tim và làm tan biến cơn thèm dopamine giả tạo trong 2 phút.`,
+      explanation: `Thở chậm giúp cơ thể thư giãn hơn, có thể giúp bớt bồn chồn trong vài phút.`,
     },
     {
       id: `item-5`,
@@ -13138,7 +13138,7 @@ var w = [
     {
       id: `item-6`,
       title: `Chạy bộ ngoài trời buổi sáng không đeo tai nghe`,
-      subtitle: `Tiếp xúc ánh sáng tự nhiên và nạp dopamine từ vận động thể chất`,
+      subtitle: `Ánh sáng tự nhiên và vận động thể chất thường giúp tinh thần khá hơn`,
       category: `healthy`,
       icon: `🏃`,
       explanation: `Thiết lập nhịp sinh học và giải phóng BDNF kích thích phát triển tế bào thần kinh mới.`,
@@ -13151,7 +13151,7 @@ var w = [
     notes: `Chưa có dữ liệu thực nghiệm thực tế. Admin vui lòng nhập số liệu bên dưới để cập nhật lên trang.`,
     metrics: [],
   },
-  j = `dreset_cms_config_v3`,
+  j = `dreset_cms_config_v4`,
   M = `dreset_dashboard_real_data_v2`;
 function N() {
   if (typeof window > `u`)
@@ -36354,7 +36354,7 @@ var Ed = class {
                     }),
                     (0, G.jsx)(`p`, {
                       className: `text-xs text-slate-600 leading-relaxed`,
-                      children: `Hoàn thành bảng khảo sát Likert để đo lường mức độ Brainrot và bão hòa dopamine. Bật chế độ Grayscale (đen trắng) trên điện thoại và nhận diện các điểm kích hoạt cơn thèm vuốt màn hình vô thức.`,
+                      children: `Hoàn thành bảng khảo sát Likert để tự đánh giá mức độ lệ thuộc video ngắn (không phải chẩn đoán). Bật chế độ Grayscale (đen trắng) trên điện thoại và nhận diện các điểm kích hoạt cơn thèm vuốt màn hình vô thức.`,
                     }),
                     (0, G.jsxs)(`div`, {
                       className: `pt-2 border-t border-slate-200 text-[11px] font-mono text-blue-700 flex items-center gap-1.5`,
@@ -36704,7 +36704,7 @@ var Ed = class {
               level: `healthy`,
               title: `Tâm Trí Lành Mạnh (Kiểm Soát Tốt)`,
               scoreBadge: `${p} / ${m} - Tối Ưu`,
-              description: `Bạn duy trì được sự tập trung đơn luồng xuất sắc, ít bị chi phối bởi các vòng lặp kích thích dopamine ngắn của video mạng xã hội.`,
+              description: `Bạn duy trì được sự tập trung đơn luồng xuất sắc, ít bị cuốn theo các video ngắn trên mạng xã hội.`,
               action: `Tiếp tục duy trì thói quen đọc sách giấy và ngủ xa điện thoại để nuôi dưỡng năng lực tư duy sáng tạo độc bản.`,
             }
           : e <= 0.72
@@ -36744,7 +36744,7 @@ var Ed = class {
             }),
             (0, G.jsx)(`p`, {
               className: `text-black font-semibold text-xs sm:text-sm leading-relaxed`,
-              children: `Đánh giá mức độ tổn thương của khả năng tập trung sâu và sự bão hòa dopamine. Điểm khởi tạo mặc định bằng 0.`,
+              children: `Tự đánh giá thói quen lướt và ảnh hưởng đến khả năng tập trung (không phải chẩn đoán). Điểm khởi tạo mặc định bằng 0.`,
             }),
           ],
         }),
@@ -36890,7 +36890,7 @@ var Ed = class {
                   children: [
                     (0, G.jsx)(`span`, {
                       className: `text-xs text-slate-500 font-mono text-center sm:text-left`,
-                      children: `* Thang đo Likert 5 mức độ đo lường độ lệ thuộc Dopamine`,
+                      children: `* Thang Likert 5 mức tự đánh giá mức độ lệ thuộc video ngắn (không phải chẩn đoán)`,
                     }),
                     (0, G.jsxs)(`div`, {
                       className: `flex items-center gap-3 w-full sm:w-auto`,
@@ -37548,7 +37548,7 @@ Tác phẩm: "${e}" • Biên soạn: ${t || `Nhóm Nghiên Cứu THPT`}
 Trong kỷ nguyên bùng nổ của trí tuệ nhân tạo và các thuật toán phân phối nội dung vô hạn, năng lực chú ý của con người đang bị phân mảnh ở mức độ chưa từng có tiền lệ. Khảo sát thực nghiệm trên hàng ngàn học sinh cho thấy thời gian duy trì sự chú ý liên tục đã giảm từ 12 phút xuống dưới 47 giây.
 
 2. Luận Điểm Cốt Lõi
-Tác phẩm "${e}" khẳng định: Sự tự chủ không phải là một món quà di truyền, mà là một cơ chế thích ứng thần kinh học cần được rèn luyện có chủ đích. Để thoát khỏi bẫy dopamine của video ngắn và thông báo ảo, chúng ta cần tái lập quyền kiểm soát đối với môi trường sống và thói quen thường nhật.
+Tác phẩm "${e}" khẳng định: Sự tự chủ không phải là một món quà di truyền, mà là một cơ chế thích ứng thần kinh học cần được rèn luyện có chủ đích. Để bớt bị cuốn vào video ngắn và thông báo, chúng ta cần tái lập quyền kiểm soát đối với môi trường sống và thói quen thường nhật.
 
 3. Khung Khái Niệm Quan Trọng
 - Độ trơ nhận thức (Cognitive Fatigue): Trạng thái mệt mỏi giả của não bộ sau khi tiếp nhận lượng kích thích thị giác vượt ngưỡng.
@@ -37556,14 +37556,14 @@ Tác phẩm "${e}" khẳng định: Sự tự chủ không phải là một món
         `PHẦN II: CƠ CHẾ THẦN KINH & TÂM LÝ HỌC HÀNH VI
 Giải Mã Các Yếu Tố Kích Hoạt Thói Quen Tiêu Cực
 
-1. Vòng Lặp Dopamine Khen Thưởng Biến Thiên
-Khi học sinh mở ứng dụng điện thoại, não bộ tiết ra dopamine không phải khi xem được nội dung hay, mà ngay từ khoảnh khắc *chờ đợi* xem nội dung tiếp theo là gì. Đây chính là nguyên lý của máy đánh bạc Las Vegas được cài cắm tinh vi vào các ứng dụng mạng xã hội.
+1. Vòng Lặp Phần Thưởng Biến Thiên
+Phần thưởng đến bất ngờ (lúc có video hay, lúc không) có thể khiến việc lướt khó dừng hơn, vì ta luôn *chờ đợi* video tiếp theo. Một số nhà nghiên cứu so sánh với cơ chế phần thưởng biến thiên của máy đánh bạc; đây là giả thuyết, chưa phải kết luận chắc chắn cho từng người.
 
 2. Vỏ Não Trước Trán (Prefrontal Cortex - PFC)
 Vùng não chịu trách nhiệm lập kế hoạch, tư duy phản biện và kiểm soát sự bốc đồng. Ở lứa tuổi thanh thiếu niên, PFC đang trong quá trình tái cấu trúc các liên kết sinap. Việc tiếp xúc quá mức với màn hình số làm suy giảm mật độ chất xám tại vùng não này, dẫn đến hội chứng "sương mù não" (Brainrot) và sự suy giảm trí nhớ làm việc.
 
 3. Sự Trốn Tránh Cảm Xúc Tiêu Cực
-Hành vi lướt màn hình vô độ thực chất là cơ chế đối phó kém thích nghi khi đối diện với bài tập khó, sự lo âu xã hội hoặc áp lực thi cử. Não bộ tìm kiếm dopamine nhanh để che đậy cảm giác bất an tức thời.`,
+Hành vi lướt màn hình vô độ thực chất là cơ chế đối phó kém thích nghi khi đối diện với bài tập khó, sự lo âu xã hội hoặc áp lực thi cử. Lướt có thể tạm làm dịu cảm giác bất an, nhưng không giải quyết việc đang né.`,
         `PHẦN III: BỘ CÔNG CỤ CAN THIỆP & TỰ PHỤC HỒI
 Các Chiến Lược Thực Chứng Được Kiểm Chứng
 
@@ -38302,7 +38302,7 @@ var Jd = ({
               o = r.title.toLowerCase();
             ((a =
               o.includes(`chuyến tàu`) || o.includes(`công nghệ`)
-                ? `Giải mã cấu trúc gây nghiện dopamine của video ngắn và trao quyền tự chủ số cho bạn trước cám dỗ màn hình.`
+                ? `Tìm hiểu vì sao video ngắn dễ cuốn, và các cách để bạn chủ động hơn trước màn hình.`
                 : o.includes(`deep work`)
                   ? `Hướng dẫn phương pháp rèn luyện chú ý sâu 45 phút không gián đoạn, ngăn chặn sự phân mảnh nhận thức khi học tập.`
                   : o.includes(`thói quen`) || o.includes(`atomic`)
@@ -38836,7 +38836,7 @@ var Jd = ({
                   return (
                     v(yn, Sn.name, e),
                     alert(
-                      `🎉 Chúc mừng bạn đã hoàn thành phiên "${Sn.name}" ${e} phút! Lịch sử đã được lưu vào tài khoản và đồng bộ về Admin.`,
+                      `🎉 Chúc mừng bạn đã hoàn thành phiên "${Sn.name}" ${e} phút! Lịch sử đã được lưu vào tài khoản ngay trong máy này.`,
                     ),
                     0
                   );
@@ -38868,7 +38868,7 @@ var Jd = ({
           Mn(!1),
           Bn(),
           alert(
-            `🎉 Đã ghi nhận ${t} phút thực hành "${Sn.name}" vào tài khoản học sinh và đồng bộ về bảng Quản lý Admin!`,
+            `🎉 Đã ghi nhận ${t} phút thực hành "${Sn.name}" vào tài khoản học sinh ngay trong máy này!`,
           ));
       },
       Hn = le(),
@@ -39081,7 +39081,7 @@ var Jd = ({
                           (0, G.jsx)(`span`, {
                             children:
                               jt === `synced`
-                                ? `🟢 Đã đồng bộ Đám mây Đa thiết bị (Laptop • Điện thoại • iPad)`
+                                ? `🟢 Dữ liệu lưu ngay trong máy bạn, không gửi đi đâu`
                                 : jt === `syncing`
                                   ? `🟡 Đang đồng bộ với máy chủ...`
                                   : `🔴 Đang kết nối lại máy chủ...`,
@@ -41495,7 +41495,7 @@ var Jd = ({
                                   }),
                                   (0, G.jsx)(`div`, {
                                     className: `text-xs text-emerald-800 dark:text-emerald-300`,
-                                    children: `Bạn đã xác lập thành công năng lực tự chủ số, giải phóng não bộ khỏi vòng lặp dopamine ảo và khôi phục sự tập trung sâu bền vững.`,
+                                    children: `Bạn đã xác lập thành công năng lực tự chủ số, bắt đầu chủ động hơn với thói quen dùng màn hình. Hãy giữ nhịp nhỏ đều đặn; nếu thấy khó, nói chuyện với thầy cô hoặc người lớn bạn tin.`,
                                   }),
                                 ],
                               }),
@@ -42089,7 +42089,7 @@ var Jd = ({
                     }),
                     `Việc nhận diện được nội dung độc hại trong trò chơi `,
                     (0, G.jsx)(`em`, { children: `mới chỉ là bước khởi đầu về mặt nhận thức` }),
-                    `; trong đời sống thực tế, các vòng lặp Dopamine tốc độ cao từ màn hình điện thoại vẫn có thể khiến não bộ mất kiểm soát vô thức, gây suy giảm nghiêm trọng khả năng tập trung sâu, dẫn tới trì hoãn việc học và mệt mỏi tinh thần kéo dài nếu thiếu các phương pháp thực hành tự chủ cụ thể.`,
+                    `; trong đời sống thực tế, việc lướt nhiều vẫn có thể liên quan đến khó tập trung, trì hoãn việc học và mệt mỏi. Đây là mối liên hệ, chưa chắc là nguyên nhân; các thực hành nhỏ và đều đặn có thể giúp bạn chủ động hơn.`,
                   ],
                 }),
               ],
@@ -48411,7 +48411,7 @@ function Of() {
           t = me(u.id, { mindfulnessLogs: e });
         t && d(t);
       }
-      y(`✨ Đã ghi nhận phiên "${t}" ${n} phút vào hồ sơ & đồng bộ về Admin!`);
+      y(`✨ Đã ghi nhận phiên "${t}" ${n} phút vào hồ sơ ngay trong máy này!`);
     },
     k = (e) => {
       if (!u) {
@@ -48420,7 +48420,7 @@ function Of() {
       }
       let t = le(),
         n = me(u.id, { habitPercentages: e, habitLastUpdatedDate: t });
-      (n && d(n), y(`🎯 Đã lưu chỉ số Bánh xe thói quen hôm nay & đồng bộ về Admin!`));
+      (n && d(n), y(`🎯 Đã lưu chỉ số Bánh xe thói quen hôm nay ngay trong máy này!`));
     },
     A = (e) => {
       if (!u) {
@@ -48512,7 +48512,7 @@ function Of() {
         },
         onResetToDefault: () => {
           confirm(`Bạn có chắc muốn khôi phục toàn bộ nội dung về cấu hình mặc định ban đầu?`) &&
-            (localStorage.removeItem(`dreset_cms_config_v3`),
+            (localStorage.removeItem(`dreset_cms_config_v4`),
             localStorage.removeItem(`dreset_dashboard_real_data_v2`),
             window.location.reload());
         },
@@ -48729,7 +48729,7 @@ function Of() {
       (0, G.jsx)(mf, { isOpen: o, onClose: () => s(!1), onSuccess: ue }),
       (0, G.jsx)(hf, { isOpen: f, onClose: () => p(!1), onAuthSuccess: x }),
       (0, G.jsx)(gf, {}),
-      (0, G.jsx)(vf, {}),
+      
       (0, G.jsx)(Df, { isAdminAuthenticated: i, onShowToast: y }),
     ],
   });
