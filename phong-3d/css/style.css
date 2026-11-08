@@ -202,3 +202,8 @@ body.dlg #bubble{display:none}
 #sbcue{color:#047857;min-width:7ch;white-space:nowrap}#sessionbar .pill{white-space:nowrap}#sbtime{font:700 18px ui-monospace,Consolas,monospace;color:var(--blue)}
 #sessionbar .pill{height:36px}
 @media(max-width:600px){#sessionbar{top:62px;max-width:96vw}}
+
+/* Chạm đúp không phóng to trang (iPhone) */
+html,body,button{touch-action:manipulation}
+/* Menu "Đi tới phòng" đang mở thì nằm trên bong bóng hội thoại của Reset */
+#topbar:has(#menulist:not([hidden])){z-index:12}

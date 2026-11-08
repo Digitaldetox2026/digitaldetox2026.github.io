@@ -2,10 +2,15 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <title>Phòng tâm lý ảo - D-RESET</title>
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="css/style.css">
+<script>
+/* Chống phóng to nhầm trên iPhone (chụm 2 ngón, chạm đúp) làm hỏng bố cục */
+['gesturestart','gesturechange','gestureend'].forEach(function(t){document.addEventListener(t,function(e){e.preventDefault();});});
+document.addEventListener('touchmove',function(e){if(e.touches.length>1)e.preventDefault();},{passive:false});
+</script>
 <script type="importmap">
 {"imports":{"three":"./vendor/three.module.min.js"}}
 </script>
@@ -64,5 +69,24 @@
 </div>
 
 <script type="module" src="js/main.js"></script>
+<script>
+/* Bản công khai: thêm lối quay về trang chính và web */
+(function () {
+  var st = 'text-decoration:none;color:inherit;';
+  var tries = 0;
+  var t = setInterval(function () {
+    var m = document.getElementById('menulist');
+    if (m && m.querySelector('.menu-item')) {
+      clearInterval(t);
+      var hr = document.createElement('div'); hr.style.cssText = 'height:1px;background:#dbeafe;margin:6px 4px'; m.appendChild(hr);
+      [['🏠 Trang chính D-RESET', '../'], ['🌐 Web D-RESET', '../web/']].forEach(function (x) {
+        var a = document.createElement('a'); a.className = 'menu-item'; a.href = x[1]; a.style.cssText = st; a.textContent = x[0]; m.appendChild(a);
+      });
+    } else if (++tries > 200) clearInterval(t);
+  }, 100);
+  var card = document.querySelector('.splash-card');
+  if (card) { var p = document.createElement('p'); p.className = 'small'; p.innerHTML = '<a href="../">← Quay về trang chính</a> · <a href="../web/">Web D-RESET</a>'; card.appendChild(p); }
+})();
+</script>
 </body>
 </html>

@@ -27,4 +27,15 @@
     }
   }
   new MutationObserver(hide).observe(document.documentElement, { childList: true, subtree: true });
+  // Lối quay về trang chính và phòng 3D (nút nhỏ nổi góc trái dưới)
+  document.addEventListener('DOMContentLoaded', function () {
+    var d = document.createElement('div');
+    d.style.cssText = 'position:fixed;left:8px;bottom:8px;z-index:40;display:flex;gap:6px;font:600 12px system-ui,sans-serif';
+    [['🏠 Trang chính', '../'], ['🧘 Phòng 3D', '../phong-3d/']].forEach(function (x) {
+      var a = document.createElement('a'); a.href = x[1]; a.textContent = x[0];
+      a.style.cssText = 'background:#fff;color:#0f172a;border:1px solid #cbd5e1;border-radius:999px;padding:6px 10px;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.15)';
+      d.appendChild(a);
+    });
+    document.body.appendChild(d);
+  });
 })();
