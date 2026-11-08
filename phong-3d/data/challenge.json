@@ -1,0 +1,431 @@
+{
+  "title": "Hành trình khởi động 14 ngày",
+  "intro": "Hành trình khởi động 14 ngày, sau đó bạn duy trì những gì hợp với mình. Mỗi ngày chỉ một việc nhỏ. Lỡ bỏ lỡ một ngày cũng không sao.",
+  "carryHeader": "Giữ từ những ngày trước",
+  "stages": [
+    {
+      "id": 1,
+      "name": "Chặng 1: Dọn đường",
+      "from": 1,
+      "to": 4,
+      "summary": "Mỗi ngày thêm một thay đổi nhỏ và giữ lại các thay đổi trước. Từ ngày 4 bạn duy trì tất cả đến hết hành trình."
+    },
+    {
+      "id": 2,
+      "name": "Chặng 2: Thử hoạt động mới",
+      "from": 5,
+      "to": 9,
+      "summary": "Danh sách dưới đây chỉ là gợi ý. Mỗi ngày bạn tự chọn hoạt động hợp với mình."
+    },
+    {
+      "id": 3,
+      "name": "Chặng 3: Kết nối và giữ nhịp",
+      "from": 10,
+      "to": 14,
+      "summary": "Kết nối đời thực, vận động, vượt qua cơn thèm, kế hoạch khi lỡ trượt và kế hoạch duy trì. Ngày 10 và 11 có nhiều cách để chọn, hãy chọn cách hợp với lịch của bạn hôm đó. Bạn cũng có thể đổi chỗ ngày 10 và 11 cho nhau, hoặc làm ở bất kỳ khung giờ nào."
+    }
+  ],
+  "moods": [
+    {
+      "v": 1,
+      "emoji": "😣",
+      "label": "Khó chịu"
+    },
+    {
+      "v": 2,
+      "emoji": "😕",
+      "label": "Hơi khó"
+    },
+    {
+      "v": 3,
+      "emoji": "😐",
+      "label": "Bình thường"
+    },
+    {
+      "v": 4,
+      "emoji": "🙂",
+      "label": "Khá ổn"
+    },
+    {
+      "v": 5,
+      "emoji": "😊",
+      "label": "Rất ổn"
+    }
+  ],
+  "afterMsg": "Xong rồi! Mỗi bước nhỏ đều đáng khen.",
+  "days": [
+    {
+      "day": 1,
+      "stage": 1,
+      "title": "Dọn ứng dụng và bật màn hình đen trắng",
+      "minutes": 10,
+      "why": "Màn hình ít màu và ít ứng dụng gây xao nhãng thì dễ bình tĩnh hơn.",
+      "steps": [
+        "Chọn 3 ứng dụng bạn mở nhiều nhất mà không để làm gì.",
+        "Đưa chúng ra khỏi màn hình chính (hoặc gỡ nếu bạn muốn).",
+        "Bật màn hình đen trắng."
+      ],
+      "phone": [
+        "den-trang"
+      ]
+    },
+    {
+      "day": 2,
+      "stage": 1,
+      "title": "Tắt thông báo đẩy mạng xã hội",
+      "minutes": 5,
+      "why": "Không có thông báo thì máy ít kéo bạn quay lại hơn.",
+      "steps": [
+        "Mở cài đặt thông báo.",
+        "Tắt thông báo đẩy của các ứng dụng mạng xã hội.",
+        "Tin nhắn của người thân và việc học vẫn giữ nếu cần."
+      ],
+      "phone": [
+        "thong-bao"
+      ],
+      "carry": [
+        1
+      ]
+    },
+    {
+      "day": 3,
+      "stage": 1,
+      "title": "Cắm sạc điện thoại ngoài giường",
+      "minutes": 5,
+      "why": "Để máy xa tầm tay thì tối bạn dễ ngủ hơn và sáng ít mở máy ngay.",
+      "steps": [
+        "Chọn một ổ cắm ngoài giường hoặc ngoài phòng ngủ.",
+        "Tối nay cắm sạc ở đó.",
+        "Cần báo thức thì dùng đồng hồ riêng."
+      ],
+      "phone": [
+        "sac-ngoai",
+        "gioi-han"
+      ],
+      "carry": [
+        1,
+        2
+      ]
+    },
+    {
+      "day": 4,
+      "stage": 1,
+      "title": "Một bữa ăn không màn hình",
+      "minutes": 15,
+      "why": "Ăn chậm, nhìn món ăn và nói chuyện với người cùng bàn.",
+      "steps": [
+        "Chọn một bữa hôm nay.",
+        "Cất điện thoại ra xa trong cả bữa ăn.",
+        "Để ý mùi vị và người ngồi cùng."
+      ],
+      "carry": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "day": 5,
+      "stage": 2,
+      "title": "Chọn một hoạt động ngoài màn hình",
+      "minutes": 15,
+      "pick": true,
+      "why": "Thử và xem hoạt động nào làm bạn thấy khỏe lại.",
+      "steps": [
+        "Chọn một gợi ý bên dưới.",
+        "Làm trong thời gian đã đặt.",
+        "Để ý cảm giác của bạn sau khi làm."
+      ]
+    },
+    {
+      "day": 6,
+      "stage": 2,
+      "title": "Chọn một hoạt động ngoài màn hình",
+      "minutes": 15,
+      "pick": true,
+      "why": "Thử hoạt động khác hoặc lặp lại hoạt động bạn thích.",
+      "steps": [
+        "Chọn một gợi ý bên dưới.",
+        "Làm trong thời gian đã đặt.",
+        "Để ý cảm giác của bạn sau khi làm."
+      ]
+    },
+    {
+      "day": 7,
+      "stage": 2,
+      "title": "Chọn một hoạt động ngoài màn hình",
+      "minutes": 15,
+      "pick": true,
+      "why": "Thử hoạt động khác hoặc lặp lại hoạt động bạn thích.",
+      "steps": [
+        "Chọn một gợi ý bên dưới.",
+        "Làm trong thời gian đã đặt.",
+        "Để ý cảm giác của bạn sau khi làm."
+      ]
+    },
+    {
+      "day": 8,
+      "stage": 2,
+      "title": "Chọn một hoạt động ngoài màn hình",
+      "minutes": 15,
+      "pick": true,
+      "why": "Thử hoạt động khác hoặc lặp lại hoạt động bạn thích.",
+      "steps": [
+        "Chọn một gợi ý bên dưới.",
+        "Làm trong thời gian đã đặt.",
+        "Để ý cảm giác của bạn sau khi làm."
+      ]
+    },
+    {
+      "day": 9,
+      "stage": 2,
+      "title": "Chọn một hoạt động ngoài màn hình",
+      "minutes": 15,
+      "pick": true,
+      "why": "Chọn hoạt động bạn thấy hợp nhất trong tuần này.",
+      "steps": [
+        "Chọn một gợi ý bên dưới.",
+        "Làm trong thời gian đã đặt.",
+        "Để ý cảm giác của bạn sau khi làm."
+      ]
+    },
+    {
+      "day": 10,
+      "stage": 3,
+      "title": "Kết nối đời thực (chọn cách hợp lịch của bạn)",
+      "minutes": 10,
+      "why": "Nói chuyện thật với một người là một cách tạm rời màn hình. Bạn chọn cách vừa sức và hợp với lịch hôm nay, không cần gặp mặt.",
+      "steps": [
+        "Chọn một gợi ý bên dưới (hoặc cách riêng của bạn).",
+        "Làm trong thời gian đã đặt, lúc nào hợp với lịch của bạn cũng được.",
+        "Khi làm, cất điện thoại sang một bên hoặc chỉ dùng cho đúng việc đó."
+      ],
+      "pick": true,
+      "options": [
+        {
+          "name": "Gọi điện hỏi thăm một người",
+          "icon": "📞",
+          "hint": "Một cuộc gọi ngắn cho người thân hoặc bạn, chỉ để hỏi thăm."
+        },
+        {
+          "name": "Nói chuyện với người trong nhà",
+          "icon": "🏠",
+          "hint": "Ngồi cùng ai đó trong nhà vài phút, hỏi họ hôm nay ra sao."
+        },
+        {
+          "name": "Gặp bạn hoặc thầy cô ở trường",
+          "icon": "🏫",
+          "hint": "Giờ ra chơi hoặc sau giờ học, trò chuyện trực tiếp một lúc."
+        },
+        {
+          "name": "Nhắn một lời hỏi thăm rồi cất máy",
+          "icon": "💬",
+          "hint": "Gửi một tin chân thành cho một người, rồi bỏ điện thoại xuống, không lướt tiếp."
+        },
+        {
+          "name": "Viết thư tay hoặc lời cảm ơn",
+          "icon": "✉️",
+          "hint": "Viết vài dòng cho một người, đưa tận tay hoặc để dành."
+        },
+        {
+          "name": "Giúp ai đó một việc nhỏ",
+          "icon": "🤲",
+          "hint": "Phụ bố mẹ, anh chị em hoặc bạn một việc nhỏ."
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "stage": 3,
+      "title": "Vận động nhẹ (chọn cách hợp lịch của bạn)",
+      "minutes": 15,
+      "why": "Vận động nhẹ là một cách đổi không khí khỏi màn hình. Không cần ra ngoài trời: chọn cách vừa sức và hợp với chỗ ở, lịch của bạn.",
+      "steps": [
+        "Chọn một gợi ý bên dưới (hoặc cách riêng của bạn).",
+        "Làm trong thời gian đã đặt, vừa sức, thấy mệt hay đau thì dừng.",
+        "Để điện thoại xa tầm tay, tắt tiếng."
+      ],
+      "pick": true,
+      "options": [
+        {
+          "name": "Đi bộ (ngoài trời hoặc quanh nhà)",
+          "icon": "🚶",
+          "hint": "Có thể đi quanh sân, hành lang hoặc đi ra cửa hàng gần nhà."
+        },
+        {
+          "name": "Giãn cơ trong nhà",
+          "icon": "🤸",
+          "hint": "Vươn vai, xoay cổ, giãn lưng vài phút, không cần dụng cụ."
+        },
+        {
+          "name": "Leo cầu thang hoặc đi lại trong nhà",
+          "icon": "🪜",
+          "hint": "Hợp khi trời mưa hoặc không có thời gian ra ngoài."
+        },
+        {
+          "name": "Nhảy hoặc đi lại theo nhạc",
+          "icon": "🎵",
+          "hint": "Bật nhạc và cử động theo, không nhìn màn hình."
+        },
+        {
+          "name": "Dọn dẹp, làm việc nhà",
+          "icon": "🧹",
+          "hint": "Dọn góc học tập hoặc phòng, cũng là vận động."
+        },
+        {
+          "name": "Thể thao, đạp xe",
+          "icon": "🚴",
+          "hint": "Nếu bạn có lịch và chỗ phù hợp."
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "stage": 3,
+      "title": "Lướt qua cơn thèm",
+      "minutes": 5,
+      "why": "Cơn thèm lướt giống như một con sóng: lên rồi sẽ hạ. Bạn chỉ cần quan sát, chưa cần làm theo ngay.",
+      "steps": [
+        "Khi muốn mở ứng dụng, dừng lại một chút.",
+        "Gọi tên cảm giác: \"Mình đang thèm lướt\".",
+        "Để ý nó ở đâu trong cơ thể và nó đổi thế nào.",
+        "Chờ nó dịu bớt rồi chọn việc tiếp theo."
+      ],
+      "extra": {
+        "type": "urge"
+      }
+    },
+    {
+      "day": 13,
+      "stage": 3,
+      "title": "Kế hoạch khi lỡ trượt và kế hoạch duy trì",
+      "minutes": 10,
+      "why": "Lỡ lướt nhiều một ngày là chuyện bình thường. Có kế hoạch trước thì dễ quay lại hơn.",
+      "steps": [
+        "Viết việc nhỏ nhất bạn sẽ làm khi lỡ trượt.",
+        "Viết những việc bạn muốn giữ sau hành trình.",
+        "Bạn có thể bỏ qua ô viết nếu muốn."
+      ],
+      "extra": {
+        "type": "plans",
+        "plans": [
+          {
+            "key": "lapse",
+            "label": "Khi lỡ lướt nhiều một ngày, mình sẽ không tự trách và quay lại với việc nhỏ nhất:",
+            "placeholder": "Ví dụ: tối đó cắm sạc ngoài giường, hôm sau tiếp tục như thường."
+          },
+          {
+            "key": "keep",
+            "label": "Sau hành trình, mình muốn giữ:",
+            "placeholder": "Ví dụ: sạc ngoài giường, một buổi đi bộ mỗi ngày."
+          }
+        ]
+      }
+    },
+    {
+      "day": 14,
+      "stage": 3,
+      "title": "Nhìn lại và làm lại bộ câu hỏi nhanh",
+      "minutes": 5,
+      "why": "Làm lại để xem mình đã thay đổi gì so với lần đầu.",
+      "steps": [
+        "Làm lại bộ câu hỏi nhanh.",
+        "Xem so sánh với lần trước.",
+        "Chọn việc bạn sẽ giữ tiếp."
+      ],
+      "extra": {
+        "type": "likert"
+      }
+    }
+  ],
+  "activities": [
+    {
+      "name": "Đi bộ ngoài trời",
+      "icon": "🚶"
+    },
+    {
+      "name": "Đọc sách giấy",
+      "icon": "📖"
+    },
+    {
+      "name": "Thiền hoặc thở chậm",
+      "icon": "🧘"
+    },
+    {
+      "name": "Vận động, thể thao",
+      "icon": "🏃"
+    },
+    {
+      "name": "Gặp bạn bè",
+      "icon": "🤝"
+    },
+    {
+      "name": "Sở thích (vẽ, nhạc, nấu ăn...)",
+      "icon": "🎨"
+    }
+  ],
+  "urgeSteps": [
+    "Hít vào chậm, thở ra chậm.",
+    "Nói thầm: \"Mình đang thèm lướt\".",
+    "Cơn thèm ở đâu trong người? (tay, ngực, đầu...)",
+    "Nhìn nó mạnh lên rồi yếu dần, như một con sóng.",
+    "Khi dịu bớt, chọn một việc khác nhỏ nhất."
+  ],
+  "safety": "Nếu bạn thấy nặng nề hoặc buồn kéo dài, hãy nói chuyện với thầy cô hoặc người lớn bạn tin. Cần hỗ trợ ngay: gọi 111.",
+  "room": {
+    "intro": "Đây là khu vườn có lối 14 viên đá: mỗi ngày một viên. Bước lên một viên đá rồi đứng yên một chút (hoặc chạm vào viên đá) để mình giao việc nhỏ của ngày đó. Làm xong, viên đá sẽ sáng lên và một cái cây nhỏ mọc cạnh đó. Không cần làm liền, ngày nào bạn rảnh thì ghé.",
+    "hint": "Bước lên viên đá có mũi tên vàng rồi đứng yên một chút, hoặc chạm vào viên đá nhé.",
+    "busy": "Bạn đang làm việc của hôm nay. Cứ từ từ, xong mình sẽ hỏi cảm nhận.",
+    "next": "Tiếp ▸",
+    "askPick": "Chọn một cách hợp với bạn nhé. Đây chỉ là gợi ý.",
+    "askMinutes": "Bạn muốn làm trong bao lâu? Mình đặt một chiếc đồng hồ cát bên cạnh viên đá.",
+    "phoneBtn": "📱 Hướng dẫn trên điện thoại thật",
+    "skipClock": "Bỏ qua đồng hồ",
+    "later": "Để sau",
+    "minutes": "{m} phút",
+    "timerStart": "Mình ở đây. Cứ làm chậm rãi thôi. Đồng hồ cát đang chảy bên cạnh bạn.",
+    "stopped": "Không sao. Khi nào sẵn sàng thì bước lên viên đá lại nhé.",
+    "feelAsk": "Bạn thấy thế nào sau khi làm? Chọn một mặt cười nhé.",
+    "skip": "Bỏ qua",
+    "grown": "Viên đá đã sáng lên và một cái cây nhỏ vừa mọc cạnh đó.",
+    "nextBtn": "Đi tới viên đá tiếp theo",
+    "stay": "Ở lại đây",
+    "nextHint": "Viên đá tiếp theo ở phía mũi tên vàng. Đi từ từ thôi nhé.",
+    "allDone": "Vườn của bạn đã có đủ 14 cây. Bạn có thể quay lại viên đá nào cũng được để làm lại, hoặc cứ ngồi nghỉ ở đây một lát.",
+    "likertBtn": "Làm lại bộ câu hỏi nhanh",
+    "backToStone": "Quay lại viên đá ngày 14",
+    "compare": "So sánh: lần đầu bạn ở Mức {a}, lần mới nhất ở Mức {b}. Đây chỉ là mô tả thói quen của bạn, không phải chẩn đoán.",
+    "dayNotes": {
+      "3": "Bạn thấy trạm sạc bên cạnh chứ? Đó là chỗ điện thoại \"đi ngủ\" ngoài giường. Để máy xa tầm tay là thói quen giúp bạn bớt bị cám dỗ cầm máy lúc sắp ngủ và lúc vừa thức dậy.",
+      "4": "Bàn ăn bên cạnh có một chiếc hộp để cất điện thoại trong bữa ăn. Cứ coi đó là thói quen nhỏ để bữa ăn trọn vẹn hơn.",
+      "13": "Tấm bảng \"Nếu... thì...\" bên cạnh sẽ ghi kế hoạch của bạn. Mình sẽ hỏi vài câu, bạn chọn nhanh hoặc tự viết đều được, và bỏ qua cũng không sao."
+    },
+    "props": {
+      "charger": "Trạm sạc: chỗ điện thoại nghỉ qua đêm, xa giường. Để máy xa tầm tay là thói quen giúp bạn bớt bị cám dỗ cầm máy lúc sắp ngủ. Bạn sẽ làm việc này ở Ngày 3.",
+      "table": "Bàn ăn không điện thoại: cất máy vào hộp, ăn chậm, nhìn món ăn và người ngồi cùng. Bạn sẽ thử ở Ngày 4."
+    },
+    "ifThen": {
+      "intro": "Viết sẵn kế hoạch dạng \"Nếu... thì...\" có thể giúp bạn làm đúng kế hoạch. Bằng chứng có, nhưng hiệu quả không lớn, nên chỉ là một gợi ý để bạn thử.",
+      "lapseChips": [
+        "Tối đó cắm sạc ngoài giường, hôm sau tiếp tục như thường.",
+        "Nghỉ năm phút hít thở rồi làm lại việc nhỏ nhất.",
+        "Nhắn một người bạn rủ đi bộ vài phút."
+      ],
+      "keepChips": [
+        "Sạc điện thoại ngoài giường.",
+        "Mỗi ngày một buổi đi bộ.",
+        "Một bữa ăn không màn hình."
+      ],
+      "writeOwn": "✏️ Tự viết",
+      "placeholder": "Gõ vào đây (không bắt buộc)",
+      "save": "Lưu",
+      "skip": "Bỏ qua",
+      "boardTitle": "NẾU... THÌ...",
+      "boardIf": "Nếu mình lỡ lướt nhiều một ngày,",
+      "boardThen": "thì mình sẽ:",
+      "boardEmpty": "(Chạm vào bảng để viết kế hoạch)",
+      "done": "Xong rồi. Khi nào muốn sửa, bạn cứ chạm lại vào tấm bảng nhé."
+    },
+    "askLikert": "Hôm nay mình làm lại bộ câu hỏi nhanh để xem bạn đã thay đổi gì so với lần đầu. Vẫn không có câu trả lời đúng hay sai nhé."
+  }
+}

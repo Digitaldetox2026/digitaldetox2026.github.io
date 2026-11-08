@@ -1,0 +1,6 @@
+{
+  "note": "Tài nguyên tùy chọn có sẵn. Khai báo ở đây khi đã có file hợp giấy phép và đã ghi vào CREDITS.md. Thiếu hoặc lỗi thì cảnh dùng hình dựng bằng mã.",
+  "sky": "assets/sky/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+  "kenney": "assets/models/kenney/",
+  "models": { "boulder": "assets/models/boulder_01.glb" }
+}

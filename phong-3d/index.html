@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Phòng tâm lý ảo - D-RESET</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{"imports":{"three":"./vendor/three.module.min.js"}}
+</script>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<div id="bubble" role="status" aria-live="polite"></div>
+<div id="help"></div>
+
+<div id="topbar">
+  <button id="soundbtn" type="button" class="round" aria-label="Tắt âm thanh">🔊</button>
+  <button id="litebtn" type="button" class="pill" aria-pressed="false" title="Cho máy yếu: ít cây cỏ, hình nhẹ hơn">⚡ Chế độ nhẹ</button>
+  <button id="ovbtn" type="button" class="pill">🗺 Toàn cảnh</button>
+  <button id="menubtn" type="button" class="pill" aria-expanded="false" aria-controls="menulist">☰ Đi tới phòng</button>
+  <div id="menulist" hidden></div>
+</div>
+
+<button id="act" type="button" hidden></button>
+
+<div id="joy" aria-hidden="true"><div id="knob"></div></div>
+
+<div id="panel" hidden>
+  <div class="card" role="dialog" aria-modal="true" aria-labelledby="ptitle">
+    <header>
+      <h2 id="ptitle"></h2>
+      <span id="pbadge" class="badge" hidden>Bản demo</span>
+      <button id="pclose" type="button" aria-label="Đóng">✕</button>
+    </header>
+    <div id="pbody"></div>
+  </div>
+</div>
+
+<div id="sessionbar" hidden>
+  <span id="sbcue"></span><span id="sbtime"></span>
+  <button id="sbpause" type="button" class="pill" hidden>⏸ Tạm dừng</button>
+  <button id="sbstop" type="button" class="pill">■ Dừng</button>
+</div>
+<div id="dlgprog" class="progress" hidden></div>
+<button id="dlgclose" type="button" class="pill" hidden>✕ Thoát</button>
+<div id="dlg" hidden><div id="dlgbub"></div><div id="dlgtail"></div></div>
+<div id="dlgsheet" hidden></div>
+<div id="replies" hidden></div>
+
+<div id="loadbar" class="loadbar" hidden aria-hidden="true"><div></div></div>
+<div id="fade"></div>
+
+<div id="splash">
+  <div class="card splash-card">
+    <div class="splash-emoji" aria-hidden="true">🧘</div>
+    <h1 id="splash-title">Phòng tâm lý ảo</h1>
+    <p id="splash-text">Đang tải...</p>
+    <button id="splash-go" type="button" class="btn primary" disabled>Vào sảnh</button>
+    <p class="small">Cần hỗ trợ? Hãy nói chuyện với thầy cô hoặc người lớn bạn tin, hoặc gọi 111.</p>
+  </div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

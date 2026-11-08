@@ -1,0 +1,134 @@
+{
+  "intro": "Chọn tư thế thoải mái cho bạn. Không cần giống hệt hình.",
+  "common": [
+    "Lưng thẳng nhưng không gồng.",
+    "Vai thả lỏng, hai tay đặt nhẹ.",
+    "Mắt nhắm nhẹ, hoặc nhìn xuống một điểm.",
+    "Thở tự nhiên."
+  ],
+  "postures": [
+    {
+      "id": "xep-bang",
+      "name": "Ngồi xếp bằng",
+      "tips": [
+        "Ngồi trên sàn hoặc đệm, hai chân bắt chéo thoải mái.",
+        "Hai tay đặt lên đầu gối.",
+        "Nếu thấy đau lưng hoặc mỏi chân, hãy đổi sang ngồi ghế."
+      ]
+    },
+    {
+      "id": "ghe",
+      "name": "Ngồi ghế",
+      "tips": [
+        "Hai bàn chân đặt phẳng trên sàn.",
+        "Hai tay đặt lên đùi.",
+        "Ngồi lệch về phía trước ghế một chút, không tựa hẳn lưng."
+      ]
+    },
+    {
+      "id": "dung",
+      "name": "Đứng",
+      "tips": [
+        "Hai chân mở bằng vai, đầu gối hơi thả lỏng.",
+        "Hai tay buông tự nhiên bên người.",
+        "Phù hợp khi bạn không ngồi được lâu."
+      ]
+    }
+  ],
+  "after": {
+    "ask": "Bạn cảm thấy thế nào sau khi thở?",
+    "moods": [
+      {
+        "v": 1,
+        "emoji": "😣",
+        "label": "Khó chịu"
+      },
+      {
+        "v": 2,
+        "emoji": "😕",
+        "label": "Hơi căng"
+      },
+      {
+        "v": 3,
+        "emoji": "😐",
+        "label": "Bình thường"
+      },
+      {
+        "v": 4,
+        "emoji": "🙂",
+        "label": "Nhẹ nhàng"
+      },
+      {
+        "v": 5,
+        "emoji": "😊",
+        "label": "Thư thái"
+      }
+    ],
+    "replies": {
+      "low": "Cảm ơn bạn đã nói thật. Có lúc thở chậm lại làm mình thấy khó chịu hơn, điều đó có thể xảy ra, và bạn không làm sai gì cả. Bạn có thể dừng lại, uống nước, đi lại một chút. Nếu cảm giác này kéo dài, hãy nói với thầy cô hoặc người lớn bạn tin. Cần hỗ trợ ngay: gọi 111.",
+      "mid": "Bình thường cũng ổn. Chánh niệm cần luyện nhiều lần, không phải lần nào cũng thấy khác. Bạn đã dành thời gian cho mình, vậy là đủ tốt rồi.",
+      "high": "Mình vui khi nghe vậy! Hãy để ý cảm giác này. Lần sau bạn thử lại và xem có giống không nhé."
+    },
+    "mascotSay": {
+      "low": "Cảm ơn bạn đã nói thật. Mình ở đây cùng bạn.",
+      "mid": "Bình thường cũng ổn. Luyện dần dần nhé.",
+      "high": "Mình vui khi nghe vậy!"
+    },
+    "whatTitle": "Chánh niệm có tác dụng gì?",
+    "what": [
+      "Chánh niệm là chú ý vào hiện tại một cách nhẹ nhàng, không phán xét: ví dụ chú ý hơi thở.",
+      "Theo trang của NCCIH (cơ quan thuộc Viện Y tế Quốc gia Hoa Kỳ): các chương trình chánh niệm có vẻ giúp ích hơn là không làm gì với lo âu và buồn bã kéo dài, và có thể cải thiện chất lượng giấc ngủ ở một số người.",
+      "Nhưng bằng chứng còn lẫn lộn: nhiều nghiên cứu còn sơ bộ hoặc chất lượng chưa cao, và lợi ích lâu dài chưa rõ. Bài thở ngắn này chỉ là bước làm quen, không phải cách chữa bệnh.",
+      "Một số ít người thấy lo hơn hoặc khó chịu khi thực hành. Nếu vậy, hãy dừng lại.",
+      "Chánh niệm không thay thế sự hỗ trợ của thầy cô, người lớn bạn tin hoặc cán bộ y tế."
+    ],
+    "source": {
+      "label": "NCCIH (NIH, Hoa Kỳ): Meditation and Mindfulness, cập nhật 06/2022",
+      "url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-what-you-need-to-know"
+    }
+  },
+  "room": {
+    "enter": "Đây là phòng Chánh niệm. Mình ngồi đây cùng bạn. Muốn có người hướng dẫn thì chạm một khung hình trên tường; muốn tự thở thì chọn gối, ghế hay chỗ đứng, chọn số phút, chọn cảnh, rồi chạm quả cầu xanh.",
+    "intro": "Bạn muốn xem thiền có hướng dẫn trên màn hình lớn (chạm một khung hình trên tường), hay tự thở cùng quả cầu (chạm quả cầu xanh)? Bạn có thể đổi tư thế, số phút và cảnh trước khi bắt đầu.",
+    "screenIdle": "Chạm một khung hình bên cạnh để xem thiền có hướng dẫn. Muốn đổi cảnh thì chạm vỏ ốc, chiếc lá, giọt nước hoặc viên đá trơn trên bàn gỗ.",
+    "minutes": {
+      "1": "Một phút thôi, nhẹ nhàng làm quen.",
+      "3": "Ba phút nhé.",
+      "5": "Năm phút. Nếu thấy mệt hay khó chịu, bạn dừng lúc nào cũng được."
+    },
+    "scenes": {
+      "bien": "Cảnh biển. Mình nghe tiếng sóng nhé.",
+      "rung": "Cảnh rừng, có gió và tiếng chim.",
+      "mua": "Cảnh mưa nhẹ.",
+      "yen": "Im lặng nhé. Chỉ còn hơi thở của mình."
+    },
+    "sceneNames": {
+      "bien": "Biển",
+      "rung": "Rừng",
+      "mua": "Mưa",
+      "yen": "Im lặng"
+    },
+    "orbAsk": "Mình thở cùng bạn nhé. Bạn muốn nhịp nào? Chọn nhịp thấy dễ chịu nhất, không cần cố.",
+    "orbBusy": "Mình đang thở cùng bạn rồi. Muốn dừng thì bấm nút Dừng ở phía trên.",
+    "videoBusy": "Đang xem thiền. Muốn đổi thì bấm Dừng ở phía trên trước nhé.",
+    "stopped": "Mình đã dừng. Khi nào sẵn sàng, bạn chạm quả cầu hoặc một khung hình nhé.",
+    "videoStart": "Mình ngồi thiền cùng bạn. Bạn cứ ngồi hoặc đứng thoải mái, nhắm mắt hoặc nhìn màn hình đều được.",
+    "breathStart": "Hít vào chậm... rồi thở ra chậm. Mình ở đây.",
+    "noVideo": "Máy này chưa phát được video. Bạn thử trình duyệt Chrome hoặc Edge nhé, hoặc chọn tự thở cùng quả cầu.",
+    "micHint": "Muốn nghe giọng người thật nhắc nhịp thở? Thu giọng của bạn, bạn bè hoặc thầy cô. Bản thu chỉ lưu trên máy này.",
+    "videos": [
+      {
+        "file": "assets/meditation/thien-1-nhan-thuc-ngoi-nghi.mp4",
+        "cover": "assets/meditation/cover-1.jpg",
+        "label": "Thiền 1 · 10 phút",
+        "credit": "Video: \"10 phút Thiền Định : Cách đạt được tiềm năng vô hạn\" — Andy journal (YouTube). Đã cắt ngắn. Dùng thử nghiệm phi thương mại tại trường."
+      },
+      {
+        "file": "assets/meditation/thien-2-chanh-niem.mp4",
+        "cover": "assets/meditation/cover-2.jpg",
+        "label": "Thiền 2 · 10 phút",
+        "credit": "Video: \"Thiền chánh niệm #1: giảm lo âu, bớt suy nghĩ\" — Cosmic Writer (YouTube). Đã cắt ngắn. Dùng thử nghiệm phi thương mại tại trường."
+      }
+    ]
+  }
+}

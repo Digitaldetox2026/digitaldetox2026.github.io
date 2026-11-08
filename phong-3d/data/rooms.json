@@ -1,0 +1,96 @@
+{
+  "welcome": {
+    "title": "Phòng tâm lý ảo D-RESET",
+    "text": "Đây là bản demo thử nghiệm của nhóm. Reset là người bạn hỗ trợ và dẫn đường, không phải bác sĩ, và không chẩn đoán. Mọi thứ bạn làm chỉ lưu trên máy của bạn.",
+    "button": "Vào sảnh"
+  },
+  "lobby": {
+    "name": "Sảnh",
+    "icon": "🏠",
+    "greet": "Chào bạn! Mình là Reset, mình sẽ dẫn bạn đi. Đây là toàn cảnh 7 phòng. Bạn thử bắt đầu từ cửa có mũi tên vàng nhé!",
+    "back": "Bạn đang ở sảnh. Chọn một cửa để vào nhé.",
+    "hint": "Cửa có mũi tên vàng là gợi ý của mình. Đi lại gần, cửa sẽ tự mở."
+  },
+  "rooms": [
+    {
+      "id": "nhan-thuc",
+      "name": "Nhận thức",
+      "icon": "🔍",
+      "color": "#3b82f6",
+      "shape": "octa",
+      "demo": false,
+      "object": "Ngồi trò chuyện với Reset",
+      "enter": "Đây là góc trò chuyện. Chạm vào chiếc ghế bành có vòng sáng vàng để ngồi, mình sẽ ngồi đối diện và hỏi bạn vài câu nhé.",
+      "hint": "Chạm vào chiếc ghế bành có vòng sáng vàng để ngồi trò chuyện với mình nhé."
+    },
+    {
+      "id": "tro-choi",
+      "name": "Trò chơi",
+      "icon": "🎮",
+      "color": "#f59e0b",
+      "shape": "dice",
+      "demo": true,
+      "object": "Xem phòng Trò chơi",
+      "enter": "Phòng Trò chơi: luyện chú ý qua các tình huống nhỏ. Đi tới chạm vào vật ở giữa phòng để xem nhé.",
+      "intro": "Ở đây sẽ có các trò chơi ngắn giúp luyện chú ý và nhận ra tình huống dễ bị cuốn vào video ngắn. Bản web D-RESET đã có mini-game 6 tình huống; phòng này sẽ nối vào đó ở bước sau."
+    },
+    {
+      "id": "hieu-co-che",
+      "name": "Hiểu cơ chế",
+      "icon": "🧠",
+      "color": "#8b5cf6",
+      "shape": "ico",
+      "demo": true,
+      "object": "Xem phòng Hiểu cơ chế",
+      "enter": "Phòng Hiểu cơ chế: vì sao video ngắn dễ cuốn mình đi?. Đi tới chạm vào vật ở giữa phòng để xem nhé.",
+      "intro": "Ở đây sẽ giải thích đơn giản vì sao video ngắn dễ cuốn người xem, bằng thẻ lật và mô hình 3D. Bản web D-RESET đã có phần này; phòng sẽ nối vào đó ở bước sau."
+    },
+    {
+      "id": "chanh-niem",
+      "name": "Chánh niệm",
+      "icon": "🌿",
+      "color": "#10b981",
+      "shape": "orb",
+      "demo": false,
+      "object": "Thở cùng quả cầu",
+      "enter": "Phòng Chánh niệm. Mình ngồi đây cùng bạn. Chạm một khung hình trên tường để xem thiền có hướng dẫn, hoặc chọn gối/ghế, số phút, cảnh rồi chạm quả cầu xanh để tự thở."
+    },
+    {
+      "id": "thoi-quen",
+      "name": "Thói quen",
+      "icon": "🔁",
+      "color": "#ec4899",
+      "shape": "stack",
+      "demo": true,
+      "object": "Xem phòng Thói quen",
+      "enter": "Phòng Thói quen: tự đặt mục tiêu nhỏ và theo dõi. Đi tới chạm vào vật ở giữa phòng để xem nhé.",
+      "intro": "Ở đây bạn sẽ tự đặt mục tiêu nhỏ (đi bộ, đọc sách bao nhiêu phút...) và theo dõi mỗi ngày. Phần này đang làm. Trong lúc chờ, bạn có thể xem cách dùng sẵn các tính năng trên điện thoại.",
+      "phoneGuide": true
+    },
+    {
+      "id": "thu-thach",
+      "name": "Thử thách 14 ngày",
+      "icon": "🚩",
+      "color": "#ef4444",
+      "shape": "flag",
+      "demo": false,
+      "object": "Bước lên viên đá của ngày",
+      "enter": "Đây là khu vườn 14 viên đá. Bước lên một viên đá và đứng yên một chút, hoặc chạm vào viên đá, để mình giao việc nhỏ của ngày đó nhé.",
+      "hint": "Bước lên viên đá có mũi tên vàng rồi đứng yên một chút, hoặc chạm vào viên đá nhé."
+    },
+    {
+      "id": "ngoai-man-hinh",
+      "name": "Ngoài màn hình",
+      "icon": "🌳",
+      "color": "#14b8a6",
+      "shape": "tree",
+      "demo": true,
+      "object": "Xem phòng Ngoài màn hình",
+      "enter": "Phòng Ngoài màn hình: những việc vui không cần màn hình. Đi tới chạm vào vật ở giữa phòng để xem nhé.",
+      "intro": "Ở đây sẽ gợi ý các hoạt động ngoài màn hình (đi bộ, thể thao, đọc sách giấy, gặp bạn, sở thích...) để bạn chọn cái hợp mình. Phần này đang làm."
+    }
+  ],
+  "roomHint": "Đi tới chạm vào vật ở giữa phòng để bắt đầu nhé. Muốn đi chỗ khác thì đi về phía cửa ra.",
+  "exitHint": "Xong rồi thì mình ra cửa này để về sảnh nhé.",
+  "postHint": "Mình ngồi đây cùng bạn. Chạm khung hình trên tường (thiền có hướng dẫn) hoặc quả cầu xanh (tự thở) nhé."
+}
