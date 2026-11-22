@@ -67,6 +67,29 @@
         "Sau giờ học/làm",
         "Trước khi ngủ"
       ]
+    },
+    {
+      "id": "P4",
+      "text": "Trong 2 tuần qua, bạn xem nhiều nhất loại nội dung nào?",
+      "options": [
+        "Nhạc, nhảy, trào lưu",
+        "Hài, meme",
+        "Video AI nhân vật lạ (kiểu “Italian brainrot”)",
+        "Game, thể thao",
+        "Đời sống bạn bè, người nổi tiếng",
+        "Học tập, kiến thức",
+        "Làm đẹp, thời trang, ẩm thực",
+        "Khác"
+      ]
+    },
+    {
+      "id": "P5",
+      "text": "Bạn thường tự tìm video để xem, hay chủ yếu xem video do ứng dụng gợi ý?",
+      "options": [
+        "Chủ yếu tự tìm",
+        "Cả hai như nhau",
+        "Chủ yếu do ứng dụng gợi ý"
+      ]
     }
   ],
   "axes": {
