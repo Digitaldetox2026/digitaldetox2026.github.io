@@ -13360,7 +13360,7 @@ function PhoneGuide() {
         children: [
           J(`h3`, { children: `Hướng dẫn điện thoại` }),
           J(`p`, {
-            children: `Các bước đặt giới hạn, tắt thông báo, bật đen trắng ngay trên điện thoại của bạn. Bạn có thể nhờ người lớn làm cùng. ${data.note || ``}`,
+            children: `Các bước chọn số phút, đặt giới hạn, cài nhắc trong TikTok, YouTube, Instagram, tắt thông báo và bật đen trắng ngay trên điện thoại của bạn. Bạn có thể nhờ người lớn làm cùng. ${data.note || ``}`,
           }),
         ],
       }),
@@ -13383,6 +13383,7 @@ function PhoneGuide() {
       }),
       data.topics.map((t) => {
         let steps = t[pf] || [],
+          imgs = t[pf + `Images`] || [],
           note = t[pf + `Note`],
           srcs = (t.sources || []).filter((x) => x.p === pf);
         return X(
@@ -13393,7 +13394,28 @@ function PhoneGuide() {
               X(`div`, { children: [J(`h4`, { children: t.name }), J(`p`, { className: `dr-guide-intro`, children: t.intro })] }),
               X(`div`, {
                 children: [
-                  J(`ol`, { children: steps.map((st, i) => J(`li`, { children: st }, i)) }),
+                  J(`ol`, {
+                    children: steps.map((st, i) =>
+                      J(
+                        `li`,
+                        {
+                          children: X(`div`, {
+                            children: [
+                              J(`span`, { children: st }),
+                              imgs[i] &&
+                                J(`img`, {
+                                  src: imgs[i],
+                                  alt: `Hình minh họa bước ${i + 1}`,
+                                  loading: `lazy`,
+                                  className: `dr-guide-img` + (String(imgs[i]).includes(`icons/`) ? ` is-icon` : ``),
+                                }),
+                            ],
+                          }),
+                        },
+                        i,
+                      ),
+                    ),
+                  }),
                   note && J(`p`, { className: `dr-guide-note`, children: note }),
                   srcs.length > 0 &&
                     X(`p`, {

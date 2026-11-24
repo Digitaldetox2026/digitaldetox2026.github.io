@@ -1425,6 +1425,8 @@ nav.sticky div.lg\:hidden > button { font-variant-numeric: lining-nums; }
   color: var(--dr-green);
   font-variant-numeric: lining-nums;
 }
+.dr-guide-img { display: block; width: 100%; max-width: 230px; height: auto; margin: 10px 0 6px; border-radius: 22px; }
+.dr-guide-img.is-icon { width: 56px; max-width: 56px; border-radius: 13px; margin: 8px 0 4px; }
 .dr-guide-note { font-weight: 300; font-size: 0.92rem; line-height: 1.6; color: var(--dr-muted); margin-top: 18px; padding-left: 14px; border-left: 2px solid var(--dr-line); }
 .dr-guide-src { font-size: 0.88rem; margin-top: 14px; color: var(--dr-muted); }
 .dr-guide-src a { margin-left: 10px; color: var(--dr-ink); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }

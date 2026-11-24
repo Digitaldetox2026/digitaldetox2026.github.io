@@ -1,6 +1,6 @@
 {
   "title": "Điện thoại thật",
-  "note": "Tên menu có thể khác tùy máy và phiên bản hệ điều hành. Nếu không thấy đúng tên, hãy dùng ô tìm kiếm trong Cài đặt.",
+  "note": "Tên menu có thể khác tùy máy và phiên bản hệ điều hành. Nếu không thấy đúng tên, hãy dùng ô tìm kiếm trong Cài đặt. Hình là minh họa tự vẽ, màn hình máy bạn có thể khác một chút.",
   "platforms": [
     {
       "id": "iphone",
@@ -13,22 +13,45 @@
   ],
   "topics": [
     {
+      "id": "so-phut",
+      "name": "Chọn số phút",
+      "icon": "hourglass",
+      "intro": "Đặt bao nhiêu phút cho vừa? Làm theo 3 bước.",
+      "iphone": [
+        "Xem bạn dùng trung bình bao nhiêu phút mỗi ngày trong tuần vừa rồi (Cài đặt, Thời gian sử dụng).",
+        "Đặt giới hạn bằng mức đó trừ 10 đến 15 phút.",
+        "Mỗi tuần bớt thêm một chút. Đặt quá thấp thì dễ bỏ cuộc."
+      ],
+      "android": [
+        "Xem bạn dùng trung bình bao nhiêu phút mỗi ngày trong tuần vừa rồi (Cài đặt, Sức khỏe kỹ thuật số).",
+        "Đặt giới hạn bằng mức đó trừ 10 đến 15 phút.",
+        "Mỗi tuần bớt thêm một chút. Đặt quá thấp thì dễ bỏ cuộc."
+      ],
+      "iphoneNote": "Đây là gợi ý của nhóm, không phải chuẩn khoa học.",
+      "androidNote": "Đây là gợi ý của nhóm, không phải chuẩn khoa học.",
+      "sources": []
+    },
+    {
       "id": "gioi-han",
       "name": "Giới hạn ứng dụng",
       "icon": "hourglass",
-      "intro": "Đặt thời gian tối đa mỗi ngày cho một ứng dụng hoặc nhóm ứng dụng.",
+      "intro": "Đặt số phút tối đa mỗi ngày cho nhóm mạng xã hội, rồi bật chặn khi hết giờ.",
       "iphone": [
-        "Mở Cài đặt, chọn Thời gian sử dụng (Screen Time).",
-        "Chọn Giới hạn ứng dụng (App Limits), rồi Thêm giới hạn (Add Limit).",
-        "Chọn nhóm ứng dụng, ví dụ Mạng xã hội, hoặc bấm vào tên nhóm để chọn từng ứng dụng.",
-        "Bấm Tiếp (Next), đặt thời gian cho mỗi ngày, rồi bấm Thêm (Add)."
+        "Mở Cài đặt, bấm Thời gian sử dụng.",
+        "Bấm Giới hạn ứng dụng.",
+        "Bấm Thêm giới hạn.",
+        "Chọn Mạng xã hội (hiện dấu tích), bấm Tiếp.",
+        "Chọn số phút mỗi ngày (xem mục Chọn số phút).",
+        "Bật Chặn khi hết giới hạn, bấm Thêm. Không bật thì vẫn bấm bỏ qua được.",
+        "Cuối trang Thời gian sử dụng, bấm Dùng mật mã Thời gian sử dụng và đặt mật mã. Nhờ người tin cậy giữ mật mã, để lúc thèm lướt bạn khó tự gỡ."
       ],
       "iphoneNote": "Mặc định bạn vẫn có thể bỏ qua giới hạn khi hết giờ. Một số bản iOS mới đổi tên mục này (ví dụ \"Time Allowances\").",
       "android": [
-        "Mở Cài đặt, chọn Sức khỏe kỹ thuật số (Digital Wellbeing).",
-        "Chọn Hẹn giờ cho ứng dụng (App timers).",
-        "Bên cạnh ứng dụng muốn giới hạn, bấm biểu tượng đặt hẹn giờ (Set timer).",
-        "Chọn số phút mỗi ngày rồi bấm OK. Hẹn giờ đặt lại vào nửa đêm."
+        "Mở Cài đặt, bấm Sức khỏe kỹ thuật số.",
+        "Bấm Hẹn giờ cho ứng dụng.",
+        "Bấm biểu tượng đồng hồ cát cạnh ứng dụng muốn giới hạn.",
+        "Chọn số phút mỗi ngày, bấm OK. Hẹn giờ tự đặt lại vào nửa đêm.",
+        "Hết giờ, biểu tượng ứng dụng chuyển màu xám và không mở được đến hết ngày."
       ],
       "androidNote": "Trên một số máy mục này nằm trong \"Digital Wellbeing & kiểm soát của cha mẹ\".",
       "sources": [
@@ -40,6 +63,152 @@
         {
           "label": "Google: Digital Wellbeing",
           "url": "https://support.google.com/android/answer/9346420?hl=en",
+          "p": "android"
+        }
+      ],
+      "iphoneImages": [
+        "data/so-tay/ip1.png",
+        "data/so-tay/ip2.png",
+        "data/so-tay/ip3.png",
+        "data/so-tay/ip4.png",
+        "data/so-tay/ip5.png",
+        "data/so-tay/ip6.png",
+        "data/so-tay/ip7.png"
+      ],
+      "androidImages": [
+        "data/so-tay/an1.png",
+        "data/so-tay/an2.png",
+        "data/so-tay/an3.png",
+        "data/so-tay/an4.png",
+        "data/so-tay/an5.png"
+      ]
+    },
+    {
+      "id": "tiktok",
+      "name": "Giới hạn trong TikTok",
+      "icon": "hourglass",
+      "intro": "TikTok có sẵn Giới hạn hằng ngày. Hết giờ, app hỏi mật mã mới cho xem tiếp.",
+      "iphone": [
+        "Vào Hồ sơ, bấm biểu tượng ba gạch góc phải trên.",
+        "Bấm Cài đặt và quyền riêng tư.",
+        "Bấm Thời gian sử dụng màn hình (có bản để trong mục Thời gian và sức khỏe).",
+        "Bật Giới hạn hằng ngày.",
+        "Chọn số phút và đặt mật mã. Hết giờ, TikTok hỏi mật mã này mới cho xem tiếp."
+      ],
+      "android": [
+        "Vào Hồ sơ, bấm biểu tượng ba gạch góc phải trên.",
+        "Bấm Cài đặt và quyền riêng tư.",
+        "Bấm Thời gian sử dụng màn hình (có bản để trong mục Thời gian và sức khỏe).",
+        "Bật Giới hạn hằng ngày.",
+        "Chọn số phút và đặt mật mã. Hết giờ, TikTok hỏi mật mã này mới cho xem tiếp."
+      ],
+      "iphoneImages": [
+        "data/so-tay/tt1.png",
+        "data/so-tay/tt2.png",
+        "data/so-tay/tt3.png",
+        "data/so-tay/tt4.png",
+        "data/so-tay/tt5.png"
+      ],
+      "androidImages": [
+        "data/so-tay/tt1.png",
+        "data/so-tay/tt2.png",
+        "data/so-tay/tt3.png",
+        "data/so-tay/tt4.png",
+        "data/so-tay/tt5.png"
+      ],
+      "iphoneNote": "Dưới 18 tuổi, TikTok thường đặt sẵn 1 giờ mỗi ngày. Bạn tự đặt thấp hơn được.",
+      "androidNote": "Dưới 18 tuổi, TikTok thường đặt sẵn 1 giờ mỗi ngày. Bạn tự đặt thấp hơn được.",
+      "sources": [
+        {
+          "label": "TikTok: Thời gian sử dụng màn hình",
+          "url": "https://support.tiktok.com/en/account-and-privacy/account-information/screen-time",
+          "p": "iphone"
+        },
+        {
+          "label": "TikTok: Thời gian sử dụng màn hình",
+          "url": "https://support.tiktok.com/en/account-and-privacy/account-information/screen-time",
+          "p": "android"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "name": "Nhắc nghỉ trong YouTube",
+      "icon": "hourglass",
+      "intro": "YouTube nhắc nghỉ giải lao và giới hạn Shorts mỗi ngày. Chỉ nhắc, bạn vẫn bấm bỏ qua được.",
+      "iphone": [
+        "Bấm mục Bạn, rồi biểu tượng bánh răng (Cài đặt).",
+        "Bấm Chung.",
+        "Bật Nhắc tôi nghỉ giải lao, chọn nhắc sau bao nhiêu phút.",
+        "Vào Quản lý thời gian, chọn Giới hạn Shorts hằng ngày, đặt số phút."
+      ],
+      "android": [
+        "Bấm mục Bạn, rồi biểu tượng bánh răng (Cài đặt).",
+        "Bấm Chung.",
+        "Bật Nhắc tôi nghỉ giải lao, chọn nhắc sau bao nhiêu phút.",
+        "Vào Quản lý thời gian, chọn Giới hạn Shorts hằng ngày, đặt số phút."
+      ],
+      "iphoneImages": [
+        "data/so-tay/yt1.png",
+        "data/so-tay/yt2.png",
+        "data/so-tay/yt3.png",
+        "data/so-tay/yt4.png"
+      ],
+      "androidImages": [
+        "data/so-tay/yt1.png",
+        "data/so-tay/yt2.png",
+        "data/so-tay/yt3.png",
+        "data/so-tay/yt4.png"
+      ],
+      "iphoneNote": "Tên mục có thể khác tùy phiên bản. Đồng hồ nhắc bị đặt lại nếu bạn tắt app hoặc tạm dừng video quá 30 phút.",
+      "androidNote": "Tên mục có thể khác tùy phiên bản. Đồng hồ nhắc bị đặt lại nếu bạn tắt app hoặc tạm dừng video quá 30 phút.",
+      "sources": [
+        {
+          "label": "YouTube: Nhắc nghỉ giải lao",
+          "url": "https://support.google.com/youtube/answer/9012523",
+          "p": "iphone"
+        },
+        {
+          "label": "YouTube: Nhắc nghỉ giải lao",
+          "url": "https://support.google.com/youtube/answer/9012523",
+          "p": "android"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "name": "Nhắc nhở trong Instagram",
+      "icon": "hourglass",
+      "intro": "Instagram chỉ nhắc, không chặn. Muốn chặn thật, làm mục Giới hạn ứng dụng ở trên.",
+      "iphone": [
+        "Vào Hồ sơ, bấm biểu tượng ba gạch góc phải trên.",
+        "Vào Cài đặt, Tài khoản, rồi Hoạt động của bạn.",
+        "Bấm Đặt lời nhắc hằng ngày, chọn số phút."
+      ],
+      "android": [
+        "Vào Hồ sơ, bấm biểu tượng ba gạch góc phải trên.",
+        "Vào Cài đặt, Tài khoản, rồi Hoạt động của bạn.",
+        "Bấm Đặt lời nhắc hằng ngày, chọn số phút."
+      ],
+      "iphoneImages": [
+        "data/so-tay/ig1.png",
+        "data/so-tay/ig2.png",
+        "data/so-tay/ig3.png"
+      ],
+      "androidImages": [
+        "data/so-tay/ig1.png",
+        "data/so-tay/ig2.png",
+        "data/so-tay/ig3.png"
+      ],
+      "sources": [
+        {
+          "label": "Instagram: Hoạt động của bạn",
+          "url": "https://help.instagram.com/647230196639835",
+          "p": "iphone"
+        },
+        {
+          "label": "Instagram: Hoạt động của bạn",
+          "url": "https://help.instagram.com/647230196639835",
           "p": "android"
         }
       ]
@@ -121,6 +290,75 @@
         "Nếu cần báo thức, dùng đồng hồ báo thức riêng hoặc nhờ người nhà gọi."
       ],
       "sources": []
+    },
+    {
+      "id": "cong-cu-khac",
+      "name": "Công cụ tham khảo khác",
+      "icon": "hourglass",
+      "intro": "Không bắt buộc. Do người khác làm, nhóm D-RESET chưa kiểm tra.",
+      "iphone": [
+        "one sec (iPhone, Android): hiện một lần thở chậm trước khi mở app. Miễn phí cho 1 app, thêm app phải trả phí.",
+        "ScreenZen (iPhone, Android): đếm ngược vài giây trước khi mở app, có giới hạn mỗi ngày. Miễn phí.",
+        "StopScroll (iPhone): chặn Shorts, Reels, TikTok. Trên iPhone loại này thường chỉ chạy trong Safari.",
+        "Unhook (máy tính: Chrome, Edge, Firefox): ẩn Shorts, video gợi ý và bình luận trên YouTube."
+      ],
+      "iphoneImages": [
+        "data/so-tay/icons/onesec.jpg",
+        "data/so-tay/icons/screenzen.png",
+        "data/so-tay/icons/stopscroll.png",
+        "data/so-tay/icons/unhook.png"
+      ],
+      "android": [
+        "one sec (iPhone, Android): hiện một lần thở chậm trước khi mở app. Miễn phí cho 1 app, thêm app phải trả phí.",
+        "ScreenZen (iPhone, Android): đếm ngược vài giây trước khi mở app, có giới hạn mỗi ngày. Miễn phí.",
+        "Scrolless (Android): chặn Reels, Shorts, TikTok, vẫn dùng được phần còn lại. Mã nguồn mở.",
+        "Unhook (máy tính: Chrome, Edge, Firefox): ẩn Shorts, video gợi ý và bình luận trên YouTube."
+      ],
+      "androidImages": [
+        "data/so-tay/icons/onesec.jpg",
+        "data/so-tay/icons/screenzen.png",
+        "data/so-tay/icons/scrolless.png",
+        "data/so-tay/icons/unhook.png"
+      ],
+      "iphoneNote": "Làm mục Giới hạn ứng dụng ở trên trước. Chỉ tải từ App Store, Google Play, Chrome Web Store và đọc mục Quyền riêng tư trước khi cài. Không cho app đăng nhập vào tài khoản mạng xã hội của bạn. Dưới 18 tuổi: nhờ thầy cô hoặc người lớn xem giúp. Lời \"không thu thập dữ liệu\" do nhà làm tự ghi, nhóm chưa kiểm tra.",
+      "androidNote": "Làm mục Giới hạn ứng dụng ở trên trước. Chỉ tải từ App Store, Google Play, Chrome Web Store và đọc mục Quyền riêng tư trước khi cài. Không cho app đăng nhập vào tài khoản mạng xã hội của bạn. Dưới 18 tuổi: nhờ thầy cô hoặc người lớn xem giúp. Lời \"không thu thập dữ liệu\" do nhà làm tự ghi, nhóm chưa kiểm tra. Android hay đòi quyền Trợ năng (cho app nhìn thấy màn hình): chỉ cấp khi hiểu rõ vì sao.",
+      "sources": [
+        {
+          "label": "one sec (App Store)",
+          "url": "https://apps.apple.com/us/app/id1532875441",
+          "p": "iphone"
+        },
+        {
+          "label": "ScreenZen (App Store)",
+          "url": "https://apps.apple.com/us/app/-/id1541027222",
+          "p": "iphone"
+        },
+        {
+          "label": "StopScroll (App Store)",
+          "url": "https://apps.apple.com/us/app/-/id6760980801",
+          "p": "iphone"
+        },
+        {
+          "label": "ScreenZen (Google Play)",
+          "url": "https://play.google.com/store/apps/details?id=com.screenzen",
+          "p": "android"
+        },
+        {
+          "label": "Scrolless (Google Play)",
+          "url": "https://play.google.com/store/apps/details?id=com.scrolless.app",
+          "p": "android"
+        },
+        {
+          "label": "Unhook (Chrome Web Store)",
+          "url": "https://chrome.google.com/webstore/detail/khncfooichmfjbepaaaebmommgaepoid",
+          "p": "iphone"
+        },
+        {
+          "label": "Unhook (Chrome Web Store)",
+          "url": "https://chrome.google.com/webstore/detail/khncfooichmfjbepaaaebmommgaepoid",
+          "p": "android"
+        }
+      ]
     }
   ]
 }
