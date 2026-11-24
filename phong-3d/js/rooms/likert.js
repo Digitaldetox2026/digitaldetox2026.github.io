@@ -44,8 +44,6 @@ export function openLikert(ctx, { onDone, back: backTo, signposts } = {}) {
     dialogue.progress(Math.max(0, Math.min(i, steps.length)), steps.length);
     if (i === -1) {
       if (!(await dialogue.say(C.greet, 500)) || tk !== token) return;
-      if (!(await dialogue.say(data.intro.definition, 600)) || tk !== token) return;
-      if (!(await dialogue.say(data.intro.points.join(' '), 600)) || tk !== token) return;
       dialogue.replies([{ label: C.start, cls: 'primary', onClick: () => { i = 0; render(); } }]);
       return;
     }
@@ -110,7 +108,7 @@ export function openLikert(ctx, { onDone, back: backTo, signposts } = {}) {
     dialogue.sheet(null);
 
     const extra = [r.dLow && r.dRelevant ? data.dLowTip : null, prev ? `Lần làm trước của bạn trên máy này: Mức ${prev.level}.` : null].filter(Boolean);
-    if (!(await dialogue.say([el('p', { class: 'safe' }, data.safety), ...extra, el('p', { class: 'small' }, data.disclaimer + ' ' + data.draftNote)], 700)) || tk !== token) return;
+    if (!(await dialogue.say([...extra, el('p', { class: 'small' }, data.disclaimer + ' ' + data.draftNote)], 700)) || tk !== token) return;
     dialogue.replies([
       backTo ? { label: backTo.label, cls: 'primary', onClick: () => { dialogue.end(true); backTo.action(); } } : null,
       useSigns

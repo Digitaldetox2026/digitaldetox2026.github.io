@@ -37413,7 +37413,6 @@ var Ed = class {
             X(`div`, {
               className: `text-left bg-amber-50 border border-amber-200 rounded-2xl p-4 space-y-1.5 text-xs text-slate-800 leading-relaxed`,
               children: [
-                J(`p`, { className: `font-bold`, children: data.safety }),
                 J(`p`, { children: `${data.disclaimer} ${data.draftNote}` }),
                 J(`p`, {
                   children: `Các mốc điểm để chia mức hiện là TẠM THỜI, chưa được thẩm định. Công cụ này không thay thế tư vấn tâm lý.`,
@@ -37464,8 +37463,6 @@ var Ed = class {
             X(`div`, {
               className: `space-y-2 text-sm text-slate-800 leading-relaxed`,
               children: [
-                J(`p`, { children: data.intro.definition }),
-                J(`ul`, { className: `list-disc pl-5 space-y-1`, children: data.intro.points.map((t, i) => J(`li`, { children: t }, i)) }),
                 J(`p`, { className: `text-xs text-slate-600`, children: data.draftNote }),
               ],
             }),
