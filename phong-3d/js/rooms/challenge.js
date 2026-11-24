@@ -84,7 +84,7 @@ export function openChallenge(ctx, opts = {}) {
       put(title, el('p', { class: 'small tag' }, sess.pick ? `Đang làm: ${sess.pick}` : 'Đang làm'), clock,
         el('ol', { class: 'steps' }, (extra.type === 'urge' ? d.urgeSteps : day.steps).map((s) => el('li', {}, s))),
         extra.type === 'plans' ? plansView(extra.plans) : null,
-        extra.type === 'likert' ? btn('Làm lại bộ câu hỏi nhanh', () => openLikert(ctx, {
+        extra.type === 'likert' ? btn('Làm lại bộ câu hỏi', () => openLikert(ctx, {
           back: { label: 'Quay lại hành trình', action: () => openChallenge(ctx, { day: n, phase: 'feel', fromLikert: true, draft: sess }) },
         }), 'primary') : null,
         el('div', { class: 'row' },

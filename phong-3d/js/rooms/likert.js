@@ -4,26 +4,32 @@
 // thay vì danh sách thẻ (dùng ở phòng Nhận thức, rooms3d/talk-corner.js). Không truyền thì dùng danh sách thẻ như cũ.
 import { el, closePanel } from '../ui.js';
 import { dialogue } from '../dialogue.js';
-import { computeScores, quickItems, band } from './likert-score.js';
+import { computeScores, band, awarenessScore, awarenessChoice } from './likert-score.js';
 import { load, save } from '../storage.js';
 
 const HISTORY_KEY = 'likert.history';
 
 export function openLikert(ctx, { onDone, back: backTo, signposts } = {}) {
   const data = ctx.data.likert, C = data.chat;
-  const items = quickItems(data.items);
+  const items = data.items; // bộ 17 câu chung: 4 câu làm quen + 11 câu thang 1-5 + 2 câu hiểu biết
   let token = 0;
   closePanel();
   if (signposts) signposts.hide();
   dialogue.start(() => { token++; });
   const answers = {}, part0 = {};
   // i = -1: chào; 0..n-1: câu hỏi; n: kết quả
-  const steps = [...data.part0.map((p) => ({ t: 'p0', p })), ...items.map((it, idx) => ({ t: 'q', it, idx }))];
+  const aw = data.awareness;
+  const steps = [...data.part0.map((p) => ({ t: 'p0', p })), ...items.map((it, idx) => ({ t: 'q', it, idx })),
+    ...(aw ? aw.items.map((it, idx) => ({ t: 'n', it, idx })) : [])];
   let i = -1;
   ctx.mascot.play('wave');
 
   const questionLines = (s) => {
     if (s.t === 'p0') return s.p === data.part0[0] ? [C.p0Lead, s.p.text] : [s.p.text];
+    if (s.t === 'n') {
+      const q = s.it.type === 'choice' ? s.it.text : `“${s.it.text}”`;
+      return s.idx === 0 ? [aw.lead, ...(s.it.type === 'choice' ? [] : [aw.scaleQuestion]), q] : [q];
+    }
     const lines = [], first = items.findIndex((x) => x.axis === s.it.axis) === s.idx;
     if (first) lines.push(C.axisIntro[s.it.axis]);
     if (C.mid[s.idx]) lines.push(C.mid[s.idx]);
@@ -52,6 +58,7 @@ export function openLikert(ctx, { onDone, back: backTo, signposts } = {}) {
   function choicesFor(s) {
     const next = () => { i++; render(); };
     if (s.t === 'p0') return s.p.options.map((o) => ({ label: o, onClick: () => { part0[s.p.id] = o; next(); } }));
+    if (s.t === 'n' && s.it.type === 'choice') return s.it.options.map((o, k) => ({ label: o, onClick: () => { answers[s.it.id] = k + 1; next(); } }));
     const pick = (v) => () => { answers[s.it.id] = v; next(); };
     return [...data.scale.map((x) => ({ label: `${x.v}. ${x.label}`, onClick: pick(x.v) })),
       s.it.never ? { label: data.neverLabel, cls: 'choice alt', onClick: pick('never') } : null];
@@ -68,7 +75,11 @@ export function openLikert(ctx, { onDone, back: backTo, signposts } = {}) {
     }
     const history = load(HISTORY_KEY, []);
     const prev = history.length ? history[history.length - 1] : null;
-    history.push({ at: new Date().toISOString(), level: r.level, A: r.A, B: r.B, C: r.C, D: r.D });
+    const N = awarenessScore(answers, aw);
+    r.N = N;
+    const n5item = aw && aw.items.find((x) => x.type === 'choice');
+    const N5 = n5item ? awarenessChoice(answers, n5item) : null; // thứ bậc 1-4; 'Mình không chắc' = null
+    history.push({ at: new Date().toISOString(), level: r.level, A: r.A, B: r.B, C: r.C, D: r.D, N, N5 });
     save(HISTORY_KEY, history.slice(-20)); // chỉ điểm tổng hợp, không lưu từng câu trả lời
     const lv = data.levels[r.level - 1];
     ctx.mascot.play(r.level <= 2 ? 'nod' : 'wave');
@@ -81,7 +92,7 @@ export function openLikert(ctx, { onDone, back: backTo, signposts } = {}) {
 
     const dBand = r.D == null ? null : r.D < data.thresholds.dLow ? 'thap' : r.D >= data.thresholds.dHigh ? 'cao' : 'vua';
     const notice = [['A', band(r.A, data.thresholds)], ['B', band(r.B, data.thresholds)], ['C', band(r.C, data.thresholds)], ['D', dBand]]
-      .filter(([, b]) => b).map(([k, b]) => data.axisFeedback[k][b]);
+      .filter(([k, b]) => b && (k !== 'D' || r.dRelevant)).map(([k, b]) => data.axisFeedback[k][b]);
     if (!(await dialogue.say([C.noticeLead, el('ul', { class: 'bullets' }, notice.map((t) => el('li', {}, t))), r.controlNote ? data.controlNote : null].filter(Boolean), 700)) || tk !== token) return;
     if (!(await waitNext(tk))) return;
 
@@ -98,7 +109,7 @@ export function openLikert(ctx, { onDone, back: backTo, signposts } = {}) {
     if (!(await waitNext(tk))) return;
     dialogue.sheet(null);
 
-    const extra = [r.dLow ? data.dLowTip : null, prev ? `Lần làm trước của bạn trên máy này: Mức ${prev.level}.` : null].filter(Boolean);
+    const extra = [r.dLow && r.dRelevant ? data.dLowTip : null, prev ? `Lần làm trước của bạn trên máy này: Mức ${prev.level}.` : null].filter(Boolean);
     if (!(await dialogue.say([el('p', { class: 'safe' }, data.safety), ...extra, el('p', { class: 'small' }, data.disclaimer + ' ' + data.draftNote)], 700)) || tk !== token) return;
     dialogue.replies([
       backTo ? { label: backTo.label, cls: 'primary', onClick: () => { dialogue.end(true); backTo.action(); } } : null,
@@ -124,8 +135,9 @@ export function openLikert(ctx, { onDone, back: backTo, signposts } = {}) {
   function showDetail(r) {
     const fmt = (v) => (v == null ? '-' : v.toFixed(1).replace('.', ','));
     dialogue.sheet(el('div', {}, el('ul', { class: 'axes' }, ['A', 'B', 'C', 'D'].map((k) =>
-      el('li', {}, el('span', {}, data.axes[k]), el('b', {}, fmt(r[k]) + ' / 5')))),
-    el('p', { class: 'small' }, 'Điểm cao ở ba mục đầu nghĩa là việc lướt đang ảnh hưởng nhiều hơn. Điểm cao ở "Yếu tố bảo vệ" là điều tốt.')));
+      el('li', {}, el('span', {}, data.axes[k]), el('b', {}, fmt(r[k]) + ' / 5'))).concat(
+      r.N != null ? [el('li', {}, el('span', {}, `${aw.title} (không tính vào mức)`), el('b', {}, fmt(r.N) + ' / 5'))] : [])),
+    el('p', { class: 'small' }, `Điểm cao ở ba mục đầu nghĩa là việc lướt đang ảnh hưởng nhiều hơn. Điểm cao ở "${data.axes.D}" là điều tốt.`)));
     dialogue.say('Đây là điểm chi tiết của bạn.', 300);
   }
 

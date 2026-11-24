@@ -1,5 +1,5 @@
 {
-  "_ghiChu": "Bộ câu hỏi DỰ THẢO của nhóm (docs/LIKERT_NGHIEN_CUU.md, mục 4-5). Chưa thẩm định, mốc điểm tạm thời. Trường quick=true là bản nhanh 15 câu.",
+  "_ghiChu": "Bộ câu hỏi DỰ THẢO của nhóm (docs/LIKERT_NGHIEN_CUU.md). Chưa thẩm định, mốc điểm tạm thời. Bộ chung 17 câu (phiếu Trước); phiếu Sau thêm 3 câu chương trình (chỉ ở phiếu giấy). Câu đã bỏ nằm trong docs/LIKERT_NGHIEN_CUU.md.",
   "title": "Reset hỏi bạn",
   "draftNote": "Bộ câu hỏi dự thảo của nhóm, đang được thử nghiệm.",
   "intro": {
@@ -22,18 +22,43 @@
     },
     {
       "v": 3,
-      "label": "Đúng một phần"
+      "label": "Đúng một nửa"
     },
     {
       "v": 4,
-      "label": "Khá đúng"
+      "label": "Phần lớn đúng"
     },
     {
       "v": 5,
-      "label": "Rất đúng"
+      "label": "Hoàn toàn đúng"
     }
   ],
   "neverLabel": "Tôi chưa từng thử",
+  "awareness": {
+    "title": "Hiểu biết của bạn",
+    "note": "Phần này không tính vào mức ở trên.",
+    "lead": "Hai câu cuối hỏi về điều bạn nhận ra và nghĩ, không phải thói quen. Bạn cứ chọn đúng với bạn nhé.",
+    "scaleQuestion": "Câu này đúng với bạn ở mức nào?",
+    "items": [
+      {
+        "id": "N2",
+        "text": "Mình nhận ra được lúc mình đang lướt mà không có chủ đích."
+      },
+      {
+        "id": "N5",
+        "type": "choice",
+        "text": "Theo bạn, lướt video ngắn và mạng xã hội nhiều (vài giờ mỗi ngày) ảnh hưởng đến việc học của bạn ở mức nào?",
+        "options": [
+          "Không ảnh hưởng gì",
+          "Ảnh hưởng ít",
+          "Ảnh hưởng vừa",
+          "Ảnh hưởng nhiều",
+          "Mình không chắc"
+        ],
+        "unsureIndex": 4
+      }
+    ]
+  },
   "part0Note": "Phần này không tính điểm",
   "part0": [
     {
@@ -47,25 +72,6 @@
         "3-4 giờ",
         "Trên 4 giờ",
         "Không rõ"
-      ]
-    },
-    {
-      "id": "P2",
-      "text": "Bạn lướt chủ yếu loại nào?",
-      "options": [
-        "Video ngắn",
-        "Mạng xã hội",
-        "Cả hai"
-      ]
-    },
-    {
-      "id": "P3",
-      "text": "Bạn hay lướt nhất lúc nào?",
-      "options": [
-        "Buổi sáng",
-        "Giữa ngày",
-        "Sau giờ học/làm",
-        "Trước khi ngủ"
       ]
     },
     {
@@ -83,12 +89,23 @@
       ]
     },
     {
-      "id": "P5",
-      "text": "Bạn thường tự tìm video để xem, hay chủ yếu xem video do ứng dụng gợi ý?",
+      "id": "P6",
+      "text": "Trong 2 tuần qua, bạn dùng chatbot AI (ChatGPT, Gemini...) để học như thế nào?",
       "options": [
-        "Chủ yếu tự tìm",
-        "Cả hai như nhau",
-        "Chủ yếu do ứng dụng gợi ý"
+        "Không dùng",
+        "Chủ yếu để hiểu bài rồi tự làm",
+        "Chủ yếu để lấy đáp án nhanh"
+      ]
+    },
+    {
+      "id": "P7",
+      "text": "Bạn biết về từ “brainrot” ở mức nào?",
+      "textAfter": "Hiện nay bạn biết về từ “brainrot” ở mức nào?",
+      "options": [
+        "Chưa nghe bao giờ",
+        "Chỉ nghe nói, chưa tìm hiểu",
+        "Đã đọc hoặc nghe giải thích",
+        "Hiểu khá rõ, có thể giải thích cho bạn"
       ]
     }
   ],
@@ -96,196 +113,68 @@
     "A": "Kiểm soát và phụ thuộc",
     "B": "Dùng để xử lý cảm xúc",
     "C": "Hệ quả",
-    "D": "Yếu tố bảo vệ"
+    "D": "Chuyển sang hoạt động khác"
   },
   "items": [
     {
-      "id": "A1",
-      "axis": "A",
-      "quick": false,
-      "text": "Tôi lướt lâu hơn mình định lúc đầu."
-    },
-    {
-      "id": "A2",
-      "axis": "A",
-      "quick": true,
-      "never": true,
-      "text": "Tôi muốn bớt lướt nhưng không làm được."
-    },
-    {
       "id": "A3",
       "axis": "A",
-      "quick": true,
       "text": "Tôi mở ứng dụng để lướt gần như không suy nghĩ, chỉ vì tay quen."
-    },
-    {
-      "id": "A4",
-      "axis": "A",
-      "quick": false,
-      "text": "Tôi nghĩ tới việc lướt ngay cả khi đang làm việc khác."
-    },
-    {
-      "id": "A5",
-      "axis": "A",
-      "quick": true,
-      "text": "Tôi thấy bồn chồn, khó chịu khi không được lướt (hết pin, mất mạng, bị cấm)."
-    },
-    {
-      "id": "A6",
-      "axis": "A",
-      "quick": false,
-      "text": "Tôi cần lướt lâu hơn trước đây mới thấy thỏa mãn."
-    },
-    {
-      "id": "A7",
-      "axis": "A",
-      "quick": true,
-      "never": true,
-      "text": "Mỗi lần cố bớt lướt, tôi chỉ giữ được vài ngày rồi quay lại như cũ."
     },
     {
       "id": "A8",
       "axis": "A",
-      "quick": false,
       "text": "Tôi lướt tiếp dù biết mình nên dừng."
     },
     {
       "id": "B1",
       "axis": "B",
-      "quick": true,
       "text": "Khi có cảm xúc khó chịu (buồn, căng thẳng, lo), tôi lướt để thấy đỡ hơn."
     },
     {
       "id": "B2",
       "axis": "B",
-      "quick": true,
       "text": "Tôi lướt để né một việc mình không muốn đối mặt."
-    },
-    {
-      "id": "B3",
-      "axis": "B",
-      "quick": false,
-      "text": "Khi chán, việc đầu tiên tôi làm là mở ứng dụng để lướt."
-    },
-    {
-      "id": "B4",
-      "axis": "B",
-      "quick": true,
-      "text": "Khi căng thẳng, lướt gần như là cách duy nhất tôi biết để thư giãn."
-    },
-    {
-      "id": "B5",
-      "axis": "B",
-      "quick": false,
-      "text": "Sau khi lướt để giải tỏa, tôi không thấy khá hơn."
-    },
-    {
-      "id": "B6",
-      "axis": "B",
-      "quick": false,
-      "text": "Ngồi yên một mình vài phút (không lướt, không nghe nhạc) làm tôi thấy khó chịu."
     },
     {
       "id": "C1",
       "axis": "C",
-      "quick": true,
       "text": "Tôi đi ngủ muộn hơn dự định vì lướt."
-    },
-    {
-      "id": "C2",
-      "axis": "C",
-      "quick": true,
-      "text": "Tôi khó ngủ sau khi lướt trước giờ ngủ."
-    },
-    {
-      "id": "C3",
-      "axis": "C",
-      "quick": false,
-      "text": "Sau những đêm thức khuya lướt, sáng hôm sau tôi mệt."
     },
     {
       "id": "C4",
       "axis": "C",
-      "quick": true,
       "text": "Tôi trì hoãn việc cần làm (bài tập, công việc) vì lướt."
-    },
-    {
-      "id": "C5",
-      "axis": "C",
-      "quick": false,
-      "text": "Việc lướt đã làm kết quả học tập/công việc của tôi kém đi."
-    },
-    {
-      "id": "C6",
-      "axis": "C",
-      "quick": false,
-      "text": "Trong 2 tuần qua, có người nhắc tôi lướt quá nhiều."
     },
     {
       "id": "C7",
       "axis": "C",
-      "quick": true,
       "text": "Khi học/làm việc, tôi khó giữ tập trung vì muốn mở ra lướt."
-    },
-    {
-      "id": "C8",
-      "axis": "C",
-      "quick": false,
-      "text": "Đang làm việc, tôi bị cuốn vào lướt và mất mạch suy nghĩ."
     },
     {
       "id": "C9",
       "axis": "C",
-      "quick": false,
       "text": "Đọc một đoạn dài làm tôi thấy chán hơn so với xem video ngắn."
     },
     {
       "id": "C10",
       "axis": "C",
-      "quick": true,
       "text": "Sau khi lướt lâu, tôi thấy mệt hoặc tiếc thời gian."
     },
     {
-      "id": "C11",
-      "axis": "C",
-      "quick": false,
-      "text": "Tôi mải lướt khi đang ngồi cùng người khác (bữa ăn, trò chuyện)."
-    },
-    {
-      "id": "C12",
-      "axis": "C",
-      "quick": true,
-      "text": "Tôi thấy các hoạt động ngoài màn hình (thể thao, gặp bạn, sở thích) kém hấp dẫn hơn việc lướt."
-    },
-    {
-      "id": "D1",
+      "id": "D2a",
       "axis": "D",
-      "quick": true,
-      "text": "Dù có lướt, tôi vẫn hoàn thành việc quan trọng đúng hạn."
+      "text": "Khi lướt nhiều và thấy mệt, tôi nghĩ tới việc đổi sang một hoạt động khác."
     },
     {
-      "id": "D2",
+      "id": "D2b",
       "axis": "D",
-      "quick": true,
-      "text": "Tôi làm một hoạt động ngoài màn hình để thấy khỏe lại (đi bộ, thể thao, đọc sách giấy, gặp bạn...)."
-    },
-    {
-      "id": "D3",
-      "axis": "D",
-      "quick": false,
-      "never": true,
-      "text": "Khi tự đặt giới hạn lướt (giờ, ứng dụng), tôi giữ được."
-    },
-    {
-      "id": "D4",
-      "axis": "D",
-      "quick": false,
-      "text": "Khi mệt hoặc căng thẳng, tôi chia sẻ với một người tin cậy."
+      "text": "Khi lướt nhiều và thấy mệt, tôi thật sự dừng lướt để làm hoạt động khác (đi dạo, vận động nhẹ, vẽ hoặc tô tranh, dọn dẹp nhà cửa...)."
     }
   ],
   "thresholds": {
-    "low": 2.0,
-    "high": 3.0,
+    "low": 2,
+    "high": 3,
     "dLow": 2.5,
     "dHigh": 3.5
   },
@@ -443,7 +332,7 @@
     }
   ],
   "controlNote": "Lướt đang là cách chính để bạn xả căng thẳng. Điều đó dễ hiểu và không có gì sai. Bạn có thể thử thêm vài cách xả khác ở các gợi ý bên dưới.",
-  "dLowTip": "Gợi ý thêm: tìm một hoạt động ngoài màn hình bạn thích và một người bạn có thể chia sẻ khi mệt.",
+  "dLowTip": "Gợi ý thêm: lần tới khi thấy mệt vì lướt, thử dừng lại và đổi sang một việc ngoài màn hình bạn thích (đi dạo, vận động nhẹ, vẽ, dọn dẹp...).",
   "safety": "Nếu bạn thấy nặng nề hoặc buồn kéo dài, hãy nói chuyện với thầy cô hoặc người lớn bạn tin. Cần hỗ trợ ngay: gọi 111 (tổng đài bảo vệ trẻ em).",
   "disclaimer": "Đây không phải chẩn đoán, chỉ mô tả thói quen của bạn trong 2 tuần qua.",
   "chat": {
@@ -454,11 +343,11 @@
       "A": "Trước hết, mình hỏi về chuyện bạn có kiểm soát được việc lướt không.",
       "B": "Giờ mình hỏi về lý do bạn hay lướt.",
       "C": "Tiếp theo là ảnh hưởng của việc lướt tới giấc ngủ, học và sự tập trung.",
-      "D": "Câu cuối: những điều giúp bạn thấy khỏe lại."
+      "D": "Hai câu này hỏi về lúc bạn thấy mệt vì lướt nhiều."
     },
     "mid": {
-      "6": "Bạn làm tốt lắm, mình đi được một nửa rồi!",
-      "12": "Sắp xong rồi, còn vài câu nữa thôi."
+      "5": "Bạn làm tốt lắm, mình đi được một nửa rồi!",
+      "9": "Sắp xong rồi, còn vài câu nữa thôi."
     },
     "back": "↶ Sửa câu trước",
     "thanks": "Cảm ơn bạn đã trả lời hết! Mình tóm tắt cho bạn nhé.",
@@ -488,9 +377,11 @@
       "cao": "Lướt đang ảnh hưởng khá rõ tới giấc ngủ, việc học hoặc sự tập trung của bạn."
     },
     "D": {
-      "thap": "Bạn còn ít hoạt động ngoài màn hình hoặc người để chia sẻ. Mình sẽ gợi ý thêm ở dưới.",
-      "vua": "Bạn đã có một vài điều giúp mình khỏe lại.",
-      "cao": "Bạn có những điều giúp mình khỏe lại. Đây là điểm mạnh của bạn."
+      "thap": "Khi thấy mệt vì lướt, bạn chưa hay đổi sang hoạt động khác. Mình sẽ gợi ý thêm ở dưới.",
+      "vua": "Đôi khi bạn nghĩ tới hoặc làm một hoạt động khác khi thấy mệt vì lướt.",
+      "cao": "Khi thấy mệt vì lướt, bạn hay nghĩ tới và làm một hoạt động khác. Đây là điểm mạnh của bạn."
     }
-  }
+  },
+  "axesNote": "Nhóm D: càng đồng ý càng tốt (không đảo điểm).",
+  "_ghiChuD": "Nhóm D chỉ có ý nghĩa với người thỉnh thoảng thấy mệt sau khi lướt (C10 từ 3 trở lên); nếu không, bỏ qua nhận xét nhóm D."
 }

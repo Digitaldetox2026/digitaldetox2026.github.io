@@ -36286,7 +36286,7 @@ var Ed = class {
               className: `dr-stats-row`,
               children: [
                 [`14`, `ngày hành trình khởi động`],
-                [`15 / 30`, `câu tự đánh giá (bản nhanh / đầy đủ)`],
+                [`17`, `câu tự đánh giá`],
                 [`6`, `tình huống trong mini-game`],
                 [`5`, `công cụ trong cẩm nang`],
               ].map(([nu, la], ix) =>
@@ -37167,7 +37167,7 @@ var Ed = class {
       },
       mine = () =>
         readAll().filter(
-          (x) => x && x.uid === uid && typeof x.level === `number` && (x.version === 15 || x.version === 30),
+          (x) => x && x.uid === uid && typeof x.level === `number` && x.version === 17,
         ),
       fmtDate = (s) => {
         try {
@@ -37180,10 +37180,6 @@ var Ed = class {
       hist = mine(),
       [data, setData] = (0, _.useState)(null),
       [err, setErr] = (0, _.useState)(!1),
-      [version, setVersion] = (0, _.useState)(() => {
-        let h = mine();
-        return h.length ? h[0].version : 15;
-      }),
       [step, setStep] = (0, _.useState)(0),
       [answers, setAnswers] = (0, _.useState)({}),
       [p0, setP0] = (0, _.useState)({}),
@@ -37246,9 +37242,13 @@ var Ed = class {
         }),
       );
 
-    let items = data.items.filter((i) => version === 30 || i.quick),
+    // Bộ 17 câu (2026-11-24): 4 câu làm quen + 11 câu thang 1-5 + 2 câu hiểu biết. Không còn bản nhanh/đầy đủ.
+    const version = 17;
+    let items = data.items,
       groups = AX.map((k) => ({ k, list: items.filter((i) => i.axis === k) })).filter((g) => g.list.length),
       n = groups.length,
+      aw = data.awareness,
+      nTot = n + (aw ? 1 : 0),
       doneCount = items.filter((i) => answers[i.id] !== void 0).length,
       pick = (id, v) => {
         W.playClick();
@@ -37280,23 +37280,27 @@ var Ed = class {
         let first = hist.length ? hist[0] : null,
           cmp = null;
         if (first) {
-          cmp =
-            first.version === version
-              ? `So sánh: lần đầu (${fmtDate(first.at)}) bạn ở Mức ${first.level}, lần mới nhất ở Mức ${level}. Đây chỉ là mô tả thói quen của bạn, không phải chẩn đoán.`
-              : `Lần đầu bạn làm bản ${first.version} câu, lần này bản ${version} câu. Hai lần dùng bản khác nhau nên chưa so sánh được. Muốn so sánh, hãy làm lại đúng bản ${first.version} câu.`;
+          cmp = `So sánh: lần đầu (${fmtDate(first.at)}) bạn ở Mức ${first.level}, lần mới nhất ở Mức ${level}. Đây chỉ là mô tả thói quen của bạn, không phải chẩn đoán.`;
+        }
+        // Phần hiểu biết (N2 thang 1-5, N5 chọn một mức ảnh hưởng 1-4; 5 = "Mình không chắc"). Điểm N chỉ lấy N2 (không đảo); N5 lưu riêng.
+        let nAns = {},
+          nVal = null;
+        if (aw) {
+          for (let it of aw.items) answers[it.id] !== void 0 && (nAns[it.id] = answers[it.id]);
+          nVal = mean(aw.items.filter((it) => it.type !== `choice`).map((it) => answers[it.id]));
         }
         try {
           let all = readAll();
-          all.push({ at: new Date().toISOString(), uid, version, level, A: axis.A, B: axis.B, C: axis.C, D: axis.D, p0 });
+          all.push({ at: new Date().toISOString(), uid, version, level, A: axis.A, B: axis.B, C: axis.C, D: axis.D, p0, N: nVal, nAns });
           localStorage.setItem(KEY, JSON.stringify(all.slice(-300)));
         } catch {}
         W.playSuccess();
-        setRes({ level, axis, bK, bC, cmp, version });
-        go(n + 1);
+        setRes({ level, axis, bK, bC, cmp, version, N: nVal, cTired: typeof answers.C10 === `number` && answers.C10 >= 3 });
+        go(nTot + 1);
       };
 
     // ---------- Màn hình kết quả ----------
-    if (step === n + 1 && res) {
+    if (step === nTot + 1 && res) {
       let lv = data.levels[res.level - 1],
         r = res.axis,
         dBand = r.D == null ? null : r.D < data.thresholds.dLow ? `thap` : r.D >= data.thresholds.dHigh ? `cao` : `vua`,
@@ -37306,7 +37310,7 @@ var Ed = class {
           [`C`, bandOf(r.C, data.thresholds)],
           [`D`, dBand],
         ]
-          .filter(([, b]) => b)
+          .filter(([k, b]) => b && (k !== `D` || res.cTired))
           .map(([k, b]) => data.axisFeedback[k][b]);
       return wrap(
         X(`div`, {
@@ -37317,7 +37321,7 @@ var Ed = class {
               children: [
                 J(`span`, {
                   className: `text-xs font-bold tracking-wider text-slate-400 uppercase font-mono`,
-                  children: `Kết quả tự đánh giá (bản ${res.version} câu)`,
+                  children: `Kết quả tự đánh giá`,
                 }),
                 X(`h3`, { className: `text-2xl font-black text-slate-900`, children: [`Mức `, lv.level, `: `, lv.name] }),
                 J(`div`, {
@@ -37338,7 +37342,7 @@ var Ed = class {
                   children: notice.map((t, i) => J(`li`, { children: t }, i)),
                 }),
                 res.bK === `cao` && res.bC === `thap` && J(`p`, { className: `font-medium`, children: data.controlNote }),
-                r.D != null && r.D < data.thresholds.dLow && J(`p`, { className: `font-medium`, children: data.dLowTip }),
+                r.D != null && r.D < data.thresholds.dLow && res.cTired && J(`p`, { className: `font-medium`, children: data.dLowTip }),
               ],
             }),
             res.cmp &&
@@ -37394,11 +37398,15 @@ var Ed = class {
                       { className: `flex justify-between gap-3`, children: [J(`span`, { children: data.axes[k] }), X(`b`, { children: [fmt(r[k]), ` / 5`] })] },
                       k,
                     ),
+                  ).concat(
+                    res.N != null
+                      ? [X(`li`, { className: `flex justify-between gap-3`, children: [J(`span`, { children: `${aw.title} (không tính vào mức)` }), X(`b`, { children: [fmt(res.N), ` / 5`] })] }, `N`)]
+                      : [],
                   ),
                 }),
                 J(`p`, {
                   className: `mt-2`,
-                  children: `Điểm cao ở ba mục đầu nghĩa là việc lướt đang ảnh hưởng nhiều hơn. Điểm cao ở "Yếu tố bảo vệ" là điều tốt.`,
+                  children: `Điểm cao ở ba mục đầu nghĩa là việc lướt đang ảnh hưởng nhiều hơn. Điểm cao ở "${data.axes.D}" là điều tốt.`,
                 }),
               ],
             }),
@@ -37448,18 +37456,7 @@ var Ed = class {
 
     // ---------- Màn hình mở đầu ----------
     if (step === 0) {
-      let first = hist.length ? hist[0] : null,
-        vbtn = (v, title, sub) =>
-          X(`button`, {
-            type: `button`,
-            onClick: () => {
-              W.playClick();
-              setVersion(v);
-              setAnswers({});
-            },
-            className: `text-left p-3.5 rounded-xl border transition cursor-pointer ${version === v ? `bg-blue-600 text-white border-blue-600 shadow-sm` : `bg-white text-slate-800 border-slate-300 hover:border-blue-400`}`,
-            children: [J(`span`, { className: `block font-bold text-sm`, children: title }), J(`span`, { className: `block text-xs opacity-90`, children: sub })],
-          });
+      let first = hist.length ? hist[0] : null;
       return wrap(
         X(`div`, {
           className: card,
@@ -37468,37 +37465,15 @@ var Ed = class {
               className: `space-y-2 text-sm text-slate-800 leading-relaxed`,
               children: [
                 J(`p`, { children: data.intro.definition }),
-                J(`ul`, { className: `list-disc pl-5 space-y-1`, children: data.intro.points.map((t, i) => J(`li`, { children: version === 30 && t.startsWith(`Mất khoảng 3 phút`) ? `Bản đầy đủ lâu hơn bản nhanh. Bạn có thể quay lại câu trước.` : t }, i)) }),
+                J(`ul`, { className: `list-disc pl-5 space-y-1`, children: data.intro.points.map((t, i) => J(`li`, { children: t }, i)) }),
                 J(`p`, { className: `text-xs text-slate-600`, children: data.draftNote }),
               ],
             }),
             first &&
               X(`div`, {
                 className: `bg-blue-50 border border-blue-200 rounded-xl p-3.5 text-xs text-slate-800 leading-relaxed`,
-                children: [
-                  `Lần đầu bạn làm trên máy này là ngày ${fmtDate(first.at)}, bản ${first.version} câu (Mức ${first.level}). `,
-                  version === first.version
-                    ? `Mình đã chọn sẵn đúng bản đó để lần này so sánh được với lần đầu. Bạn vẫn có thể đổi bản nếu muốn.`
-                    : `Bạn đang chọn bản khác, nên lần này sẽ chưa so sánh được với lần đầu. Muốn so sánh, hãy chọn bản ${first.version} câu.`,
-                ],
+                children: `Lần đầu bạn làm trên máy này là ngày ${fmtDate(first.at)} (Mức ${first.level}). Lần này mình sẽ so sánh với lần đầu.`,
               }),
-            X(`div`, {
-              className: `space-y-2`,
-              children: [
-                J(`p`, { className: `text-xs font-bold text-slate-900`, children: `Chọn bản câu hỏi:` }),
-                X(`div`, {
-                  className: `grid grid-cols-1 sm:grid-cols-2 gap-2.5`,
-                  children: [
-                    vbtn(15, `Bản nhanh: 15 câu`, `Khoảng 3 phút. Hợp để thử và làm lại.`),
-                    vbtn(30, `Bản đầy đủ: 30 câu`, `Lâu hơn, dành cho ai muốn làm kỹ.`),
-                  ],
-                }),
-                J(`p`, {
-                  className: `text-xs text-slate-600`,
-                  children: `Hai bản chưa được kiểm chứng là tương đương nhau, nên chỉ so sánh các lần làm cùng một bản. Nếu sau này bạn làm lại (ví dụ Ngày 14 của hành trình), hãy chọn lại đúng bản này.`,
-                }),
-              ],
-            }),
             X(`div`, {
               className: `space-y-3`,
               children: [
@@ -37552,6 +37527,91 @@ var Ed = class {
       );
     }
 
+    // ---------- Phần hiểu biết (N1-N5): không tính vào mức, có thể bỏ trống ----------
+    if (aw && step === n + 1)
+      return wrap(
+        X(`div`, {
+          className: card,
+          children: [
+            X(`div`, {
+              className: `space-y-1`,
+              children: [
+                J(`span`, { className: `text-xs font-mono text-slate-600`, children: `Phần ${step}/${nTot}: ${aw.title}` }),
+                J(`p`, { className: `text-xs text-slate-600`, children: `${aw.lead} ${aw.note}` }),
+              ],
+            }),
+            J(`div`, {
+              className: `space-y-4`,
+              children: aw.items.map((it) => {
+                let a = answers[it.id];
+                return X(
+                  `div`,
+                  {
+                    className: `p-4 sm:p-5 rounded-xl border transition-all duration-200 ${a !== void 0 ? `bg-blue-50/50 border-blue-300` : `bg-slate-50 border-slate-200`}`,
+                    children: [
+                      it.type !== `choice` && J(`p`, { className: `text-xs text-slate-600 mb-1`, children: aw.scaleQuestion }),
+                      J(`p`, { className: `text-sm sm:text-base font-bold text-slate-900 leading-snug`, children: it.text }),
+                      it.type === `choice`
+                        ? J(`div`, {
+                            className: `flex flex-wrap gap-1.5 pt-3`,
+                            children: it.options.map((o, k) =>
+                              J(
+                                `button`,
+                                {
+                                  type: `button`,
+                                  onClick: () => pick(it.id, k + 1),
+                                  className: `px-3 py-2 rounded-lg border text-xs sm:text-sm font-semibold cursor-pointer ${a === k + 1 ? `bg-blue-600 text-white border-blue-600 shadow-sm` : `bg-white text-slate-700 border-slate-300 hover:border-blue-400 hover:bg-blue-50/50`}`,
+                                  children: o,
+                                },
+                                k,
+                              ),
+                            ),
+                          })
+                        : J(`div`,{
+                        className: `grid grid-cols-5 gap-1.5 sm:gap-2 pt-3`,
+                        children: data.scale.map((s) =>
+                          X(
+                            `button`,
+                            {
+                              type: `button`,
+                              onClick: () => pick(it.id, s.v),
+                              className: `py-2 px-0.5 rounded-lg border font-mono text-xs sm:text-sm font-bold transition-all duration-150 flex flex-col items-center justify-start gap-1 cursor-pointer ${a === s.v ? `bg-blue-600 text-white border-blue-600 shadow-sm` : `bg-white text-slate-700 border-slate-300 hover:border-blue-400 hover:bg-blue-50/50`}`,
+                              children: [J(`span`, { children: s.v }), J(`span`, { className: `text-[9px] font-normal leading-tight text-center opacity-80`, children: s.label })],
+                            },
+                            s.v,
+                          ),
+                        ),
+                      }),
+                    ],
+                  },
+                  it.id,
+                );
+              }),
+            }),
+            X(`div`, {
+              className: `pt-4 border-t border-slate-200 flex items-center justify-between gap-3`,
+              children: [
+                J(`button`, {
+                  type: `button`,
+                  onClick: () => go(step - 1),
+                  className: `px-4 py-3 rounded-xl border border-slate-300 text-slate-700 text-sm font-semibold hover:bg-slate-100 cursor-pointer`,
+                  children: `← Quay lại`,
+                }),
+                J(`button`, {
+                  type: `button`,
+                  onClick: () => {
+                    W.playClick();
+                    finish();
+                  },
+                  className: `px-6 py-3 bg-blue-600 text-white font-bold text-sm rounded-xl hover:bg-blue-700 cursor-pointer`,
+                  children: `Xem kết quả`,
+                }),
+              ],
+            }),
+          ],
+        }),
+      );
+
     // ---------- Các nhóm câu hỏi ----------
     let g = groups[Math.min(Math.max(step, 1), n) - 1],
       groupDone = g.list.every((i) => answers[i.id] !== void 0),
@@ -37567,7 +37627,7 @@ var Ed = class {
               X(`div`, {
                 className: `flex justify-between items-center text-xs font-mono text-slate-600`,
                 children: [
-                  X(`span`, { children: [`Phần `, step, `/`, n, `: `, data.axes[g.k]] }),
+                  X(`span`, { children: [`Phần `, step, `/`, nTot, `: `, data.axes[g.k]] }),
                   X(`span`, { className: `text-blue-600 font-bold`, children: [doneCount, `/`, items.length, ` câu`] }),
                 ],
               }),
@@ -37634,10 +37694,10 @@ var Ed = class {
                     disabled: !groupDone,
                     onClick: () => {
                       W.playClick();
-                      step === n ? finish() : go(step + 1);
+                      step === n && !aw ? finish() : go(step + 1);
                     },
                     className: `px-6 py-3 bg-blue-600 text-white font-bold text-sm rounded-xl hover:bg-blue-700 cursor-pointer ${groupDone ? `` : `opacity-50 cursor-not-allowed`}`,
-                    children: step === n ? `Xem kết quả` : `Tiếp →`,
+                    children: step === n && !aw ? `Xem kết quả` : `Tiếp →`,
                   }),
                 ],
               }),

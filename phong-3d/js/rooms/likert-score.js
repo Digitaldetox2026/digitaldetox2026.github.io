@@ -13,7 +13,7 @@ export function band(value, th) {
   return 'cao';
 }
 
-/** items: danh sách câu ĐANG DÙNG (đã lọc bản nhanh hoặc đủ 30 câu). cfg: { thresholds, levelMatrix } */
+/** items: các câu thang 1-5 của bộ 17 câu (data.items). Nhóm nào không có câu trả lời thì điểm là null. cfg: { thresholds, levelMatrix } */
 export function computeScores(answers, items, cfg) {
   const axis = {};
   for (const a of ['A', 'B', 'C', 'D']) {
@@ -27,9 +27,24 @@ export function computeScores(answers, items, cfg) {
     A: axis.A, B: axis.B, C: axis.C, D: axis.D, K,
     bandK, bandC, level,
     dLow: axis.D != null && axis.D < cfg.thresholds.dLow,
+    // Nhóm D ("khi lướt nhiều và thấy mệt, tôi đổi sang hoạt động khác") chỉ có nghĩa với người có thấy mệt (C10 từ 3 trở lên)
+    dRelevant: typeof answers.C10 === 'number' && answers.C10 >= 3,
     // Mức 2 do kiểm soát yếu (K cao, C thấp): kết quả nói rõ là "dùng để xả căng thẳng"
     controlNote: bandK === 'cao' && bandC === 'thap',
   };
 }
 
-export const quickItems = (items) => items.filter((i) => i.quick);
+/**
+ * Điểm hiểu biết (data.awareness, không tính vào mức): chỉ các câu thang 1-5 (hiện là N2), cao = nhận ra rõ hơn.
+ * Câu dạng chọn một (N5, mức ảnh hưởng theo suy nghĩ của bạn) KHÔNG đưa vào trung bình: dùng awarenessChoice().
+ */
+export function awarenessScore(answers, aw) {
+  if (!aw) return null;
+  return mean(aw.items.filter((it) => it.type !== 'choice').map((it) => answers[it.id]));
+}
+
+/** Câu chọn một của khối hiểu biết (N5): trả về thứ bậc 1-4 (Không ảnh hưởng ... Ảnh hưởng nhiều); "Mình không chắc" hoặc chưa trả lời = null. */
+export function awarenessChoice(answers, it) {
+  const v = answers[it.id];
+  return typeof v === 'number' && v !== it.unsureIndex + 1 ? v : null;
+}

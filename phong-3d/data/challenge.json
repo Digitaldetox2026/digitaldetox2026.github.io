@@ -325,11 +325,11 @@
     {
       "day": 14,
       "stage": 3,
-      "title": "Nhìn lại và làm lại bộ câu hỏi nhanh",
+      "title": "Nhìn lại và làm lại bộ câu hỏi",
       "minutes": 5,
       "why": "Làm lại để xem mình đã thay đổi gì so với lần đầu.",
       "steps": [
-        "Làm lại bộ câu hỏi nhanh.",
+        "Làm lại bộ câu hỏi.",
         "Xem so sánh với lần trước.",
         "Chọn việc bạn sẽ giữ tiếp."
       ],
@@ -392,7 +392,7 @@
     "stay": "Ở lại đây",
     "nextHint": "Viên đá tiếp theo ở phía mũi tên vàng. Đi từ từ thôi nhé.",
     "allDone": "Vườn của bạn đã có đủ 14 cây. Bạn có thể quay lại viên đá nào cũng được để làm lại, hoặc cứ ngồi nghỉ ở đây một lát.",
-    "likertBtn": "Làm lại bộ câu hỏi nhanh",
+    "likertBtn": "Làm lại bộ câu hỏi",
     "backToStone": "Quay lại viên đá ngày 14",
     "compare": "So sánh: lần đầu bạn ở Mức {a}, lần mới nhất ở Mức {b}. Đây chỉ là mô tả thói quen của bạn, không phải chẩn đoán.",
     "dayNotes": {
@@ -426,6 +426,6 @@
       "boardEmpty": "(Chạm vào bảng để viết kế hoạch)",
       "done": "Xong rồi. Khi nào muốn sửa, bạn cứ chạm lại vào tấm bảng nhé."
     },
-    "askLikert": "Hôm nay mình làm lại bộ câu hỏi nhanh để xem bạn đã thay đổi gì so với lần đầu. Vẫn không có câu trả lời đúng hay sai nhé."
+    "askLikert": "Hôm nay mình làm lại bộ câu hỏi để xem bạn đã thay đổi gì so với lần đầu. Vẫn không có câu trả lời đúng hay sai nhé."
   }
 }
