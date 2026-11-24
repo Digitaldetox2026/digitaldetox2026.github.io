@@ -102,6 +102,7 @@ body.touch #joy{display:block}
 /* làm mờ khi chuyển phòng, màn chào */
 #fade{position:fixed;inset:0;background:#fff;opacity:0;pointer-events:none;transition:opacity .25s;z-index:15}
 #fade.on{opacity:1;pointer-events:auto}
+body.landing #topbar,body.landing #splash,body.landing #bubble,body.landing #help,body.landing #joy,body.landing #act,body.landing #dlg,body.landing #fade,body.landing #loadbar,body.landing #panel{display:none!important}
 #splash{position:fixed;inset:0;z-index:30;display:flex;align-items:center;justify-content:center;padding:16px;background:linear-gradient(160deg,#dbeafe,#f1f5f9 55%,#e0f2fe)}
 .splash-card{width:min(100%,460px);padding:26px 22px;text-align:center}
 .splash-card h1{margin:6px 0 10px;font-size:24px}

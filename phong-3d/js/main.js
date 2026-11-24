@@ -17,6 +17,9 @@ import { load as loadPref, save as savePref } from './storage.js';
 const loadJson = (n) => fetch(`data/${n}.json`).then((r) => { if (!r.ok) throw new Error(n); return r.json(); });
 const ease = (k) => k * k * (3 - 2 * k);
 const PLAYER_PAD = 0.45, GUIDE_PAD = 0.55;
+// ?landing: dùng làm nền động cho trang vào (không điều khiển, không âm thanh, không chữ), xem docs/PROMPT_PHIEN_MOI_TRANG_VAO_3D.md
+const LANDING = new URLSearchParams(location.search).has('landing');
+if (LANDING) document.body.classList.add('landing');
 
 async function boot() {
   const [rooms, likert, challenge, phone, mindful] = await Promise.all(['rooms', 'likert', 'challenge', 'phone-guide', 'mindful'].map(loadJson));
@@ -58,7 +61,7 @@ async function boot() {
     built[room.id] = buildRoom(room, new THREE.Vector3(-180 + i * 60, 0, -300));
     scene.add(built[room.id].group);
   });
-  const guide = createMascot(); guide.root.scale.setScalar(0.45); scene.add(guide.root);
+  const guide = createMascot(); guide.root.scale.setScalar(LANDING ? 0.7 : 0.45); scene.add(guide.root);
 
   /* ---------- trạng thái ---------- */
   const controls = createControls(canvas);
@@ -69,7 +72,7 @@ async function boot() {
   let overview = false, ov = 0, introUntil = 0, lastDrag = 0, idleFor = 0, lastHint = 0;
   const visited = new Set();
   let soundscape = null, sitting = null, eyeH = 1.6, settle = 0;
-  let lite = loadPref('lite', false);
+  let lite = LANDING ? true : loadPref('lite', false);
   const clock = new THREE.Clock();
   let tt = 0;
 
@@ -297,6 +300,22 @@ async function boot() {
     ovQ.setFromRotationMatrix(m);
   }
 
+  /* ---------- chế độ ?landing: camera thấp quay chậm quanh sảnh, Reset đứng lệch phải dưới và vẫy tay ---------- */
+  let nextWave = 1.2, landFrames = 0;
+  const lLook = new THREE.Vector3();
+  function landingShot(t) {
+    // camera thấp trượt chậm qua lại giữa hai hàng cây, nhìn dọc dòng suối tới thác; Reset đứng phía dưới bên phải
+    const cx = Math.sin(t * 0.07) * 1.6;
+    camera.position.set(cx, 4.8 + Math.sin(t * 0.09) * 0.35, 14.5);
+    lLook.set(cx * 0.4, 5.2, -30); camera.lookAt(lLook);
+    const lat = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.aspect * 6 * 0.5; // nửa đường từ giữa ra mép phải
+    const g = guide.root.position;
+    g.set(cx + Math.min(lat, 3), 0, 8.5);
+    guide.root.rotation.y = Math.atan2(camera.position.x - g.x, camera.position.z - g.z);
+    if (t > nextWave) { guide.play('wave'); nextWave = t + 5.5; }
+    if (++landFrames === 40) parent.postMessage({ dreset: 'landing-ready' }, location.origin);
+  }
+
   /* ---------- vòng lặp ---------- */
   function frame(forceDt) {
     const dt = forceDt ?? Math.max(0, Math.min(clock.getDelta(), 0.05)); // không bao giờ âm hoặc quá lớn
@@ -341,6 +360,7 @@ async function boot() {
     const e = ease(Math.min(1, Math.max(0, ov)));
     camera.position.lerpVectors(fpPos, ovPos, e);
     camera.quaternion.slerpQuaternions(fpQ, ovQ, e);
+    if (LANDING) landingShot(t);
 
     // bong bóng lời thoại bám theo đầu Reset
     if (dialogue.visible) {
@@ -387,7 +407,7 @@ async function boot() {
     picker.update(t);
     if (soundscape) soundscape.listener(player, controls.yaw);
     Object.values(built).forEach((b) => { b.update(t); if (b.variant) b.variant.update(t, dt, zone === b.room.id); });
-    updateGuide(dt);
+    if (!LANDING) updateGuide(dt);
     guide.update(t, dt);
     renderer.render(scene, camera);
   }
