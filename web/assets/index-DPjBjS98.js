@@ -41122,89 +41122,11 @@ var Jd = ({
             }),
           }),
         D === `reflection` &&
-          (0, G.jsxs)(`div`, {
-            className: `space-y-6 animate-fadeIn`,
-            children: [
-              (0, G.jsxs)(`div`, {
-                className: `text-center max-w-2xl mx-auto space-y-1 mb-6`,
-                children: [
-                  (0, G.jsx)(`h3`, {
-                    className: `text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white`,
-                    children: `Thẻ tự hỏi`,
-                  }),
-                  (0, G.jsx)(`p`, {
-                    className: `text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-medium`,
-                    children: `Chạm vào thẻ để lật và xem gợi ý.`,
-                  }),
-                ],
-              }),
-              (0, G.jsx)(`div`, {
-                className: `grid grid-cols-1 md:grid-cols-2 gap-6`,
-                children: t.map((e) => {
-                  let t = !!sn[e.id];
-                  return (0, G.jsx)(
-                    `div`,
-                    {
-                      onClick: () => ln(e.id),
-                      className: `group min-h-[300px] perspective-1000 cursor-pointer`,
-                      children: (0, G.jsxs)(`div`, {
-                        className: `relative w-full h-full duration-500 transform-style-3d rounded-3xl border-2 shadow-sm ${t ? `rotate-y-180 border-blue-400 dark:border-blue-500` : `bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700/80 hover:border-blue-300 dark:hover:border-blue-500`}`,
-                        children: [
-                          (0, G.jsxs)(`div`, {
-                            className: `absolute inset-0 p-6 sm:p-7 flex flex-col justify-between backface-hidden bg-white dark:bg-slate-900 rounded-3xl`,
-                            children: [
-                              (0, G.jsxs)(`div`, {
-                                className: `space-y-3`,
-                                children: [
-                                  (0, G.jsxs)(`span`, {
-                                    className: `text-[11px] font-bold text-blue-900 dark:text-blue-300 bg-blue-100 dark:bg-blue-950/80 border border-blue-300 dark:border-blue-700/80 px-3 py-1 rounded-full uppercase tracking-wider inline-block`,
-                                    children: [e.questionNumber, ` • `, e.tag],
-                                  }),
-                                  (0, G.jsx)(`h4`, {
-                                    className: `text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white leading-snug`,
-                                    children: e.frontQuestion,
-                                  }),
-                                ],
-                              }),
-                              (0, G.jsxs)(`div`, {
-                                className: `pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs text-slate-700 dark:text-slate-300 font-medium`,
-                                children: [
-                                  (0, G.jsx)(`span`, { children: `Chạm để lật thẻ` }),
-                                  (0, G.jsx)(mt, { className: `w-4 h-4 text-blue-600 dark:text-blue-400` }),
-                                ],
-                              }),
-                            ],
-                          }),
-                          (0, G.jsxs)(`div`, {
-                            className: `absolute inset-0 p-6 sm:p-7 flex flex-col justify-between backface-hidden rotate-y-180 bg-blue-50/90 dark:bg-slate-800/95 rounded-3xl border-2 border-blue-300 dark:border-blue-700/80 text-xs`,
-                            children: [
-                              (0, G.jsxs)(`div`, {
-                                className: `space-y-2`,
-                                children: [
-                                  (0, G.jsx)(`span`, {
-                                    className: `font-extrabold text-emerald-900 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-950/80 border border-emerald-300 dark:border-emerald-700/80 px-3 py-1 rounded-full uppercase tracking-wider text-[11px] inline-block`,
-                                    children: e.scienceTitle,
-                                  }),
-                                  (0, G.jsx)(`p`, {
-                                    className: `text-slate-800 dark:text-slate-200 leading-relaxed text-xs sm:text-sm font-medium`,
-                                    children: e.scienceExplanation,
-                                  }),
-                                ],
-                              }),
-                              (0, G.jsx)(`div`, {
-                                className: `p-3.5 rounded-2xl bg-white dark:bg-slate-900 border border-blue-200 dark:border-blue-700/80 text-blue-900 dark:text-blue-300 font-bold text-xs shadow-xs`,
-                                children: e.actionItem,
-                              }),
-                            ],
-                          }),
-                        ],
-                      }),
-                    },
-                    e.id,
-                  );
-                }),
-              }),
-            ],
+          (0, G.jsx)(`div`, {
+            className: `dr-deck-host`,
+            ref: (e) => {
+              e && window.DrDeck && window.DrDeck.mount(e, t);
+            },
           }),
         D === `wheel` &&
           (0, G.jsx)(`div`, {
